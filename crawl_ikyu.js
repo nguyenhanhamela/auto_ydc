@@ -30,11 +30,11 @@ const handleDateMonth = function () {
 	var searchEndDate = prevMonthDates[prevMonthDates.length - 1];
 
 	// Get date format: from 2022年05月 to 2022年05月
-	var rankStartDate = prevMonthDates[0].slice(0,7).replace(/\//g, '年').concat('月');
-	var rankEndDate = prevMonthDates[prevMonthDates.length - 1].slice(0,7).replace(/\//g, '年').concat('月');
-	var dateRank = prevMonthDates[0].slice(0,7).replace(/\//g, '');
+	var rankStartDate = prevMonthDates[0].slice(0, 7).replace(/\//g, '年').concat('月');
+	var rankEndDate = prevMonthDates[prevMonthDates.length - 1].slice(0, 7).replace(/\//g, '年').concat('月');
+	var dateRank = prevMonthDates[0].slice(0, 7).replace(/\//g, '');
 	const lstDate = [];
-	lstDate.push(searchStartDate,searchEndDate, rankStartDate, rankEndDate, dateRank)
+	lstDate.push(searchStartDate, searchEndDate, rankStartDate, rankEndDate, dateRank)
 	return lstDate;
 }
 driverToOpen
@@ -132,7 +132,7 @@ driverToOpen
 		console.log(ikyu_data);
 		return ikyu_data;
 	})
-	.then( async (ikyu_data) => {
+	.then(async (ikyu_data) => {
 		var getDate = handleDateMonth();
 		driver.get('https://www.ikyu.com/accommodation/ap/rsrv/AsfW70301.aspx?AccommodationId=00000440&AsfMenuId=ASF_24');
 		await driver.findElement(swd.By.id('ctl00_ContentPlaceHolderMain_TargetYMFrom')).sendKeys(getDate[2]);
@@ -142,7 +142,7 @@ driverToOpen
 		ikyu_data["date"] = getDate[4];
 		return ikyu_data;
 	})
-	.then( async (ikyu_data) => {
+	.then(async (ikyu_data) => {
 		let lstRows = await driver.findElements(
 			swd.By.xpath("//div[@id='ctl00_ContentPlaceHolderMain_panelSalesResultRankingList']//table//tr")
 		);
@@ -158,7 +158,7 @@ driverToOpen
 		ikyu_data["region_sale_rank"] = String(dataCol[4])
 		console.log(ikyu_data);
 	})
-	.then (async() => {
+	.then(async () => {
 		driver.quit();
 	})
 	.catch(function (err) {
