@@ -4,7 +4,7 @@ let swd = require("selenium-webdriver");
 let browser = new swd.Builder();
 let tab = browser.forBrowser("chrome").build();
 
-let { ID, password } = require("./user.json");
+let { ID, password } = require("../user.json");
 
 // Step 1 - Opening web page
 let tabToOpen = tab.get("https://manage.travel.rakuten.co.jp/");

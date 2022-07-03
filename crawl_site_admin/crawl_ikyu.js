@@ -5,8 +5,7 @@ const moment = require("moment");
 let swd = require("selenium-webdriver");
 let browser = new swd.Builder();
 let driver = browser.forBrowser("chrome").build();
-
-let { facality_id, operator_id, pass_ikyu } = require("./user.json");
+let { facality_id, operator_id, pass_ikyu } = require("../user.json");
 
 // Step 1 - Opening web page
 let driverToOpen = driver.get(
@@ -87,7 +86,7 @@ driverToOpen
 	})
 	.then(async () => {
 		driver.get(
-			"https://www.ikyu.com/accommodation/ap/rsrv/AsfW60101.aspx?AccommodationId=00000440&AsfMenuId=ASF_14"
+			"https://www.ikyu.com/accommodation/ap/rsrv/AsfW60101.aspx?AccommodationId=" + facality_id + "&AsfMenuId=ASF_14"
 		);
 	})
 	.then(async () => {
@@ -134,7 +133,7 @@ driverToOpen
 	})
 	.then(async (ikyu_data) => {
 		var getDate = handleDateMonth();
-		driver.get('https://www.ikyu.com/accommodation/ap/rsrv/AsfW70301.aspx?AccommodationId=00000440&AsfMenuId=ASF_24');
+		driver.get('https://www.ikyu.com/accommodation/ap/rsrv/AsfW70301.aspx?AccommodationId=' + facality_id+ '&AsfMenuId=ASF_24');
 		await driver.findElement(swd.By.id('ctl00_ContentPlaceHolderMain_TargetYMFrom')).sendKeys(getDate[2]);
 		await driver.findElement(swd.By.id('ctl00_ContentPlaceHolderMain_TargetYMTo')).sendKeys(getDate[3]);
 		await driver.findElement(swd.By.id('ctl00_ContentPlaceHolderMain_TriesteButtonSearch')).click();
