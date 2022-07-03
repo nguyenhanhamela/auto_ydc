@@ -6,7 +6,7 @@ let swd = require("selenium-webdriver");
 let browser = new swd.Builder();
 let driver = browser.forBrowser("chrome").build();
 
-let { user_jalan, pass_jalan } = require("./user.json");
+let { user_jalan, pass_jalan } = require("../user.json");
 
 // Step 1 - Opening web page
 let driverToOpen = driver.get(
@@ -113,9 +113,9 @@ driverToOpen
 		}
 		jalanTable["date"] = getDate[2]
 		jalanTable["pv"] = dataColLastRows[8].replace(/,/g, "");
-		jalanTable["reservation_avg_unit_price"] = dataColLastRows[4].replace(/,/g, "");
-		jalanTable["reservation_avg_amount"] = dataColLastRows[6].replace(/,/g, "");
-		jalanTable["reservation_avg_revenue"] =  dataColLastRows[3].replace(/,/g, "");
+		// jalanTable["reservation_avg_unit_price"] = dataColLastRows[4].replace(/,/g, "");
+		// jalanTable["reservation_avg_amount"] = dataColLastRows[6].replace(/,/g, "");
+		// jalanTable["reservation_avg_revenue"] =  dataColLastRows[3].replace(/,/g, "");
 
 		// loop list row tbody
 		var dataCol = [];		
@@ -132,10 +132,10 @@ driverToOpen
 		dataCol.map((data) => {
 			reports.push({
 				date: getDate[0] + "/" + data[0].slice(0,8).replace(/月/g, '/').slice(0,9),
-				pv: data[8],
-				reservation_avg_unit_price: data[4].replace(/,/g, ""),
-				reservation_avg_amount: data[6].replace(/,/g, ""),
-				reservation_avg_revenue: data[3].replace(/,/g, "")
+				pv: data[8]
+				// reservation_avg_unit_price: data[4].replace(/,/g, ""),
+				// reservation_avg_amount: data[6].replace(/,/g, ""),
+				// reservation_avg_revenue: data[3].replace(/,/g, "")
 			});
 		});
 		jalanTable["daily_monthly_reports"] = reports
