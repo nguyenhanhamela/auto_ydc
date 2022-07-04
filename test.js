@@ -5,19 +5,20 @@ const moment = require("moment");
 let swd = require("selenium-webdriver");
 let Chrome = require("selenium-webdriver/chrome");
 let browser = new swd.Builder();
-let driver = browser.forBrowser("chrome").build();
+// let driver = browser.forBrowser("chrome").build();
+
 
 let { facality_id, operator_id, pass_ikyu } = require("./user.json");
 
 // Step 1 - Opening web page
-function loadSelenium(){
-    let options = new Chrome.Options();
-    let capabilities = options.toCapabilities();
-    console.log('loading another');
-    return new webdriver.Builder()
-        .forBrowser('chrome')
-        .withCapabilities(capabilities)
-        .build();
+function loadSelenium() {
+  let options = new Chrome.Options();
+  let capabilities = options.toCapabilities();
+  console.log('loading another');
+  return new webdriver.Builder()
+    .forBrowser('chrome')
+    .withCapabilities(capabilities)
+    .build();
 }
 
 // for(let i = 0; i < 5; i++) {
@@ -50,16 +51,19 @@ function loadSelenium(){
 // }
 // })();
 (async () => {
-    for (let i = 0; i < 10000; i++) {
-      await (async function test() {
-        let driver = await browser.forBrowser("chrome").build();
-        try {
-          await driver.get("https://travel.rakuten.co.jp/yado/ishikawa/nanao.html?lid=jparea_undated_map");
-        } catch(e) {
-          console.log(err);
-        } finally {
-          await driver.quit();
-        }
-      })();
-    }
-  })();
+  for (let i = 0; i < 2; i++) {
+    let time = new Date();
+    let option = new Chrome.Options().headless();
+    let driver = await browser.forBrowser("chrome").setChromeOptions(option).build();
+    await (async function test() {
+      try {
+        await driver.get("https://travel.rakuten.co.jp/yado/ishikawa/nanao.html?lid=jparea_undated_map");
+        console.log(" run process " + i + time.toUTCString())
+      } catch (e) {
+        console.log(err);
+      } finally {
+        await driver.quit();
+      }
+    })();
+  }
+})();
