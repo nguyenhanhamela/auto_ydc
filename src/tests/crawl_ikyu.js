@@ -11,12 +11,12 @@ let { facality_id, operator_id, pass_ikyu } = require("../../user.json");
 
 const runTest = async() => {
     // Open to login
-    await page.open("https://www.ikyu.com/accommodation/ap/AsfW10101.aspx");
-    await LoginPage.login(facality_id, operator_id, pass_ikyu);
-    await page.open("https://www.ikyu.com/accommodation/ap/rsrv/AsfW60101.aspx?AccommodationId=" + facality_id + "&AsfMenuId=ASF_14")
+    await page.open("https://www.jalan.net/");
+    // await LoginPage.login(facality_id, operator_id, pass_ikyu);
+    // await page.open("https://www.ikyu.com/accommodation/ap/rsrv/AsfW60101.aspx?AccommodationId=" + facality_id + "&AsfMenuId=ASF_14")
     
-    await IkyuPage.tableFilter();
-    await IkyuPage.getTableData();
+    // await IkyuPage.tableFilter();
+    // await IkyuPage.getTableData();
 
     await page.closePage();
 
