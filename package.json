@@ -9,8 +9,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.27.2",
+    "cheerio": "^1.0.0-rc.12",
     "chromedriver": "103.0.0",
     "moment": "^2.29.3",
+    "playwright": "^1.23.1",
     "selenium-webdriver": "^4.3.0"
   }
 }
