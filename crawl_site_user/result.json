@@ -1,0 +1,2201 @@
+const data = [
+    {
+        "pref": [
+            {
+                "hotel_name": "雫石プリンスホテル",
+                "min_price": "9,438",
+                "medium_area_id": "030000",
+                "detail_area_id": "030100",
+                "rank_number": 0,
+                "hotel_id": "310728",
+                "hotel_code": "sa_yadNo310728"
+            },
+            {
+                "hotel_name": "長栄館-生まれたての「美肌の湯」を愉しむ-源泉かけ流し100%",
+                "min_price": "20,000",
+                "medium_area_id": "030000",
+                "detail_area_id": "030100",
+                "rank_number": 0,
+                "hotel_id": "354280",
+                "hotel_code": "yadNo354280"
+            },
+            {
+                "hotel_name": "雫石プリンスホテル",
+                "min_price": "9,438",
+                "medium_area_id": "030000",
+                "detail_area_id": "030100",
+                "rank_number": 1,
+                "hotel_id": "310728",
+                "hotel_code": "yadNo310728"
+            },
+            {
+                "hotel_name": "ホテル森の風鶯宿",
+                "min_price": "39,600",
+                "medium_area_id": "030000",
+                "detail_area_id": "030100",
+                "rank_number": 2,
+                "hotel_id": "342713",
+                "hotel_code": "yadNo342713"
+            },
+            {
+                "hotel_name": "鶯宿温泉　元湯源泉かけ流しの宿　川長（旧：川長山荘）",
+                "min_price": "12,100",
+                "medium_area_id": "030000",
+                "detail_area_id": "030100",
+                "rank_number": 3,
+                "hotel_id": "361602",
+                "hotel_code": "yadNo361602"
+            },
+            {
+                "hotel_name": "玄武風柳亭",
+                "min_price": "12,000",
+                "medium_area_id": "030000",
+                "detail_area_id": "030100",
+                "rank_number": 4,
+                "hotel_id": "327747",
+                "hotel_code": "yadNo327747"
+            },
+            {
+                "hotel_name": "ゆこたんの森",
+                "min_price": "16,600",
+                "medium_area_id": "030000",
+                "detail_area_id": "030100",
+                "rank_number": 5,
+                "hotel_id": "354125",
+                "hotel_code": "yadNo354125"
+            },
+            {
+                "hotel_name": "休暇村　岩手網張温泉",
+                "min_price": "20,000",
+                "medium_area_id": "030000",
+                "detail_area_id": "030100",
+                "rank_number": 6,
+                "hotel_id": "328961",
+                "hotel_code": "yadNo328961"
+            },
+            {
+                "hotel_name": "温泉民宿　栄弥",
+                "min_price": "5,720",
+                "medium_area_id": "030000",
+                "detail_area_id": "030100",
+                "rank_number": 7,
+                "hotel_id": "346305",
+                "hotel_code": "yadNo346305"
+            },
+            {
+                "hotel_name": "玄武のにごり湯と郷土料理　ロッヂたちばな",
+                "min_price": "11,000",
+                "medium_area_id": "030000",
+                "detail_area_id": "030100",
+                "rank_number": 8,
+                "hotel_id": "333697",
+                "hotel_code": "yadNo333697"
+            },
+            {
+                "hotel_name": "ホテル偕楽苑",
+                "min_price": "18,000",
+                "medium_area_id": "030000",
+                "detail_area_id": "030100",
+                "rank_number": 9,
+                "hotel_id": "342522",
+                "hotel_code": "yadNo342522"
+            },
+            {
+                "hotel_name": "温泉民宿　あけぼの荘",
+                "min_price": "8,800",
+                "medium_area_id": "030000",
+                "detail_area_id": "030100",
+                "rank_number": 10,
+                "hotel_id": "340037",
+                "hotel_code": "yadNo340037"
+            },
+            {
+                "hotel_name": "ニュー鶯山荘",
+                "min_price": "14,300",
+                "medium_area_id": "030000",
+                "detail_area_id": "030100",
+                "rank_number": 11,
+                "hotel_id": "368240",
+                "hotel_code": "yadNo368240"
+            },
+            {
+                "hotel_name": "鶯宿温泉　清光荘　",
+                "min_price": "11,880",
+                "medium_area_id": "030000",
+                "detail_area_id": "030100",
+                "rank_number": 12,
+                "hotel_id": "315624",
+                "hotel_code": "yadNo315624"
+            },
+            {
+                "hotel_name": "鶯宿温泉 ホテル加賀助",
+                "min_price": "17,600",
+                "medium_area_id": "030000",
+                "detail_area_id": "030100",
+                "rank_number": 13,
+                "hotel_id": "344748",
+                "hotel_code": "yadNo344748"
+            },
+            {
+                "hotel_name": "鶯宿温泉　レムナント鴬宿",
+                "min_price": "5,980",
+                "medium_area_id": "030000",
+                "detail_area_id": "030100",
+                "rank_number": 14,
+                "hotel_id": "332277",
+                "hotel_code": "yadNo332277"
+            },
+            {
+                "hotel_name": "鶯宿温泉の宿　赤い風車",
+                "min_price": "22,000",
+                "medium_area_id": "030000",
+                "detail_area_id": "030100",
+                "rank_number": 15,
+                "hotel_id": "381610",
+                "hotel_code": "yadNo381610"
+            },
+            {
+                "hotel_name": "小枝旅館",
+                "min_price": "8,000",
+                "medium_area_id": "030000",
+                "detail_area_id": "030100",
+                "rank_number": 16,
+                "hotel_id": "315107",
+                "hotel_code": "yadNo315107"
+            },
+            {
+                "hotel_name": "ペットと泊まれる宿ペンションベルクレール＆ステンドグラス工房",
+                "min_price": "22,000",
+                "medium_area_id": "030000",
+                "detail_area_id": "030100",
+                "rank_number": 17,
+                "hotel_id": "341440",
+                "hotel_code": "yadNo341440"
+            },
+            {
+                "hotel_name": "ペンション山賊",
+                "min_price": "12,000",
+                "medium_area_id": "030000",
+                "detail_area_id": "030100",
+                "rank_number": 18,
+                "hotel_id": "398847",
+                "hotel_code": "yadNo398847"
+            },
+            {
+                "hotel_name": "ペンション　さんりんしゃ",
+                "min_price": "10,000",
+                "medium_area_id": "030000",
+                "detail_area_id": "030100",
+                "rank_number": 19,
+                "hotel_id": "332367",
+                "hotel_code": "yadNo332367"
+            },
+            {
+                "hotel_name": "カンタービレ",
+                "min_price": "9,000",
+                "medium_area_id": "030000",
+                "detail_area_id": "030100",
+                "rank_number": 20,
+                "hotel_id": "397393",
+                "hotel_code": "yadNo397393"
+            },
+            {
+                "hotel_name": "十和田湖畔温泉　とわだこ遊月",
+                "min_price": "26,400",
+                "medium_area_id": "020000",
+                "detail_area_id": "020800",
+                "rank_number": 0,
+                "hotel_id": "372556",
+                "hotel_code": "sa_yadNo372556"
+            },
+            {
+                "hotel_name": "十和田プリンスホテル",
+                "min_price": "9,438",
+                "medium_area_id": "020000",
+                "detail_area_id": "020800",
+                "rank_number": 1,
+                "hotel_id": "317731",
+                "hotel_code": "sa_yadNo317731"
+            },
+            {
+                "hotel_name": "十和田プリンスホテル",
+                "min_price": "9,438",
+                "medium_area_id": "020000",
+                "detail_area_id": "020800",
+                "rank_number": 0,
+                "hotel_id": "317731",
+                "hotel_code": "yadNo317731"
+            },
+            {
+                "hotel_name": "ホテル十和田荘",
+                "min_price": "5,000",
+                "medium_area_id": "020000",
+                "detail_area_id": "020800",
+                "rank_number": 1,
+                "hotel_id": "316734",
+                "hotel_code": "yadNo316734"
+            },
+            {
+                "hotel_name": "天然温泉掛け流しの宿　ホテルポニー温泉",
+                "min_price": "6,800",
+                "medium_area_id": "020000",
+                "detail_area_id": "020800",
+                "rank_number": 2,
+                "hotel_id": "318136",
+                "hotel_code": "yadNo318136"
+            },
+            {
+                "hotel_name": "天然温泉　奥入瀬の湯　スーパーホテル十和田天然温泉",
+                "min_price": "5,490",
+                "medium_area_id": "020000",
+                "detail_area_id": "020800",
+                "rank_number": 3,
+                "hotel_id": "390116",
+                "hotel_code": "yadNo390116"
+            },
+            {
+                "hotel_name": "スマイルホテル十和田",
+                "min_price": "4,200",
+                "medium_area_id": "020000",
+                "detail_area_id": "020800",
+                "rank_number": 4,
+                "hotel_id": "377032",
+                "hotel_code": "yadNo377032"
+            },
+            {
+                "hotel_name": "十和田湖レークビューホテル",
+                "min_price": "5,000",
+                "medium_area_id": "020000",
+                "detail_area_id": "020800",
+                "rank_number": 5,
+                "hotel_id": "330586",
+                "hotel_code": "yadNo330586"
+            },
+            {
+                "hotel_name": "野の花　焼山荘　",
+                "min_price": "11,500",
+                "medium_area_id": "020000",
+                "detail_area_id": "020800",
+                "rank_number": 6,
+                "hotel_id": "312853",
+                "hotel_code": "yadNo312853"
+            },
+            {
+                "hotel_name": "ホテルルートイン十和田",
+                "min_price": "10,350",
+                "medium_area_id": "020000",
+                "detail_area_id": "020800",
+                "rank_number": 7,
+                "hotel_id": "327696",
+                "hotel_code": "yadNo327696"
+            },
+            {
+                "hotel_name": "蔦温泉旅館",
+                "min_price": "22,000",
+                "medium_area_id": "020000",
+                "detail_area_id": "020800",
+                "rank_number": 8,
+                "hotel_id": "337770",
+                "hotel_code": "yadNo337770"
+            },
+            {
+                "hotel_name": "星野リゾート　奥入瀬渓流ホテル",
+                "min_price": "42,000",
+                "medium_area_id": "020000",
+                "detail_area_id": "020800",
+                "rank_number": 9,
+                "hotel_id": "307225",
+                "hotel_code": "yadNo307225"
+            },
+            {
+                "hotel_name": "奥入瀬渓流温泉　灯と楓",
+                "min_price": "20,800",
+                "medium_area_id": "020000",
+                "detail_area_id": "020800",
+                "rank_number": 10,
+                "hotel_id": "324502",
+                "hotel_code": "yadNo324502"
+            },
+            {
+                "hotel_name": "十和田湖畔温泉　とわだこ賑山亭",
+                "min_price": "13,200",
+                "medium_area_id": "020000",
+                "detail_area_id": "020800",
+                "rank_number": 11,
+                "hotel_id": "346069",
+                "hotel_code": "yadNo346069"
+            },
+            {
+                "hotel_name": "奥入瀬　森のホテル",
+                "min_price": "34,100",
+                "medium_area_id": "020000",
+                "detail_area_id": "020800",
+                "rank_number": 12,
+                "hotel_id": "344779",
+                "hotel_code": "yadNo344779"
+            },
+            {
+                "hotel_name": "十和田シティホテル（旅館しもやま改め）",
+                "min_price": "5,600",
+                "medium_area_id": "020000",
+                "detail_area_id": "020800",
+                "rank_number": 13,
+                "hotel_id": "339256",
+                "hotel_code": "yadNo339256"
+            },
+            {
+                "hotel_name": "日本三秘湯 谷地温泉",
+                "min_price": "20,800",
+                "medium_area_id": "020000",
+                "detail_area_id": "020800",
+                "rank_number": 14,
+                "hotel_id": "344448",
+                "hotel_code": "yadNo344448"
+            },
+            {
+                "hotel_name": "十和田ホテル",
+                "min_price": "18,000",
+                "medium_area_id": "020000",
+                "detail_area_id": "020800",
+                "rank_number": 15,
+                "hotel_id": "313740",
+                "hotel_code": "yadNo313740"
+            },
+            {
+                "hotel_name": "十和田湖畔温泉　十和田湖山荘",
+                "min_price": "11,000",
+                "medium_area_id": "020000",
+                "detail_area_id": "020800",
+                "rank_number": 16,
+                "hotel_id": "348282",
+                "hotel_code": "yadNo348282"
+            },
+            {
+                "hotel_name": "創作料理の宿　十和田湖レークサイドホテル",
+                "min_price": "12,900",
+                "medium_area_id": "020000",
+                "detail_area_id": "020800",
+                "rank_number": 17,
+                "hotel_id": "317852",
+                "hotel_code": "yadNo317852"
+            },
+            {
+                "hotel_name": "奥入瀬グリーンホテル",
+                "min_price": "8,800",
+                "medium_area_id": "020000",
+                "detail_area_id": "020800",
+                "rank_number": 18,
+                "hotel_id": "305624",
+                "hotel_code": "yadNo305624"
+            },
+            {
+                "hotel_name": "十和田湖畔温泉　とわだこ遊月",
+                "min_price": "26,400",
+                "medium_area_id": "020000",
+                "detail_area_id": "020800",
+                "rank_number": 19,
+                "hotel_id": "372556",
+                "hotel_code": "yadNo372556"
+            },
+            {
+                "hotel_name": "十和田湖ホステル",
+                "min_price": "4,000",
+                "medium_area_id": "020000",
+                "detail_area_id": "020800",
+                "rank_number": 20,
+                "hotel_id": "373220",
+                "hotel_code": "yadNo373220"
+            },
+            {
+                "hotel_name": "十和田湖温泉　遊魚荘",
+                "min_price": "9,600",
+                "medium_area_id": "020000",
+                "detail_area_id": "020800",
+                "rank_number": 21,
+                "hotel_id": "384891",
+                "hotel_code": "yadNo384891"
+            },
+            {
+                "hotel_name": "食事処民宿桂月",
+                "min_price": "8,140",
+                "medium_area_id": "020000",
+                "detail_area_id": "020800",
+                "rank_number": 22,
+                "hotel_id": "352040",
+                "hotel_code": "yadNo352040"
+            },
+            {
+                "hotel_name": "十和田湖バックパッカーズ",
+                "min_price": "6,000",
+                "medium_area_id": "020000",
+                "detail_area_id": "020800",
+                "rank_number": 23,
+                "hotel_id": "358622",
+                "hotel_code": "yadNo358622"
+            },
+            {
+                "hotel_name": "湖畔の宿　民宿和み　",
+                "min_price": "13,300",
+                "medium_area_id": "020000",
+                "detail_area_id": "020800",
+                "rank_number": 24,
+                "hotel_id": "392160",
+                "hotel_code": "yadNo392160"
+            },
+            {
+                "hotel_name": "アパホテル〈本八戸〉",
+                "min_price": "5,600",
+                "medium_area_id": "020000",
+                "detail_area_id": "020900",
+                "rank_number": 0,
+                "hotel_id": "377736",
+                "hotel_code": "sa_yadNo377736"
+            },
+            {
+                "hotel_name": "ホテルグローバルビュー八戸アネックス",
+                "min_price": "6,100",
+                "medium_area_id": "020000",
+                "detail_area_id": "020900",
+                "rank_number": 1,
+                "hotel_id": "384374",
+                "hotel_code": "sa_yadNo384374"
+            },
+            {
+                "hotel_name": "天然温泉 南部の湯 ドーミーイン本八戸",
+                "min_price": "6,500",
+                "medium_area_id": "020000",
+                "detail_area_id": "020900",
+                "rank_number": 0,
+                "hotel_id": "334622",
+                "hotel_code": "yadNo334622"
+            },
+            {
+                "hotel_name": "ホテルグローバルビュー八戸【2020年6月1日グランドオープン】",
+                "min_price": "5,100",
+                "medium_area_id": "020000",
+                "detail_area_id": "020900",
+                "rank_number": 1,
+                "hotel_id": "341354",
+                "hotel_code": "yadNo341354"
+            },
+            {
+                "hotel_name": "ダイワロイネットホテル八戸",
+                "min_price": "6,200",
+                "medium_area_id": "020000",
+                "detail_area_id": "020900",
+                "rank_number": 2,
+                "hotel_id": "369785",
+                "hotel_code": "yadNo369785"
+            },
+            {
+                "hotel_name": "アパホテル〈本八戸〉",
+                "min_price": "5,600",
+                "medium_area_id": "020000",
+                "detail_area_id": "020900",
+                "rank_number": 3,
+                "hotel_id": "377736",
+                "hotel_code": "yadNo377736"
+            },
+            {
+                "hotel_name": "天然温泉　三社の湯　スーパーホテル八戸天然温泉",
+                "min_price": "6,210",
+                "medium_area_id": "020000",
+                "detail_area_id": "020900",
+                "rank_number": 4,
+                "hotel_id": "305810",
+                "hotel_code": "yadNo305810"
+            },
+            {
+                "hotel_name": "スーパーホテル八戸長横町",
+                "min_price": "4,950",
+                "medium_area_id": "020000",
+                "detail_area_id": "020900",
+                "rank_number": 5,
+                "hotel_id": "315430",
+                "hotel_code": "yadNo315430"
+            },
+            {
+                "hotel_name": "五戸まきば温泉",
+                "min_price": "8,600",
+                "medium_area_id": "020000",
+                "detail_area_id": "020900",
+                "rank_number": 6,
+                "hotel_id": "312278",
+                "hotel_code": "yadNo312278"
+            },
+            {
+                "hotel_name": "グランドサンピア八戸",
+                "min_price": "9,900",
+                "medium_area_id": "020000",
+                "detail_area_id": "020900",
+                "rank_number": 7,
+                "hotel_id": "305128",
+                "hotel_code": "yadNo305128"
+            },
+            {
+                "hotel_name": "八戸グランドホテル",
+                "min_price": "7,840",
+                "medium_area_id": "020000",
+                "detail_area_id": "020900",
+                "rank_number": 8,
+                "hotel_id": "342957",
+                "hotel_code": "yadNo342957"
+            },
+            {
+                "hotel_name": "ホテルグローバルビュー八戸アネックス",
+                "min_price": "6,100",
+                "medium_area_id": "020000",
+                "detail_area_id": "020900",
+                "rank_number": 9,
+                "hotel_id": "384374",
+                "hotel_code": "yadNo384374"
+            },
+            {
+                "hotel_name": "八戸プラザホテル",
+                "min_price": "5,600",
+                "medium_area_id": "020000",
+                "detail_area_id": "020900",
+                "rank_number": 10,
+                "hotel_id": "325938",
+                "hotel_code": "yadNo325938"
+            },
+            {
+                "hotel_name": "ホテルルートイン本八戸駅前",
+                "min_price": "10,500",
+                "medium_area_id": "020000",
+                "detail_area_id": "020900",
+                "rank_number": 11,
+                "hotel_id": "332431",
+                "hotel_code": "yadNo332431"
+            },
+            {
+                "hotel_name": "JR東日本ホテルメッツ 八戸",
+                "min_price": "6,800",
+                "medium_area_id": "020000",
+                "detail_area_id": "020900",
+                "rank_number": 12,
+                "hotel_id": "309606",
+                "hotel_code": "yadNo309606"
+            },
+            {
+                "hotel_name": "コンフォートホテル八戸",
+                "min_price": "5,100",
+                "medium_area_id": "020000",
+                "detail_area_id": "020900",
+                "rank_number": 13,
+                "hotel_id": "310505",
+                "hotel_code": "yadNo310505"
+            },
+            {
+                "hotel_name": "ホテルイルヴィアーレ八戸アネックス",
+                "min_price": "4,300",
+                "medium_area_id": "020000",
+                "detail_area_id": "020900",
+                "rank_number": 14,
+                "hotel_id": "320160",
+                "hotel_code": "yadNo320160"
+            },
+            {
+                "hotel_name": "ホテルテトラ八戸",
+                "min_price": "11,000",
+                "medium_area_id": "020000",
+                "detail_area_id": "020900",
+                "rank_number": 15,
+                "hotel_id": "317052",
+                "hotel_code": "yadNo317052"
+            },
+            {
+                "hotel_name": "ユートリー・ＶＩＳＩＴはちのへ",
+                "min_price": "4,400",
+                "medium_area_id": "020000",
+                "detail_area_id": "020900",
+                "rank_number": 16,
+                "hotel_id": "326586",
+                "hotel_code": "yadNo326586"
+            },
+            {
+                "hotel_name": "ホテルセレクトイン八戸中央",
+                "min_price": "3,600",
+                "medium_area_id": "020000",
+                "detail_area_id": "020900",
+                "rank_number": 17,
+                "hotel_id": "317427",
+                "hotel_code": "yadNo317427"
+            },
+            {
+                "hotel_name": "福地温泉　バーデパーク　アヴァンセふくち",
+                "min_price": "10,560",
+                "medium_area_id": "020000",
+                "detail_area_id": "020900",
+                "rank_number": 18,
+                "hotel_id": "316255",
+                "hotel_code": "yadNo316255"
+            },
+            {
+                "hotel_name": "パンション弁慶",
+                "min_price": "4,840",
+                "medium_area_id": "020000",
+                "detail_area_id": "020900",
+                "rank_number": 19,
+                "hotel_id": "340892",
+                "hotel_code": "yadNo340892"
+            },
+            {
+                "hotel_name": "スマイルホテル八戸",
+                "min_price": "4,000",
+                "medium_area_id": "020000",
+                "detail_area_id": "020900",
+                "rank_number": 20,
+                "hotel_id": "378736",
+                "hotel_code": "yadNo378736"
+            },
+            {
+                "hotel_name": "ホテルイルヴィアーレ八戸",
+                "min_price": "5,000",
+                "medium_area_id": "020000",
+                "detail_area_id": "020900",
+                "rank_number": 21,
+                "hotel_id": "335811",
+                "hotel_code": "yadNo335811"
+            },
+            {
+                "hotel_name": "ホテルパールシティ八戸（HMIホテルグループ）",
+                "min_price": "5,400",
+                "medium_area_id": "020000",
+                "detail_area_id": "020900",
+                "rank_number": 22,
+                "hotel_id": "394036",
+                "hotel_code": "yadNo394036"
+            },
+            {
+                "hotel_name": "八戸パークホテル",
+                "min_price": "12,100",
+                "medium_area_id": "020000",
+                "detail_area_id": "020900",
+                "rank_number": 23,
+                "hotel_id": "326369",
+                "hotel_code": "yadNo326369"
+            },
+            {
+                "hotel_name": "ホテルテトラ本八戸",
+                "min_price": "13,600",
+                "medium_area_id": "020000",
+                "detail_area_id": "020900",
+                "rank_number": 24,
+                "hotel_id": "303127",
+                "hotel_code": "yadNo303127"
+            },
+            {
+                "hotel_name": "ホテルイマルカ八戸",
+                "min_price": "5,500",
+                "medium_area_id": "020000",
+                "detail_area_id": "020900",
+                "rank_number": 25,
+                "hotel_id": "345986",
+                "hotel_code": "yadNo345986"
+            },
+            {
+                "hotel_name": "シティパークホテル八戸",
+                "min_price": "5,600",
+                "medium_area_id": "020000",
+                "detail_area_id": "020900",
+                "rank_number": 26,
+                "hotel_id": "379080",
+                "hotel_code": "yadNo379080"
+            },
+            {
+                "hotel_name": "東横ＩＮＮ八戸駅前",
+                "min_price": "6,100",
+                "medium_area_id": "020000",
+                "detail_area_id": "020900",
+                "rank_number": 27,
+                "hotel_id": "302674",
+                "hotel_code": "yadNo302674"
+            },
+            {
+                "hotel_name": "ホテルセレクトイン本八戸駅前",
+                "min_price": "3,456",
+                "medium_area_id": "020000",
+                "detail_area_id": "020900",
+                "rank_number": 28,
+                "hotel_id": "332223",
+                "hotel_code": "yadNo332223"
+            },
+            {
+                "hotel_name": "八戸ニューシティホテル",
+                "min_price": "7,700",
+                "medium_area_id": "020000",
+                "detail_area_id": "020900",
+                "rank_number": 29,
+                "hotel_id": "310206",
+                "hotel_code": "yadNo310206"
+            }
+        ]
+    },
+    {
+        "pref": [
+            {
+                "hotel_name": "雫石プリンスホテル",
+                "min_price": "9,438",
+                "medium_area_id": "030000",
+                "detail_area_id": "030100",
+                "rank_number": 0,
+                "hotel_id": "310728",
+                "hotel_code": "sa_yadNo310728"
+            },
+            {
+                "hotel_name": "長栄館-生まれたての「美肌の湯」を愉しむ-源泉かけ流し100%",
+                "min_price": "20,000",
+                "medium_area_id": "030000",
+                "detail_area_id": "030100",
+                "rank_number": 0,
+                "hotel_id": "354280",
+                "hotel_code": "yadNo354280"
+            },
+            {
+                "hotel_name": "雫石プリンスホテル",
+                "min_price": "9,438",
+                "medium_area_id": "030000",
+                "detail_area_id": "030100",
+                "rank_number": 1,
+                "hotel_id": "310728",
+                "hotel_code": "yadNo310728"
+            },
+            {
+                "hotel_name": "ホテル森の風鶯宿",
+                "min_price": "39,600",
+                "medium_area_id": "030000",
+                "detail_area_id": "030100",
+                "rank_number": 2,
+                "hotel_id": "342713",
+                "hotel_code": "yadNo342713"
+            },
+            {
+                "hotel_name": "鶯宿温泉　元湯源泉かけ流しの宿　川長（旧：川長山荘）",
+                "min_price": "12,100",
+                "medium_area_id": "030000",
+                "detail_area_id": "030100",
+                "rank_number": 3,
+                "hotel_id": "361602",
+                "hotel_code": "yadNo361602"
+            },
+            {
+                "hotel_name": "玄武風柳亭",
+                "min_price": "12,000",
+                "medium_area_id": "030000",
+                "detail_area_id": "030100",
+                "rank_number": 4,
+                "hotel_id": "327747",
+                "hotel_code": "yadNo327747"
+            },
+            {
+                "hotel_name": "ゆこたんの森",
+                "min_price": "16,600",
+                "medium_area_id": "030000",
+                "detail_area_id": "030100",
+                "rank_number": 5,
+                "hotel_id": "354125",
+                "hotel_code": "yadNo354125"
+            },
+            {
+                "hotel_name": "休暇村　岩手網張温泉",
+                "min_price": "20,000",
+                "medium_area_id": "030000",
+                "detail_area_id": "030100",
+                "rank_number": 6,
+                "hotel_id": "328961",
+                "hotel_code": "yadNo328961"
+            },
+            {
+                "hotel_name": "温泉民宿　栄弥",
+                "min_price": "5,720",
+                "medium_area_id": "030000",
+                "detail_area_id": "030100",
+                "rank_number": 7,
+                "hotel_id": "346305",
+                "hotel_code": "yadNo346305"
+            },
+            {
+                "hotel_name": "玄武のにごり湯と郷土料理　ロッヂたちばな",
+                "min_price": "11,000",
+                "medium_area_id": "030000",
+                "detail_area_id": "030100",
+                "rank_number": 8,
+                "hotel_id": "333697",
+                "hotel_code": "yadNo333697"
+            },
+            {
+                "hotel_name": "ホテル偕楽苑",
+                "min_price": "18,000",
+                "medium_area_id": "030000",
+                "detail_area_id": "030100",
+                "rank_number": 9,
+                "hotel_id": "342522",
+                "hotel_code": "yadNo342522"
+            },
+            {
+                "hotel_name": "温泉民宿　あけぼの荘",
+                "min_price": "8,800",
+                "medium_area_id": "030000",
+                "detail_area_id": "030100",
+                "rank_number": 10,
+                "hotel_id": "340037",
+                "hotel_code": "yadNo340037"
+            },
+            {
+                "hotel_name": "ニュー鶯山荘",
+                "min_price": "14,300",
+                "medium_area_id": "030000",
+                "detail_area_id": "030100",
+                "rank_number": 11,
+                "hotel_id": "368240",
+                "hotel_code": "yadNo368240"
+            },
+            {
+                "hotel_name": "鶯宿温泉　清光荘　",
+                "min_price": "11,880",
+                "medium_area_id": "030000",
+                "detail_area_id": "030100",
+                "rank_number": 12,
+                "hotel_id": "315624",
+                "hotel_code": "yadNo315624"
+            },
+            {
+                "hotel_name": "鶯宿温泉 ホテル加賀助",
+                "min_price": "17,600",
+                "medium_area_id": "030000",
+                "detail_area_id": "030100",
+                "rank_number": 13,
+                "hotel_id": "344748",
+                "hotel_code": "yadNo344748"
+            },
+            {
+                "hotel_name": "鶯宿温泉　レムナント鴬宿",
+                "min_price": "5,980",
+                "medium_area_id": "030000",
+                "detail_area_id": "030100",
+                "rank_number": 14,
+                "hotel_id": "332277",
+                "hotel_code": "yadNo332277"
+            },
+            {
+                "hotel_name": "鶯宿温泉の宿　赤い風車",
+                "min_price": "22,000",
+                "medium_area_id": "030000",
+                "detail_area_id": "030100",
+                "rank_number": 15,
+                "hotel_id": "381610",
+                "hotel_code": "yadNo381610"
+            },
+            {
+                "hotel_name": "小枝旅館",
+                "min_price": "8,000",
+                "medium_area_id": "030000",
+                "detail_area_id": "030100",
+                "rank_number": 16,
+                "hotel_id": "315107",
+                "hotel_code": "yadNo315107"
+            },
+            {
+                "hotel_name": "ペットと泊まれる宿ペンションベルクレール＆ステンドグラス工房",
+                "min_price": "22,000",
+                "medium_area_id": "030000",
+                "detail_area_id": "030100",
+                "rank_number": 17,
+                "hotel_id": "341440",
+                "hotel_code": "yadNo341440"
+            },
+            {
+                "hotel_name": "ペンション山賊",
+                "min_price": "12,000",
+                "medium_area_id": "030000",
+                "detail_area_id": "030100",
+                "rank_number": 18,
+                "hotel_id": "398847",
+                "hotel_code": "yadNo398847"
+            },
+            {
+                "hotel_name": "ペンション　さんりんしゃ",
+                "min_price": "10,000",
+                "medium_area_id": "030000",
+                "detail_area_id": "030100",
+                "rank_number": 19,
+                "hotel_id": "332367",
+                "hotel_code": "yadNo332367"
+            },
+            {
+                "hotel_name": "カンタービレ",
+                "min_price": "9,000",
+                "medium_area_id": "030000",
+                "detail_area_id": "030100",
+                "rank_number": 20,
+                "hotel_id": "397393",
+                "hotel_code": "yadNo397393"
+            },
+            {
+                "hotel_name": "十和田湖畔温泉　とわだこ遊月",
+                "min_price": "26,400",
+                "medium_area_id": "020000",
+                "detail_area_id": "020800",
+                "rank_number": 0,
+                "hotel_id": "372556",
+                "hotel_code": "sa_yadNo372556"
+            },
+            {
+                "hotel_name": "十和田プリンスホテル",
+                "min_price": "9,438",
+                "medium_area_id": "020000",
+                "detail_area_id": "020800",
+                "rank_number": 1,
+                "hotel_id": "317731",
+                "hotel_code": "sa_yadNo317731"
+            },
+            {
+                "hotel_name": "十和田プリンスホテル",
+                "min_price": "9,438",
+                "medium_area_id": "020000",
+                "detail_area_id": "020800",
+                "rank_number": 0,
+                "hotel_id": "317731",
+                "hotel_code": "yadNo317731"
+            },
+            {
+                "hotel_name": "ホテル十和田荘",
+                "min_price": "5,000",
+                "medium_area_id": "020000",
+                "detail_area_id": "020800",
+                "rank_number": 1,
+                "hotel_id": "316734",
+                "hotel_code": "yadNo316734"
+            },
+            {
+                "hotel_name": "天然温泉掛け流しの宿　ホテルポニー温泉",
+                "min_price": "6,800",
+                "medium_area_id": "020000",
+                "detail_area_id": "020800",
+                "rank_number": 2,
+                "hotel_id": "318136",
+                "hotel_code": "yadNo318136"
+            },
+            {
+                "hotel_name": "天然温泉　奥入瀬の湯　スーパーホテル十和田天然温泉",
+                "min_price": "5,490",
+                "medium_area_id": "020000",
+                "detail_area_id": "020800",
+                "rank_number": 3,
+                "hotel_id": "390116",
+                "hotel_code": "yadNo390116"
+            },
+            {
+                "hotel_name": "スマイルホテル十和田",
+                "min_price": "4,200",
+                "medium_area_id": "020000",
+                "detail_area_id": "020800",
+                "rank_number": 4,
+                "hotel_id": "377032",
+                "hotel_code": "yadNo377032"
+            },
+            {
+                "hotel_name": "十和田湖レークビューホテル",
+                "min_price": "5,000",
+                "medium_area_id": "020000",
+                "detail_area_id": "020800",
+                "rank_number": 5,
+                "hotel_id": "330586",
+                "hotel_code": "yadNo330586"
+            },
+            {
+                "hotel_name": "野の花　焼山荘　",
+                "min_price": "11,500",
+                "medium_area_id": "020000",
+                "detail_area_id": "020800",
+                "rank_number": 6,
+                "hotel_id": "312853",
+                "hotel_code": "yadNo312853"
+            },
+            {
+                "hotel_name": "ホテルルートイン十和田",
+                "min_price": "10,350",
+                "medium_area_id": "020000",
+                "detail_area_id": "020800",
+                "rank_number": 7,
+                "hotel_id": "327696",
+                "hotel_code": "yadNo327696"
+            },
+            {
+                "hotel_name": "蔦温泉旅館",
+                "min_price": "22,000",
+                "medium_area_id": "020000",
+                "detail_area_id": "020800",
+                "rank_number": 8,
+                "hotel_id": "337770",
+                "hotel_code": "yadNo337770"
+            },
+            {
+                "hotel_name": "星野リゾート　奥入瀬渓流ホテル",
+                "min_price": "42,000",
+                "medium_area_id": "020000",
+                "detail_area_id": "020800",
+                "rank_number": 9,
+                "hotel_id": "307225",
+                "hotel_code": "yadNo307225"
+            },
+            {
+                "hotel_name": "奥入瀬渓流温泉　灯と楓",
+                "min_price": "20,800",
+                "medium_area_id": "020000",
+                "detail_area_id": "020800",
+                "rank_number": 10,
+                "hotel_id": "324502",
+                "hotel_code": "yadNo324502"
+            },
+            {
+                "hotel_name": "十和田湖畔温泉　とわだこ賑山亭",
+                "min_price": "13,200",
+                "medium_area_id": "020000",
+                "detail_area_id": "020800",
+                "rank_number": 11,
+                "hotel_id": "346069",
+                "hotel_code": "yadNo346069"
+            },
+            {
+                "hotel_name": "奥入瀬　森のホテル",
+                "min_price": "34,100",
+                "medium_area_id": "020000",
+                "detail_area_id": "020800",
+                "rank_number": 12,
+                "hotel_id": "344779",
+                "hotel_code": "yadNo344779"
+            },
+            {
+                "hotel_name": "十和田シティホテル（旅館しもやま改め）",
+                "min_price": "5,600",
+                "medium_area_id": "020000",
+                "detail_area_id": "020800",
+                "rank_number": 13,
+                "hotel_id": "339256",
+                "hotel_code": "yadNo339256"
+            },
+            {
+                "hotel_name": "日本三秘湯 谷地温泉",
+                "min_price": "20,800",
+                "medium_area_id": "020000",
+                "detail_area_id": "020800",
+                "rank_number": 14,
+                "hotel_id": "344448",
+                "hotel_code": "yadNo344448"
+            },
+            {
+                "hotel_name": "十和田ホテル",
+                "min_price": "18,000",
+                "medium_area_id": "020000",
+                "detail_area_id": "020800",
+                "rank_number": 15,
+                "hotel_id": "313740",
+                "hotel_code": "yadNo313740"
+            },
+            {
+                "hotel_name": "十和田湖畔温泉　十和田湖山荘",
+                "min_price": "11,000",
+                "medium_area_id": "020000",
+                "detail_area_id": "020800",
+                "rank_number": 16,
+                "hotel_id": "348282",
+                "hotel_code": "yadNo348282"
+            },
+            {
+                "hotel_name": "創作料理の宿　十和田湖レークサイドホテル",
+                "min_price": "12,900",
+                "medium_area_id": "020000",
+                "detail_area_id": "020800",
+                "rank_number": 17,
+                "hotel_id": "317852",
+                "hotel_code": "yadNo317852"
+            },
+            {
+                "hotel_name": "奥入瀬グリーンホテル",
+                "min_price": "8,800",
+                "medium_area_id": "020000",
+                "detail_area_id": "020800",
+                "rank_number": 18,
+                "hotel_id": "305624",
+                "hotel_code": "yadNo305624"
+            },
+            {
+                "hotel_name": "十和田湖畔温泉　とわだこ遊月",
+                "min_price": "26,400",
+                "medium_area_id": "020000",
+                "detail_area_id": "020800",
+                "rank_number": 19,
+                "hotel_id": "372556",
+                "hotel_code": "yadNo372556"
+            },
+            {
+                "hotel_name": "十和田湖ホステル",
+                "min_price": "4,000",
+                "medium_area_id": "020000",
+                "detail_area_id": "020800",
+                "rank_number": 20,
+                "hotel_id": "373220",
+                "hotel_code": "yadNo373220"
+            },
+            {
+                "hotel_name": "十和田湖温泉　遊魚荘",
+                "min_price": "9,600",
+                "medium_area_id": "020000",
+                "detail_area_id": "020800",
+                "rank_number": 21,
+                "hotel_id": "384891",
+                "hotel_code": "yadNo384891"
+            },
+            {
+                "hotel_name": "食事処民宿桂月",
+                "min_price": "8,140",
+                "medium_area_id": "020000",
+                "detail_area_id": "020800",
+                "rank_number": 22,
+                "hotel_id": "352040",
+                "hotel_code": "yadNo352040"
+            },
+            {
+                "hotel_name": "十和田湖バックパッカーズ",
+                "min_price": "6,000",
+                "medium_area_id": "020000",
+                "detail_area_id": "020800",
+                "rank_number": 23,
+                "hotel_id": "358622",
+                "hotel_code": "yadNo358622"
+            },
+            {
+                "hotel_name": "湖畔の宿　民宿和み　",
+                "min_price": "13,300",
+                "medium_area_id": "020000",
+                "detail_area_id": "020800",
+                "rank_number": 24,
+                "hotel_id": "392160",
+                "hotel_code": "yadNo392160"
+            },
+            {
+                "hotel_name": "アパホテル〈本八戸〉",
+                "min_price": "5,600",
+                "medium_area_id": "020000",
+                "detail_area_id": "020900",
+                "rank_number": 0,
+                "hotel_id": "377736",
+                "hotel_code": "sa_yadNo377736"
+            },
+            {
+                "hotel_name": "ホテルグローバルビュー八戸アネックス",
+                "min_price": "6,100",
+                "medium_area_id": "020000",
+                "detail_area_id": "020900",
+                "rank_number": 1,
+                "hotel_id": "384374",
+                "hotel_code": "sa_yadNo384374"
+            },
+            {
+                "hotel_name": "天然温泉 南部の湯 ドーミーイン本八戸",
+                "min_price": "6,500",
+                "medium_area_id": "020000",
+                "detail_area_id": "020900",
+                "rank_number": 0,
+                "hotel_id": "334622",
+                "hotel_code": "yadNo334622"
+            },
+            {
+                "hotel_name": "ホテルグローバルビュー八戸【2020年6月1日グランドオープン】",
+                "min_price": "5,100",
+                "medium_area_id": "020000",
+                "detail_area_id": "020900",
+                "rank_number": 1,
+                "hotel_id": "341354",
+                "hotel_code": "yadNo341354"
+            },
+            {
+                "hotel_name": "ダイワロイネットホテル八戸",
+                "min_price": "6,200",
+                "medium_area_id": "020000",
+                "detail_area_id": "020900",
+                "rank_number": 2,
+                "hotel_id": "369785",
+                "hotel_code": "yadNo369785"
+            },
+            {
+                "hotel_name": "アパホテル〈本八戸〉",
+                "min_price": "5,600",
+                "medium_area_id": "020000",
+                "detail_area_id": "020900",
+                "rank_number": 3,
+                "hotel_id": "377736",
+                "hotel_code": "yadNo377736"
+            },
+            {
+                "hotel_name": "天然温泉　三社の湯　スーパーホテル八戸天然温泉",
+                "min_price": "6,210",
+                "medium_area_id": "020000",
+                "detail_area_id": "020900",
+                "rank_number": 4,
+                "hotel_id": "305810",
+                "hotel_code": "yadNo305810"
+            },
+            {
+                "hotel_name": "スーパーホテル八戸長横町",
+                "min_price": "4,950",
+                "medium_area_id": "020000",
+                "detail_area_id": "020900",
+                "rank_number": 5,
+                "hotel_id": "315430",
+                "hotel_code": "yadNo315430"
+            },
+            {
+                "hotel_name": "五戸まきば温泉",
+                "min_price": "8,600",
+                "medium_area_id": "020000",
+                "detail_area_id": "020900",
+                "rank_number": 6,
+                "hotel_id": "312278",
+                "hotel_code": "yadNo312278"
+            },
+            {
+                "hotel_name": "グランドサンピア八戸",
+                "min_price": "9,900",
+                "medium_area_id": "020000",
+                "detail_area_id": "020900",
+                "rank_number": 7,
+                "hotel_id": "305128",
+                "hotel_code": "yadNo305128"
+            },
+            {
+                "hotel_name": "八戸グランドホテル",
+                "min_price": "7,840",
+                "medium_area_id": "020000",
+                "detail_area_id": "020900",
+                "rank_number": 8,
+                "hotel_id": "342957",
+                "hotel_code": "yadNo342957"
+            },
+            {
+                "hotel_name": "ホテルグローバルビュー八戸アネックス",
+                "min_price": "6,100",
+                "medium_area_id": "020000",
+                "detail_area_id": "020900",
+                "rank_number": 9,
+                "hotel_id": "384374",
+                "hotel_code": "yadNo384374"
+            },
+            {
+                "hotel_name": "八戸プラザホテル",
+                "min_price": "5,600",
+                "medium_area_id": "020000",
+                "detail_area_id": "020900",
+                "rank_number": 10,
+                "hotel_id": "325938",
+                "hotel_code": "yadNo325938"
+            },
+            {
+                "hotel_name": "ホテルルートイン本八戸駅前",
+                "min_price": "10,500",
+                "medium_area_id": "020000",
+                "detail_area_id": "020900",
+                "rank_number": 11,
+                "hotel_id": "332431",
+                "hotel_code": "yadNo332431"
+            },
+            {
+                "hotel_name": "JR東日本ホテルメッツ 八戸",
+                "min_price": "6,800",
+                "medium_area_id": "020000",
+                "detail_area_id": "020900",
+                "rank_number": 12,
+                "hotel_id": "309606",
+                "hotel_code": "yadNo309606"
+            },
+            {
+                "hotel_name": "コンフォートホテル八戸",
+                "min_price": "5,100",
+                "medium_area_id": "020000",
+                "detail_area_id": "020900",
+                "rank_number": 13,
+                "hotel_id": "310505",
+                "hotel_code": "yadNo310505"
+            },
+            {
+                "hotel_name": "ホテルイルヴィアーレ八戸アネックス",
+                "min_price": "4,300",
+                "medium_area_id": "020000",
+                "detail_area_id": "020900",
+                "rank_number": 14,
+                "hotel_id": "320160",
+                "hotel_code": "yadNo320160"
+            },
+            {
+                "hotel_name": "ホテルテトラ八戸",
+                "min_price": "11,000",
+                "medium_area_id": "020000",
+                "detail_area_id": "020900",
+                "rank_number": 15,
+                "hotel_id": "317052",
+                "hotel_code": "yadNo317052"
+            },
+            {
+                "hotel_name": "ユートリー・ＶＩＳＩＴはちのへ",
+                "min_price": "4,400",
+                "medium_area_id": "020000",
+                "detail_area_id": "020900",
+                "rank_number": 16,
+                "hotel_id": "326586",
+                "hotel_code": "yadNo326586"
+            },
+            {
+                "hotel_name": "ホテルセレクトイン八戸中央",
+                "min_price": "3,600",
+                "medium_area_id": "020000",
+                "detail_area_id": "020900",
+                "rank_number": 17,
+                "hotel_id": "317427",
+                "hotel_code": "yadNo317427"
+            },
+            {
+                "hotel_name": "福地温泉　バーデパーク　アヴァンセふくち",
+                "min_price": "10,560",
+                "medium_area_id": "020000",
+                "detail_area_id": "020900",
+                "rank_number": 18,
+                "hotel_id": "316255",
+                "hotel_code": "yadNo316255"
+            },
+            {
+                "hotel_name": "パンション弁慶",
+                "min_price": "4,840",
+                "medium_area_id": "020000",
+                "detail_area_id": "020900",
+                "rank_number": 19,
+                "hotel_id": "340892",
+                "hotel_code": "yadNo340892"
+            },
+            {
+                "hotel_name": "スマイルホテル八戸",
+                "min_price": "4,000",
+                "medium_area_id": "020000",
+                "detail_area_id": "020900",
+                "rank_number": 20,
+                "hotel_id": "378736",
+                "hotel_code": "yadNo378736"
+            },
+            {
+                "hotel_name": "ホテルイルヴィアーレ八戸",
+                "min_price": "5,000",
+                "medium_area_id": "020000",
+                "detail_area_id": "020900",
+                "rank_number": 21,
+                "hotel_id": "335811",
+                "hotel_code": "yadNo335811"
+            },
+            {
+                "hotel_name": "ホテルパールシティ八戸（HMIホテルグループ）",
+                "min_price": "5,400",
+                "medium_area_id": "020000",
+                "detail_area_id": "020900",
+                "rank_number": 22,
+                "hotel_id": "394036",
+                "hotel_code": "yadNo394036"
+            },
+            {
+                "hotel_name": "八戸パークホテル",
+                "min_price": "12,100",
+                "medium_area_id": "020000",
+                "detail_area_id": "020900",
+                "rank_number": 23,
+                "hotel_id": "326369",
+                "hotel_code": "yadNo326369"
+            },
+            {
+                "hotel_name": "ホテルテトラ本八戸",
+                "min_price": "13,600",
+                "medium_area_id": "020000",
+                "detail_area_id": "020900",
+                "rank_number": 24,
+                "hotel_id": "303127",
+                "hotel_code": "yadNo303127"
+            },
+            {
+                "hotel_name": "ホテルイマルカ八戸",
+                "min_price": "5,500",
+                "medium_area_id": "020000",
+                "detail_area_id": "020900",
+                "rank_number": 25,
+                "hotel_id": "345986",
+                "hotel_code": "yadNo345986"
+            },
+            {
+                "hotel_name": "シティパークホテル八戸",
+                "min_price": "5,600",
+                "medium_area_id": "020000",
+                "detail_area_id": "020900",
+                "rank_number": 26,
+                "hotel_id": "379080",
+                "hotel_code": "yadNo379080"
+            },
+            {
+                "hotel_name": "東横ＩＮＮ八戸駅前",
+                "min_price": "6,100",
+                "medium_area_id": "020000",
+                "detail_area_id": "020900",
+                "rank_number": 27,
+                "hotel_id": "302674",
+                "hotel_code": "yadNo302674"
+            },
+            {
+                "hotel_name": "ホテルセレクトイン本八戸駅前",
+                "min_price": "3,456",
+                "medium_area_id": "020000",
+                "detail_area_id": "020900",
+                "rank_number": 28,
+                "hotel_id": "332223",
+                "hotel_code": "yadNo332223"
+            },
+            {
+                "hotel_name": "八戸ニューシティホテル",
+                "min_price": "7,700",
+                "medium_area_id": "020000",
+                "detail_area_id": "020900",
+                "rank_number": 29,
+                "hotel_id": "310206",
+                "hotel_code": "yadNo310206"
+            }
+        ]
+    },
+    {
+        "pref": [
+            {
+                "hotel_name": "雫石プリンスホテル",
+                "min_price": "9,438",
+                "medium_area_id": "030000",
+                "detail_area_id": "030100",
+                "rank_number": 0,
+                "hotel_id": "310728",
+                "hotel_code": "sa_yadNo310728"
+            },
+            {
+                "hotel_name": "長栄館-生まれたての「美肌の湯」を愉しむ-源泉かけ流し100%",
+                "min_price": "20,000",
+                "medium_area_id": "030000",
+                "detail_area_id": "030100",
+                "rank_number": 0,
+                "hotel_id": "354280",
+                "hotel_code": "yadNo354280"
+            },
+            {
+                "hotel_name": "雫石プリンスホテル",
+                "min_price": "9,438",
+                "medium_area_id": "030000",
+                "detail_area_id": "030100",
+                "rank_number": 1,
+                "hotel_id": "310728",
+                "hotel_code": "yadNo310728"
+            },
+            {
+                "hotel_name": "ホテル森の風鶯宿",
+                "min_price": "39,600",
+                "medium_area_id": "030000",
+                "detail_area_id": "030100",
+                "rank_number": 2,
+                "hotel_id": "342713",
+                "hotel_code": "yadNo342713"
+            },
+            {
+                "hotel_name": "鶯宿温泉　元湯源泉かけ流しの宿　川長（旧：川長山荘）",
+                "min_price": "12,100",
+                "medium_area_id": "030000",
+                "detail_area_id": "030100",
+                "rank_number": 3,
+                "hotel_id": "361602",
+                "hotel_code": "yadNo361602"
+            },
+            {
+                "hotel_name": "玄武風柳亭",
+                "min_price": "12,000",
+                "medium_area_id": "030000",
+                "detail_area_id": "030100",
+                "rank_number": 4,
+                "hotel_id": "327747",
+                "hotel_code": "yadNo327747"
+            },
+            {
+                "hotel_name": "ゆこたんの森",
+                "min_price": "16,600",
+                "medium_area_id": "030000",
+                "detail_area_id": "030100",
+                "rank_number": 5,
+                "hotel_id": "354125",
+                "hotel_code": "yadNo354125"
+            },
+            {
+                "hotel_name": "休暇村　岩手網張温泉",
+                "min_price": "20,000",
+                "medium_area_id": "030000",
+                "detail_area_id": "030100",
+                "rank_number": 6,
+                "hotel_id": "328961",
+                "hotel_code": "yadNo328961"
+            },
+            {
+                "hotel_name": "温泉民宿　栄弥",
+                "min_price": "5,720",
+                "medium_area_id": "030000",
+                "detail_area_id": "030100",
+                "rank_number": 7,
+                "hotel_id": "346305",
+                "hotel_code": "yadNo346305"
+            },
+            {
+                "hotel_name": "玄武のにごり湯と郷土料理　ロッヂたちばな",
+                "min_price": "11,000",
+                "medium_area_id": "030000",
+                "detail_area_id": "030100",
+                "rank_number": 8,
+                "hotel_id": "333697",
+                "hotel_code": "yadNo333697"
+            },
+            {
+                "hotel_name": "ホテル偕楽苑",
+                "min_price": "18,000",
+                "medium_area_id": "030000",
+                "detail_area_id": "030100",
+                "rank_number": 9,
+                "hotel_id": "342522",
+                "hotel_code": "yadNo342522"
+            },
+            {
+                "hotel_name": "温泉民宿　あけぼの荘",
+                "min_price": "8,800",
+                "medium_area_id": "030000",
+                "detail_area_id": "030100",
+                "rank_number": 10,
+                "hotel_id": "340037",
+                "hotel_code": "yadNo340037"
+            },
+            {
+                "hotel_name": "ニュー鶯山荘",
+                "min_price": "14,300",
+                "medium_area_id": "030000",
+                "detail_area_id": "030100",
+                "rank_number": 11,
+                "hotel_id": "368240",
+                "hotel_code": "yadNo368240"
+            },
+            {
+                "hotel_name": "鶯宿温泉　清光荘　",
+                "min_price": "11,880",
+                "medium_area_id": "030000",
+                "detail_area_id": "030100",
+                "rank_number": 12,
+                "hotel_id": "315624",
+                "hotel_code": "yadNo315624"
+            },
+            {
+                "hotel_name": "鶯宿温泉 ホテル加賀助",
+                "min_price": "17,600",
+                "medium_area_id": "030000",
+                "detail_area_id": "030100",
+                "rank_number": 13,
+                "hotel_id": "344748",
+                "hotel_code": "yadNo344748"
+            },
+            {
+                "hotel_name": "鶯宿温泉　レムナント鴬宿",
+                "min_price": "5,980",
+                "medium_area_id": "030000",
+                "detail_area_id": "030100",
+                "rank_number": 14,
+                "hotel_id": "332277",
+                "hotel_code": "yadNo332277"
+            },
+            {
+                "hotel_name": "鶯宿温泉の宿　赤い風車",
+                "min_price": "22,000",
+                "medium_area_id": "030000",
+                "detail_area_id": "030100",
+                "rank_number": 15,
+                "hotel_id": "381610",
+                "hotel_code": "yadNo381610"
+            },
+            {
+                "hotel_name": "小枝旅館",
+                "min_price": "8,000",
+                "medium_area_id": "030000",
+                "detail_area_id": "030100",
+                "rank_number": 16,
+                "hotel_id": "315107",
+                "hotel_code": "yadNo315107"
+            },
+            {
+                "hotel_name": "ペットと泊まれる宿ペンションベルクレール＆ステンドグラス工房",
+                "min_price": "22,000",
+                "medium_area_id": "030000",
+                "detail_area_id": "030100",
+                "rank_number": 17,
+                "hotel_id": "341440",
+                "hotel_code": "yadNo341440"
+            },
+            {
+                "hotel_name": "ペンション山賊",
+                "min_price": "12,000",
+                "medium_area_id": "030000",
+                "detail_area_id": "030100",
+                "rank_number": 18,
+                "hotel_id": "398847",
+                "hotel_code": "yadNo398847"
+            },
+            {
+                "hotel_name": "ペンション　さんりんしゃ",
+                "min_price": "10,000",
+                "medium_area_id": "030000",
+                "detail_area_id": "030100",
+                "rank_number": 19,
+                "hotel_id": "332367",
+                "hotel_code": "yadNo332367"
+            },
+            {
+                "hotel_name": "カンタービレ",
+                "min_price": "9,000",
+                "medium_area_id": "030000",
+                "detail_area_id": "030100",
+                "rank_number": 20,
+                "hotel_id": "397393",
+                "hotel_code": "yadNo397393"
+            },
+            {
+                "hotel_name": "十和田湖畔温泉　とわだこ遊月",
+                "min_price": "26,400",
+                "medium_area_id": "020000",
+                "detail_area_id": "020800",
+                "rank_number": 0,
+                "hotel_id": "372556",
+                "hotel_code": "sa_yadNo372556"
+            },
+            {
+                "hotel_name": "十和田プリンスホテル",
+                "min_price": "9,438",
+                "medium_area_id": "020000",
+                "detail_area_id": "020800",
+                "rank_number": 1,
+                "hotel_id": "317731",
+                "hotel_code": "sa_yadNo317731"
+            },
+            {
+                "hotel_name": "十和田プリンスホテル",
+                "min_price": "9,438",
+                "medium_area_id": "020000",
+                "detail_area_id": "020800",
+                "rank_number": 0,
+                "hotel_id": "317731",
+                "hotel_code": "yadNo317731"
+            },
+            {
+                "hotel_name": "ホテル十和田荘",
+                "min_price": "5,000",
+                "medium_area_id": "020000",
+                "detail_area_id": "020800",
+                "rank_number": 1,
+                "hotel_id": "316734",
+                "hotel_code": "yadNo316734"
+            },
+            {
+                "hotel_name": "天然温泉掛け流しの宿　ホテルポニー温泉",
+                "min_price": "6,800",
+                "medium_area_id": "020000",
+                "detail_area_id": "020800",
+                "rank_number": 2,
+                "hotel_id": "318136",
+                "hotel_code": "yadNo318136"
+            },
+            {
+                "hotel_name": "天然温泉　奥入瀬の湯　スーパーホテル十和田天然温泉",
+                "min_price": "5,490",
+                "medium_area_id": "020000",
+                "detail_area_id": "020800",
+                "rank_number": 3,
+                "hotel_id": "390116",
+                "hotel_code": "yadNo390116"
+            },
+            {
+                "hotel_name": "スマイルホテル十和田",
+                "min_price": "4,200",
+                "medium_area_id": "020000",
+                "detail_area_id": "020800",
+                "rank_number": 4,
+                "hotel_id": "377032",
+                "hotel_code": "yadNo377032"
+            },
+            {
+                "hotel_name": "十和田湖レークビューホテル",
+                "min_price": "5,000",
+                "medium_area_id": "020000",
+                "detail_area_id": "020800",
+                "rank_number": 5,
+                "hotel_id": "330586",
+                "hotel_code": "yadNo330586"
+            },
+            {
+                "hotel_name": "野の花　焼山荘　",
+                "min_price": "11,500",
+                "medium_area_id": "020000",
+                "detail_area_id": "020800",
+                "rank_number": 6,
+                "hotel_id": "312853",
+                "hotel_code": "yadNo312853"
+            },
+            {
+                "hotel_name": "ホテルルートイン十和田",
+                "min_price": "10,350",
+                "medium_area_id": "020000",
+                "detail_area_id": "020800",
+                "rank_number": 7,
+                "hotel_id": "327696",
+                "hotel_code": "yadNo327696"
+            },
+            {
+                "hotel_name": "蔦温泉旅館",
+                "min_price": "22,000",
+                "medium_area_id": "020000",
+                "detail_area_id": "020800",
+                "rank_number": 8,
+                "hotel_id": "337770",
+                "hotel_code": "yadNo337770"
+            },
+            {
+                "hotel_name": "星野リゾート　奥入瀬渓流ホテル",
+                "min_price": "42,000",
+                "medium_area_id": "020000",
+                "detail_area_id": "020800",
+                "rank_number": 9,
+                "hotel_id": "307225",
+                "hotel_code": "yadNo307225"
+            },
+            {
+                "hotel_name": "奥入瀬渓流温泉　灯と楓",
+                "min_price": "20,800",
+                "medium_area_id": "020000",
+                "detail_area_id": "020800",
+                "rank_number": 10,
+                "hotel_id": "324502",
+                "hotel_code": "yadNo324502"
+            },
+            {
+                "hotel_name": "十和田湖畔温泉　とわだこ賑山亭",
+                "min_price": "13,200",
+                "medium_area_id": "020000",
+                "detail_area_id": "020800",
+                "rank_number": 11,
+                "hotel_id": "346069",
+                "hotel_code": "yadNo346069"
+            },
+            {
+                "hotel_name": "奥入瀬　森のホテル",
+                "min_price": "34,100",
+                "medium_area_id": "020000",
+                "detail_area_id": "020800",
+                "rank_number": 12,
+                "hotel_id": "344779",
+                "hotel_code": "yadNo344779"
+            },
+            {
+                "hotel_name": "十和田シティホテル（旅館しもやま改め）",
+                "min_price": "5,600",
+                "medium_area_id": "020000",
+                "detail_area_id": "020800",
+                "rank_number": 13,
+                "hotel_id": "339256",
+                "hotel_code": "yadNo339256"
+            },
+            {
+                "hotel_name": "日本三秘湯 谷地温泉",
+                "min_price": "20,800",
+                "medium_area_id": "020000",
+                "detail_area_id": "020800",
+                "rank_number": 14,
+                "hotel_id": "344448",
+                "hotel_code": "yadNo344448"
+            },
+            {
+                "hotel_name": "十和田ホテル",
+                "min_price": "18,000",
+                "medium_area_id": "020000",
+                "detail_area_id": "020800",
+                "rank_number": 15,
+                "hotel_id": "313740",
+                "hotel_code": "yadNo313740"
+            },
+            {
+                "hotel_name": "十和田湖畔温泉　十和田湖山荘",
+                "min_price": "11,000",
+                "medium_area_id": "020000",
+                "detail_area_id": "020800",
+                "rank_number": 16,
+                "hotel_id": "348282",
+                "hotel_code": "yadNo348282"
+            },
+            {
+                "hotel_name": "創作料理の宿　十和田湖レークサイドホテル",
+                "min_price": "12,900",
+                "medium_area_id": "020000",
+                "detail_area_id": "020800",
+                "rank_number": 17,
+                "hotel_id": "317852",
+                "hotel_code": "yadNo317852"
+            },
+            {
+                "hotel_name": "奥入瀬グリーンホテル",
+                "min_price": "8,800",
+                "medium_area_id": "020000",
+                "detail_area_id": "020800",
+                "rank_number": 18,
+                "hotel_id": "305624",
+                "hotel_code": "yadNo305624"
+            },
+            {
+                "hotel_name": "十和田湖畔温泉　とわだこ遊月",
+                "min_price": "26,400",
+                "medium_area_id": "020000",
+                "detail_area_id": "020800",
+                "rank_number": 19,
+                "hotel_id": "372556",
+                "hotel_code": "yadNo372556"
+            },
+            {
+                "hotel_name": "十和田湖ホステル",
+                "min_price": "4,000",
+                "medium_area_id": "020000",
+                "detail_area_id": "020800",
+                "rank_number": 20,
+                "hotel_id": "373220",
+                "hotel_code": "yadNo373220"
+            },
+            {
+                "hotel_name": "十和田湖温泉　遊魚荘",
+                "min_price": "9,600",
+                "medium_area_id": "020000",
+                "detail_area_id": "020800",
+                "rank_number": 21,
+                "hotel_id": "384891",
+                "hotel_code": "yadNo384891"
+            },
+            {
+                "hotel_name": "食事処民宿桂月",
+                "min_price": "8,140",
+                "medium_area_id": "020000",
+                "detail_area_id": "020800",
+                "rank_number": 22,
+                "hotel_id": "352040",
+                "hotel_code": "yadNo352040"
+            },
+            {
+                "hotel_name": "十和田湖バックパッカーズ",
+                "min_price": "6,000",
+                "medium_area_id": "020000",
+                "detail_area_id": "020800",
+                "rank_number": 23,
+                "hotel_id": "358622",
+                "hotel_code": "yadNo358622"
+            },
+            {
+                "hotel_name": "湖畔の宿　民宿和み　",
+                "min_price": "13,300",
+                "medium_area_id": "020000",
+                "detail_area_id": "020800",
+                "rank_number": 24,
+                "hotel_id": "392160",
+                "hotel_code": "yadNo392160"
+            },
+            {
+                "hotel_name": "アパホテル〈本八戸〉",
+                "min_price": "5,600",
+                "medium_area_id": "020000",
+                "detail_area_id": "020900",
+                "rank_number": 0,
+                "hotel_id": "377736",
+                "hotel_code": "sa_yadNo377736"
+            },
+            {
+                "hotel_name": "ホテルグローバルビュー八戸アネックス",
+                "min_price": "6,100",
+                "medium_area_id": "020000",
+                "detail_area_id": "020900",
+                "rank_number": 1,
+                "hotel_id": "384374",
+                "hotel_code": "sa_yadNo384374"
+            },
+            {
+                "hotel_name": "天然温泉 南部の湯 ドーミーイン本八戸",
+                "min_price": "6,500",
+                "medium_area_id": "020000",
+                "detail_area_id": "020900",
+                "rank_number": 0,
+                "hotel_id": "334622",
+                "hotel_code": "yadNo334622"
+            },
+            {
+                "hotel_name": "ホテルグローバルビュー八戸【2020年6月1日グランドオープン】",
+                "min_price": "5,100",
+                "medium_area_id": "020000",
+                "detail_area_id": "020900",
+                "rank_number": 1,
+                "hotel_id": "341354",
+                "hotel_code": "yadNo341354"
+            },
+            {
+                "hotel_name": "ダイワロイネットホテル八戸",
+                "min_price": "6,200",
+                "medium_area_id": "020000",
+                "detail_area_id": "020900",
+                "rank_number": 2,
+                "hotel_id": "369785",
+                "hotel_code": "yadNo369785"
+            },
+            {
+                "hotel_name": "アパホテル〈本八戸〉",
+                "min_price": "5,600",
+                "medium_area_id": "020000",
+                "detail_area_id": "020900",
+                "rank_number": 3,
+                "hotel_id": "377736",
+                "hotel_code": "yadNo377736"
+            },
+            {
+                "hotel_name": "天然温泉　三社の湯　スーパーホテル八戸天然温泉",
+                "min_price": "6,210",
+                "medium_area_id": "020000",
+                "detail_area_id": "020900",
+                "rank_number": 4,
+                "hotel_id": "305810",
+                "hotel_code": "yadNo305810"
+            },
+            {
+                "hotel_name": "スーパーホテル八戸長横町",
+                "min_price": "4,950",
+                "medium_area_id": "020000",
+                "detail_area_id": "020900",
+                "rank_number": 5,
+                "hotel_id": "315430",
+                "hotel_code": "yadNo315430"
+            },
+            {
+                "hotel_name": "五戸まきば温泉",
+                "min_price": "8,600",
+                "medium_area_id": "020000",
+                "detail_area_id": "020900",
+                "rank_number": 6,
+                "hotel_id": "312278",
+                "hotel_code": "yadNo312278"
+            },
+            {
+                "hotel_name": "グランドサンピア八戸",
+                "min_price": "9,900",
+                "medium_area_id": "020000",
+                "detail_area_id": "020900",
+                "rank_number": 7,
+                "hotel_id": "305128",
+                "hotel_code": "yadNo305128"
+            },
+            {
+                "hotel_name": "八戸グランドホテル",
+                "min_price": "7,840",
+                "medium_area_id": "020000",
+                "detail_area_id": "020900",
+                "rank_number": 8,
+                "hotel_id": "342957",
+                "hotel_code": "yadNo342957"
+            },
+            {
+                "hotel_name": "ホテルグローバルビュー八戸アネックス",
+                "min_price": "6,100",
+                "medium_area_id": "020000",
+                "detail_area_id": "020900",
+                "rank_number": 9,
+                "hotel_id": "384374",
+                "hotel_code": "yadNo384374"
+            },
+            {
+                "hotel_name": "八戸プラザホテル",
+                "min_price": "5,600",
+                "medium_area_id": "020000",
+                "detail_area_id": "020900",
+                "rank_number": 10,
+                "hotel_id": "325938",
+                "hotel_code": "yadNo325938"
+            },
+            {
+                "hotel_name": "ホテルルートイン本八戸駅前",
+                "min_price": "10,500",
+                "medium_area_id": "020000",
+                "detail_area_id": "020900",
+                "rank_number": 11,
+                "hotel_id": "332431",
+                "hotel_code": "yadNo332431"
+            },
+            {
+                "hotel_name": "JR東日本ホテルメッツ 八戸",
+                "min_price": "6,800",
+                "medium_area_id": "020000",
+                "detail_area_id": "020900",
+                "rank_number": 12,
+                "hotel_id": "309606",
+                "hotel_code": "yadNo309606"
+            },
+            {
+                "hotel_name": "コンフォートホテル八戸",
+                "min_price": "5,100",
+                "medium_area_id": "020000",
+                "detail_area_id": "020900",
+                "rank_number": 13,
+                "hotel_id": "310505",
+                "hotel_code": "yadNo310505"
+            },
+            {
+                "hotel_name": "ホテルイルヴィアーレ八戸アネックス",
+                "min_price": "4,300",
+                "medium_area_id": "020000",
+                "detail_area_id": "020900",
+                "rank_number": 14,
+                "hotel_id": "320160",
+                "hotel_code": "yadNo320160"
+            },
+            {
+                "hotel_name": "ホテルテトラ八戸",
+                "min_price": "11,000",
+                "medium_area_id": "020000",
+                "detail_area_id": "020900",
+                "rank_number": 15,
+                "hotel_id": "317052",
+                "hotel_code": "yadNo317052"
+            },
+            {
+                "hotel_name": "ユートリー・ＶＩＳＩＴはちのへ",
+                "min_price": "4,400",
+                "medium_area_id": "020000",
+                "detail_area_id": "020900",
+                "rank_number": 16,
+                "hotel_id": "326586",
+                "hotel_code": "yadNo326586"
+            },
+            {
+                "hotel_name": "ホテルセレクトイン八戸中央",
+                "min_price": "3,600",
+                "medium_area_id": "020000",
+                "detail_area_id": "020900",
+                "rank_number": 17,
+                "hotel_id": "317427",
+                "hotel_code": "yadNo317427"
+            },
+            {
+                "hotel_name": "福地温泉　バーデパーク　アヴァンセふくち",
+                "min_price": "10,560",
+                "medium_area_id": "020000",
+                "detail_area_id": "020900",
+                "rank_number": 18,
+                "hotel_id": "316255",
+                "hotel_code": "yadNo316255"
+            },
+            {
+                "hotel_name": "パンション弁慶",
+                "min_price": "4,840",
+                "medium_area_id": "020000",
+                "detail_area_id": "020900",
+                "rank_number": 19,
+                "hotel_id": "340892",
+                "hotel_code": "yadNo340892"
+            },
+            {
+                "hotel_name": "スマイルホテル八戸",
+                "min_price": "4,000",
+                "medium_area_id": "020000",
+                "detail_area_id": "020900",
+                "rank_number": 20,
+                "hotel_id": "378736",
+                "hotel_code": "yadNo378736"
+            },
+            {
+                "hotel_name": "ホテルイルヴィアーレ八戸",
+                "min_price": "5,000",
+                "medium_area_id": "020000",
+                "detail_area_id": "020900",
+                "rank_number": 21,
+                "hotel_id": "335811",
+                "hotel_code": "yadNo335811"
+            },
+            {
+                "hotel_name": "ホテルパールシティ八戸（HMIホテルグループ）",
+                "min_price": "5,400",
+                "medium_area_id": "020000",
+                "detail_area_id": "020900",
+                "rank_number": 22,
+                "hotel_id": "394036",
+                "hotel_code": "yadNo394036"
+            },
+            {
+                "hotel_name": "八戸パークホテル",
+                "min_price": "12,100",
+                "medium_area_id": "020000",
+                "detail_area_id": "020900",
+                "rank_number": 23,
+                "hotel_id": "326369",
+                "hotel_code": "yadNo326369"
+            },
+            {
+                "hotel_name": "ホテルテトラ本八戸",
+                "min_price": "13,600",
+                "medium_area_id": "020000",
+                "detail_area_id": "020900",
+                "rank_number": 24,
+                "hotel_id": "303127",
+                "hotel_code": "yadNo303127"
+            },
+            {
+                "hotel_name": "ホテルイマルカ八戸",
+                "min_price": "5,500",
+                "medium_area_id": "020000",
+                "detail_area_id": "020900",
+                "rank_number": 25,
+                "hotel_id": "345986",
+                "hotel_code": "yadNo345986"
+            },
+            {
+                "hotel_name": "シティパークホテル八戸",
+                "min_price": "5,600",
+                "medium_area_id": "020000",
+                "detail_area_id": "020900",
+                "rank_number": 26,
+                "hotel_id": "379080",
+                "hotel_code": "yadNo379080"
+            },
+            {
+                "hotel_name": "東横ＩＮＮ八戸駅前",
+                "min_price": "6,100",
+                "medium_area_id": "020000",
+                "detail_area_id": "020900",
+                "rank_number": 27,
+                "hotel_id": "302674",
+                "hotel_code": "yadNo302674"
+            },
+            {
+                "hotel_name": "ホテルセレクトイン本八戸駅前",
+                "min_price": "3,456",
+                "medium_area_id": "020000",
+                "detail_area_id": "020900",
+                "rank_number": 28,
+                "hotel_id": "332223",
+                "hotel_code": "yadNo332223"
+            },
+            {
+                "hotel_name": "八戸ニューシティホテル",
+                "min_price": "7,700",
+                "medium_area_id": "020000",
+                "detail_area_id": "020900",
+                "rank_number": 29,
+                "hotel_id": "310206",
+                "hotel_code": "yadNo310206"
+            }
+        ]
+    }
+]
