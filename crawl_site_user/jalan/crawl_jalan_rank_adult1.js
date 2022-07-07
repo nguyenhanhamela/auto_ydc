@@ -338,8 +338,9 @@ jalanUrl.forEach(async (urllink) => {
     const splitUrl = urllink.split('/')
     const kenCd = splitUrl[3]
     const lrgCd = splitUrl[4].slice(4, splitUrl[4].length)
-    console.log(lrgCd)
-    const jalanUrlFix = "?stayYear=&stayMonth=&stayDay=&dateUndecided=1&stayCount=1&roomCount=1&adultNum=2&minPrice=0&maxPrice=999999&mealType=&kenCd=" + kenCd +
+    // console.log(lrgCd)
+    const adultNum = 1
+    const jalanUrlFix = "?stayYear=&stayMonth=&stayDay=&dateUndecided=1&stayCount=1&roomCount=1&adultNum=" + adultNum + "&minPrice=0&maxPrice=999999&mealType=&kenCd=" + kenCd +
         "&lrgCd=" + lrgCd + "&distCd=01&roomCrack=200000&reShFlg=1&mvTabFlg=0&listId=6&screenId=UWW1402";
 
     const url = urllink + jalanUrlFix;
@@ -374,6 +375,7 @@ jalanUrl.forEach(async (urllink) => {
                     hotel_id: $hotel.attr('id').split('yadNo')[1],
                     hotel_code: $hotel.attr('id'),
                     hotel_name: $hotel.find('.p-searchResultItem__facilityName').text(),
+                    adult_amount: adultNum,
                     min_price: $hotel.find('.p-searchResultItem__lowestPriceValue').text().replace(/円～/g, ''),
                     // medium_area_id: kenCd,
                     // detail_area_id: lrgCd,
@@ -400,7 +402,7 @@ jalanUrl.forEach(async (urllink) => {
         //     (value, index, self) => self.findIndex((m) => m.hotel_name === value.hotel_name) === index,
         //   );
         let data = JSON.stringify(allHotels);
-        fs.writeFileSync('result.json', data);
+        fs.writeFileSync('./result_jalan/result_rank_adult1.json', data);
     };
 
     // Change the default concurrency or pass it as param
