@@ -324,22 +324,13 @@ const jalanUrl = [
     // "https://www.jalan.net/470000/LRG_470800/"
 ];
 
-// const splitUrl = jalanUrl[0].split('/')
-// const kenCd = splitUrl[3]
-// const lrgCd = splitUrl[4].slice(4, splitUrl[4].length)
-// console.log(lrgCd)
-// const jalanUrlFix = "?stayYear=&stayMonth=&stayDay=&dateUndecided=1&stayCount=1&roomCount=1&adultNum=2&minPrice=0&maxPrice=999999&mealType=&kenCd=" + kenCd+
-// "&lrgCd=" + lrgCd+ "&distCd=01&roomCrack=200000&reShFlg=1&mvTabFlg=0&listId=6&screenId=UWW1402";
-
-// const url = jalanUrl[0] + jalanUrlFix;
-const planListId = 'https://www.jalan.net/yad377736/plan/?screenId=UWW3001&yadNo=377736&contHideFlg=1&roomCount=1&adultNum=2&dateUndecided=1&roomCrack=200000&stayCount=1&smlCd=020902&distCd=01&ccnt=yads2'
-
 jalanUrl.forEach(async (urllink) => {
     const splitUrl = urllink.split('/')
     const kenCd = splitUrl[3]
     const lrgCd = splitUrl[4].slice(4, splitUrl[4].length)
-    console.log(lrgCd)
-    const jalanUrlFix = "?stayYear=&stayMonth=&stayDay=&dateUndecided=1&stayCount=1&roomCount=1&adultNum=2&minPrice=0&maxPrice=999999&mealType=&kenCd=" + kenCd +
+    // console.log(lrgCd)
+    const mealType = 0;
+    const jalanUrlFix = "?stayYear=&stayMonth=&stayDay=&dateUndecided=1&stayCount=1&roomCount=1&adultNum=2&minPrice=0&maxPrice=999999&mealType=" + mealType + "&kenCd=" + kenCd +
         "&lrgCd=" + lrgCd + "&distCd=01&roomCrack=200000&reShFlg=1&mvTabFlg=0&listId=6&screenId=UWW1402";
 
     const url = urllink + jalanUrlFix;
@@ -374,6 +365,7 @@ jalanUrl.forEach(async (urllink) => {
                     hotel_id: $hotel.attr('id').split('yadNo')[1],
                     hotel_code: $hotel.attr('id'),
                     hotel_name: $hotel.find('.p-searchResultItem__facilityName').text(),
+                    meal_type: mealType,
                     min_price: $hotel.find('.p-searchResultItem__lowestPriceValue').text().replace(/円～/g, ''),
                     // medium_area_id: kenCd,
                     // detail_area_id: lrgCd,
@@ -400,7 +392,7 @@ jalanUrl.forEach(async (urllink) => {
         //     (value, index, self) => self.findIndex((m) => m.hotel_name === value.hotel_name) === index,
         //   );
         let data = JSON.stringify(allHotels);
-        fs.writeFileSync('result.json', data);
+        fs.writeFileSync('./result_jalan/result_mealtype_0.json', data);
     };
 
     // Change the default concurrency or pass it as param
