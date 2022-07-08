@@ -330,7 +330,8 @@ jalanUrl.forEach(async (urllink) => {
     const lrgCd = splitUrl[4].slice(4, splitUrl[4].length)
     // console.log(lrgCd)
     const mealType = 0;
-    const jalanUrlFix = "?stayYear=&stayMonth=&stayDay=&dateUndecided=1&stayCount=1&roomCount=1&adultNum=2&minPrice=0&maxPrice=999999&mealType=" + mealType + "&kenCd=" + kenCd +
+    const adultNum = 1
+    const jalanUrlFix = "?stayYear=&stayMonth=&stayDay=&dateUndecided=1&stayCount=1&roomCount=1&adultNum="+ adultNum+ "&minPrice=0&maxPrice=999999&mealType=" + mealType + "&kenCd=" + kenCd +
         "&lrgCd=" + lrgCd + "&distCd=01&roomCrack=200000&reShFlg=1&mvTabFlg=0&listId=6&screenId=UWW1402";
 
     const url = urllink + jalanUrlFix;
@@ -365,10 +366,9 @@ jalanUrl.forEach(async (urllink) => {
                     hotel_id: $hotel.attr('id').split('yadNo')[1],
                     hotel_code: $hotel.attr('id'),
                     hotel_name: $hotel.find('.p-searchResultItem__facilityName').text(),
+                    adult_amount: adultNum,
                     meal_type: mealType,
                     min_price: $hotel.find('.p-searchResultItem__lowestPriceValue').text().replace(/円～/g, ''),
-                    // medium_area_id: kenCd,
-                    // detail_area_id: lrgCd,
                     rank_number: $hotel.index()
                 };
             })
@@ -386,13 +386,10 @@ jalanUrl.forEach(async (urllink) => {
             "detail_area_id": lrgCd,
             "hotelList": [...content]
         });
-        //    const getAllData = [new Map(...allHotels)]
+       
         console.log(allHotels.length);
-        // const unique = allHotels.filter(
-        //     (value, index, self) => self.findIndex((m) => m.hotel_name === value.hotel_name) === index,
-        //   );
         let data = JSON.stringify(allHotels);
-        fs.writeFileSync('./result_jalan/result_mealtype_0.json', data);
+        fs.writeFileSync('./result_jalan/result_adult1_mealtype_0.json', data);
     };
 
     // Change the default concurrency or pass it as param
