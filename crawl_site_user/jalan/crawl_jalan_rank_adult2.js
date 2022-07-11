@@ -368,7 +368,7 @@ jalanUrl.forEach(async (urllink) => {
 
     const extractContent = $ =>
         // [...new Set(
-        $('li.p-yadoCassette')
+        $('#jsiInnList').find('li.p-yadoCassette')
             .map((_, hotel) => {
                 const $hotel = $(hotel);
                 return {

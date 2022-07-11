@@ -1,0 +1,83 @@
+[
+    {
+        "medium_area_id": "030000",
+        "detail_area_id": "030100",
+        "hotel_id": "354280",
+        "hotel_code": "yadNo354280",
+        "product_amount": "1",
+        "products": [
+            {
+                "title": "【巡るたび、出会う旅。東北温泉】【素泊まり】“100％源泉掛け流し温泉”自由気ままに過ごす休日",
+                "min_price": "20,000円～",
+                "plan_code": "02580847",
+                "plan_index": 0,
+                "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&childPriceFlg=0,0,0,0,0&roomCrack=200000&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=354280&smlCd=030102&mealType=0&screenId=UWW3101&planCd=02580847&roomTypeCd=0448095&planListNumPlan=1__0&groupBookingFlg="
+            }
+        ]
+    },
+    {
+        "medium_area_id": "020000",
+        "detail_area_id": "020900",
+        "hotel_id": "334622",
+        "hotel_code": "yadNo334622",
+        "product_amount": "8",
+        "products": [
+            {
+                "title": "【じゃらん夏SALE】5％OFF！ポイント10％＆12時アウト♪泊まって嬉しい感謝プラン【素泊り】",
+                "min_price": "8,424円～",
+                "plan_code": "03483084",
+                "plan_index": 0,
+                "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&rootCd=041&distCd=01&yadNo=334622&smlCd=020902&mealType=0&childPriceFlg=0,0,0,0,0&roomCrack=200000&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&screenId=UWW3101&planCd=03483084&roomTypeCd=0498236&planListNumPlan=8__0&groupBookingFlg="
+            },
+            {
+                "title": "【ワクチン証明必須・東北及び北海道在住者限定】青森県おでかけキャンペーン《素泊り》",
+                "min_price": "10,000円～",
+                "plan_code": "03462266",
+                "plan_index": 1,
+                "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&rootCd=041&distCd=01&yadNo=334622&smlCd=020902&mealType=0&childPriceFlg=0,0,0,0,0&roomCrack=200000&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&screenId=UWW3101&planCd=03462266&roomTypeCd=0393305&planListNumPlan=8__0&groupBookingFlg="
+            },
+            {
+                "title": "【大浴場×サウナでととのう！】ドーミーインスタンダードプラン!!＜素泊まり＞",
+                "min_price": "7,990円～",
+                "plan_code": "02422513",
+                "plan_index": 2,
+                "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&rootCd=041&distCd=01&yadNo=334622&smlCd=020902&mealType=0&childPriceFlg=0,0,0,0,0&roomCrack=200000&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&screenId=UWW3101&planCd=02422513&roomTypeCd=0498236&planListNumPlan=8__0&groupBookingFlg="
+            },
+            {
+                "title": "【清掃不要のお客様限定】WECO連泊プラン♪≪素泊り≫",
+                "min_price": "",
+                "plan_code": "02592108",
+                "plan_index": 3,
+                "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&rootCd=041&distCd=01&yadNo=334622&smlCd=020902&mealType=0&childPriceFlg=0,0,0,0,0&roomCrack=200000&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&screenId=UWW3101&planCd=02592108&roomTypeCd=0498236&planListNumPlan=8__0&groupBookingFlg="
+            },
+            {
+                "title": "【じゃらん限定】ポイント10％＆12時アウト♪泊まって嬉しい感謝プラン≪素泊り≫",
+                "min_price": "8,868円～",
+                "plan_code": "02422697",
+                "plan_index": 4,
+                "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&rootCd=041&distCd=01&yadNo=334622&smlCd=020902&mealType=0&childPriceFlg=0,0,0,0,0&roomCrack=200000&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&screenId=UWW3101&planCd=02422697&roomTypeCd=0498236&planListNumPlan=8__0&groupBookingFlg="
+            },
+            {
+                "title": "【13時イン-11時アウト】22時間ステイプラン≪素泊り≫",
+                "min_price": "10,990円～",
+                "plan_code": "02427085",
+                "plan_index": 5,
+                "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&rootCd=041&distCd=01&yadNo=334622&smlCd=020902&mealType=0&childPriceFlg=0,0,0,0,0&roomCrack=200000&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&screenId=UWW3101&planCd=02427085&roomTypeCd=0498236&planListNumPlan=8__0&groupBookingFlg="
+            },
+            {
+                "title": "【15時イン-13時アウト】22時間ステイプラン≪素泊り≫",
+                "min_price": "10,990円～",
+                "plan_code": "02427112",
+                "plan_index": 6,
+                "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&rootCd=041&distCd=01&yadNo=334622&smlCd=020902&mealType=0&childPriceFlg=0,0,0,0,0&roomCrack=200000&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&screenId=UWW3101&planCd=02427112&roomTypeCd=0498236&planListNumPlan=8__0&groupBookingFlg="
+            },
+            {
+                "title": "【天然温泉大浴場×サウナでととのう！】12時チェックアウトプラン!!＜素泊まり＞",
+                "min_price": "8,490円～",
+                "plan_code": "02982612",
+                "plan_index": 7,
+                "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&rootCd=041&distCd=01&yadNo=334622&smlCd=020902&mealType=0&childPriceFlg=0,0,0,0,0&roomCrack=200000&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&screenId=UWW3101&planCd=02982612&roomTypeCd=0498236&planListNumPlan=8__0&groupBookingFlg="
+            }
+        ]
+    }
+]

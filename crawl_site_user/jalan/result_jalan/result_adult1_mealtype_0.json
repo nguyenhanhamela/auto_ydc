@@ -23,7 +23,8 @@
                 "hotel_code": "yadNo334622",
                 "hotel_name": "天然温泉 南部の湯 ドーミーイン本八戸",
                 "adult_amount": 1,
-                "min_price": "6,500",
+                "meal_type": 0,
+                "min_price": "7,590",
                 "rank_number": 0
             }
         ]

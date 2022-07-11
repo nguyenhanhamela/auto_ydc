@@ -357,7 +357,7 @@ jalanUrl.forEach(async (urllink) => {
 
     const extractContent = $ =>
         // [...new Set(
-        $('li.p-yadoCassette')
+        $('#jsiInnList').find('li.p-yadoCassette')
             .map((_, hotel) => {
                 const $hotel = $(hotel);
                 return {
@@ -383,13 +383,12 @@ jalanUrl.forEach(async (urllink) => {
             "detail_area_id": lrgCd,
             "hotelList": [...content]
         });
-        //    const getAllData = [new Map(...allHotels)]
         console.log(allHotels.length);
         // const unique = allHotels.filter(
         //     (value, index, self) => self.findIndex((m) => m.hotel_name === value.hotel_name) === index,
         //   );
         let data = JSON.stringify(allHotels);
-        fs.writeFileSync('./result_jalan/result_mealtype_3.json', data);
+        fs.writeFileSync('./result_jalan/result_adult1_mealtype3.json', data);
     };
 
     // Change the default concurrency or pass it as param
