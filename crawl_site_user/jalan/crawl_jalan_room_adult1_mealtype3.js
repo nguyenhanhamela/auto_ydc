@@ -10,7 +10,7 @@ const maxVisits = 1000; // Arbitrary number for the maximum of links visited
 const visited = new Set();
 const allRooms = []
 
-fs.readFile('./result_jalan/result_adult1_mealtype_0.json', (err, data) => {
+fs.readFile('./result_jalan/result_adult1_mealtype3.json', (err, data) => {
     if (err) throw err;
     let hotel = JSON.parse(data);
     console.dir(hotel, { depth: null, colors: true })

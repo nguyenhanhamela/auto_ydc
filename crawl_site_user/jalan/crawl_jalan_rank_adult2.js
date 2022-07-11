@@ -368,7 +368,7 @@ jalanUrl.forEach(async (urllink) => {
 
     const extractContent = $ =>
         // [...new Set(
-        $('li.p-yadoCassette')
+        $('#jsiInnList').find('li.p-yadoCassette')
             .map((_, hotel) => {
                 const $hotel = $(hotel);
                 return {
@@ -386,7 +386,6 @@ jalanUrl.forEach(async (urllink) => {
     // ),]
 
     const crawl = async url => {
-        visited.add(url);
         console.log('Crawl: ', url);
         const html = await getHtml(url);
         const $ = cheerio.load(html);
@@ -396,11 +395,7 @@ jalanUrl.forEach(async (urllink) => {
             "detail_area_id": lrgCd,
             "hotelList": [...content]
         });
-        //    const getAllData = [new Map(...allHotels)]
-        console.log(allHotels.length);
-        // const unique = allHotels.filter(
-        //     (value, index, self) => self.findIndex((m) => m.hotel_name === value.hotel_name) === index,
-        //   );
+        
         let data = JSON.stringify(allHotels);
         fs.writeFileSync('./result_jalan/result_rank_adult2.json', data);
     };

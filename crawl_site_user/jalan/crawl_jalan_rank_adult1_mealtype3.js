@@ -329,10 +329,9 @@ jalanUrl.forEach(async (urllink) => {
     const kenCd = splitUrl[3]
     const lrgCd = splitUrl[4].slice(4, splitUrl[4].length)
     console.log(lrgCd)
-    const mealType = 1;
+    const mealType = 3;
     const jalanUrlFix = "?stayYear=&stayMonth=&stayDay=&dateUndecided=1&stayCount=1&roomCount=1&adultNum=2&minPrice=0&maxPrice=999999&mealType=" + mealType + "&kenCd=" + kenCd +
         "&lrgCd=" + lrgCd + "&distCd=01&roomCrack=200000&reShFlg=1&mvTabFlg=0&listId=6&screenId=UWW1402";
-
     const url = urllink + jalanUrlFix;
 
     const getHtmlPlaywright = async url => {
@@ -358,7 +357,7 @@ jalanUrl.forEach(async (urllink) => {
 
     const extractContent = $ =>
         // [...new Set(
-        $('li.p-yadoCassette')
+        $('#jsiInnList').find('li.p-yadoCassette')
             .map((_, hotel) => {
                 const $hotel = $(hotel);
                 return {
@@ -367,13 +366,11 @@ jalanUrl.forEach(async (urllink) => {
                     hotel_name: $hotel.find('.p-searchResultItem__facilityName').text(),
                     meal_type: mealType,
                     min_price: $hotel.find('.p-searchResultItem__lowestPriceValue').text().replace(/円～/g, ''),
-                    // medium_area_id: kenCd,
-                    // detail_area_id: lrgCd,
                     rank_number: $hotel.index()
                 };
             })
             .toArray()
-    // ),]
+        // ),]
 
     const crawl = async url => {
         visited.add(url);
@@ -386,13 +383,12 @@ jalanUrl.forEach(async (urllink) => {
             "detail_area_id": lrgCd,
             "hotelList": [...content]
         });
-        //    const getAllData = [new Map(...allHotels)]
         console.log(allHotels.length);
         // const unique = allHotels.filter(
         //     (value, index, self) => self.findIndex((m) => m.hotel_name === value.hotel_name) === index,
         //   );
         let data = JSON.stringify(allHotels);
-        fs.writeFileSync('./result_jalan/result_mealtype_1.json', data);
+        fs.writeFileSync('./result_jalan/result_adult1_mealtype3.json', data);
     };
 
     // Change the default concurrency or pass it as param

@@ -324,15 +324,6 @@ const jalanUrl = [
     // "https://www.jalan.net/470000/LRG_470800/"
 ];
 
-// const splitUrl = jalanUrl[0].split('/')
-// const kenCd = splitUrl[3]
-// const lrgCd = splitUrl[4].slice(4, splitUrl[4].length)
-// console.log(lrgCd)
-// const jalanUrlFix = "?stayYear=&stayMonth=&stayDay=&dateUndecided=1&stayCount=1&roomCount=1&adultNum=2&minPrice=0&maxPrice=999999&mealType=&kenCd=" + kenCd+
-// "&lrgCd=" + lrgCd+ "&distCd=01&roomCrack=200000&reShFlg=1&mvTabFlg=0&listId=6&screenId=UWW1402";
-
-// const url = jalanUrl[0] + jalanUrlFix;
-const planListId = 'https://www.jalan.net/yad377736/plan/?screenId=UWW3001&yadNo=377736&contHideFlg=1&roomCount=1&adultNum=2&dateUndecided=1&roomCrack=200000&stayCount=1&smlCd=020902&distCd=01&ccnt=yads2'
 
 jalanUrl.forEach(async (urllink) => {
     const splitUrl = urllink.split('/')
@@ -368,7 +359,7 @@ jalanUrl.forEach(async (urllink) => {
 
     const extractContent = $ =>
         // [...new Set(
-        $('li.p-yadoCassette')
+            $('#jsiInnList').find('li.p-yadoCassette')
             .map((_, hotel) => {
                 const $hotel = $(hotel);
                 return {

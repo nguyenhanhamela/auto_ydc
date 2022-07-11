@@ -10,22 +10,18 @@ const maxVisits = 1000; // Arbitrary number for the maximum of links visited
 const visited = new Set();
 const allRooms = []
 
-fs.readFile('./result_jalan/result_adult1_mealtype_0.json', (err, data) => {
+fs.readFile('../result_jalan/result_plan_adult1_mealtype_0.json', (err, data) => {
     if (err) throw err;
     let hotel = JSON.parse(data);
     console.dir(hotel, { depth: null, colors: true })
-    const allHotels = []
+    const allPlanDetail = []
     hotel.forEach(async (prefItem) => {
         const medium_area_id = prefItem.medium_area_id;
         const detail_area_id = prefItem.detail_area_id;
 
-        prefItem.hotelList.forEach(async (hotelItem) => {
-            const getHotelID = hotelItem.hotel_code.split('No')[0] + hotelItem.hotel_code.split('No')[1]
-            const url = "https://www.jalan.net/" + getHotelID +
-                "/?screenId=UWW1402&distCd=01&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum="
-                + hotelItem.adult_amount + "&mealType=" + hotelItem.meal_type + "&roomCrack=100000&pageListNumArea=1_"
-                + hotelItem.rank_number + "&pageListNumYad=28_1_1&yadNo="
-                + hotelItem.hotel_id + "&callbackHistFlg=1";
+        prefItem.products.forEach(async (productItem) => {
+            const url =
+                "https://www.jalan.net"+ productItem.plan_detail_link;
 
             const getHtmlPlaywright = async url => {
                 const browser = await playwright.chromium.launch();
@@ -34,7 +30,6 @@ fs.readFile('./result_jalan/result_adult1_mealtype_0.json', (err, data) => {
                 await page.goto(url);
                 const html = await page.content();
                 await browser.close();
-
                 return html;
             };
 
@@ -47,43 +42,27 @@ fs.readFile('./result_jalan/result_adult1_mealtype_0.json', (err, data) => {
             const getHtml = async url => {
                 return useHeadless ? await getHtmlPlaywright(url) : await getHtmlAxios(url);
             };
-
-            const columns = [], items = {}
-            const extractContent = $ =>
-                //    $('.shisetsu-roomsetsubi_body_wrap table:nth-child(1) tbody tr')//:nth-child(1) td').find('.jlnpc-table-col-layout table tbody tr:nth-child(2) td')
-                $('.shisetsu-roomsetsubi_body_wrap table:nth-child(1) tbody tr:nth-child(1)').find('td table tr:nth-child(2) td')
-                    .map((_, row) => {
-                        const $row = $(row);
-                        // return {
-                        //     western_style_room: $row.text()
-                        // }
-                        return $row.text()
-                    }).toArray();
-
-
+            
+            const getTotalYesterdayReserved = $ => $('.jlnpc-yado__notify--inn-reserved').text();
 
             const crawl = async url => {
                 visited.add(url);
                 console.log('Crawl: ', url);
                 const html = await getHtml(url);
                 const $ = cheerio.load(html);
-                const content = extractContent($)
-                // console.dir(content, { depth: null, colors: true })
-                allHotels.push({
+                const content = getTotalYesterdayReserved($);
+                console.log(content);
+                allPlanDetail.push({
                     "medium_area_id": medium_area_id,
                     "detail_area_id": detail_area_id,
-                    "hotel_id": hotelItem.hotel_id,
-                    "hotel_code": hotelItem.hotel_code,
-                    "western_style_room": content[0].replace(/室/g, ''),
-                    "japanese_style_room": content[1].replace(/室/g, ''),
-                    "japanese_western_style_room": content[2].replace(/室/g, ''),
-                    "other_style_room": content[3].replace(/室/g, ''),
-                    "total_style_room": content[4].replace(/\n/g, '').replace(/室, '  '/g, ''),
-                });
-                
-                console.dir(allHotels, { depth: null, colors: true })
-                let data = JSON.stringify(allHotels);
-                fs.writeFileSync('./result_jalan/result_room_adult1_mealtype_0.json', data);
+                    "hotel_id": productItem.hotel_id,
+                    "hotel_code": productItem.hotel_code,
+                    "products": productItem.products,
+                    "yesterday_reserved_amount":  content
+                })
+              
+                let data = JSON.stringify(allPlanDetail);
+                fs.writeFileSync('../result_jalan/result_plan_detail_adult1_mealtype_0.json', data);
             };
 
 
