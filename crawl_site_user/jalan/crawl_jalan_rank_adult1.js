@@ -358,23 +358,18 @@ jalanUrl.forEach(async (urllink) => {
     };
 
     const extractContent = $ =>
-        // [...new Set(
             $('#jsiInnList').find('li.p-yadoCassette')
             .map((_, hotel) => {
                 const $hotel = $(hotel);
                 return {
                     hotel_id: $hotel.attr('id').split('yadNo')[1],
                     hotel_code: $hotel.attr('id'),
-                    hotel_name: $hotel.find('.p-searchResultItem__facilityName').text(),
-                    adult_amount: adultNum,
+                    hotel_name: $hotel.find('.p-searchResultItem__facilityName').text(),                   
                     min_price: $hotel.find('.p-searchResultItem__lowestPriceValue').text().replace(/円～/g, ''),
-                    // medium_area_id: kenCd,
-                    // detail_area_id: lrgCd,
-                    rank_number: $hotel.index()
-                };
+                    rank_number: $hotel.index(),                    
+                }
             })
             .toArray()
-    // ),]
 
     const crawl = async url => {
         visited.add(url);
@@ -382,16 +377,17 @@ jalanUrl.forEach(async (urllink) => {
         const html = await getHtml(url);
         const $ = cheerio.load(html);
         const content = extractContent($);
+        // const areaContent = getAreaListId($);
         allHotels.push({
             "medium_area_id": kenCd,
             "detail_area_id": lrgCd,
-            "hotelList": [...content]
+            "hotelList": [...content],
+            "adult_amount": adultNum,
+            "areaListId": $('#dyn_area_a_list').find('a#lrgListId_'+lrgCd).attr('onclick').split('(')[1].split(',')[0]
         });
-        //    const getAllData = [new Map(...allHotels)]
+       
         console.log(allHotels.length);
-        // const unique = allHotels.filter(
-        //     (value, index, self) => self.findIndex((m) => m.hotel_name === value.hotel_name) === index,
-        //   );
+      
         let data = JSON.stringify(allHotels);
         fs.writeFileSync('./result_jalan/result_rank_adult1.json', data);
     };

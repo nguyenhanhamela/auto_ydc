@@ -23,8 +23,8 @@ fs.readFile('./result_jalan/result_adult1_mealtype1.json', (err, data) => {
             const getHotelID = hotelItem.hotel_code.split('No')[0] + hotelItem.hotel_code.split('No')[1]
             const url = "https://www.jalan.net/" + getHotelID +
                 "/?screenId=UWW1402&distCd=01&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum="
-                + hotelItem.adult_amount + "&mealType=" + hotelItem.meal_type + "&roomCrack=100000&pageListNumArea=1_"
-                + hotelItem.rank_number + "&pageListNumYad=28_1_1&yadNo="
+                + hotelItem.adult_amount + "&mealType=" + hotelItem.meal_type + "&roomCrack=100000&pageListNumArea="
+                + hotelItem.pageListNumArea + "&pageListNumYad="+ hotelItem.pageListNumYad +"&yadNo="
                 + hotelItem.hotel_id + "&callbackHistFlg=1";
 
             const getHtmlPlaywright = async url => {
@@ -50,13 +50,11 @@ fs.readFile('./result_jalan/result_adult1_mealtype1.json', (err, data) => {
 
             const columns = [], items = {}
             const extractContent = $ =>
-                //    $('.shisetsu-roomsetsubi_body_wrap table:nth-child(1) tbody tr')//:nth-child(1) td').find('.jlnpc-table-col-layout table tbody tr:nth-child(2) td')
+
                 $('.shisetsu-roomsetsubi_body_wrap table:nth-child(1) tbody tr:nth-child(1)').find('td table tr:nth-child(2) td')
                     .map((_, row) => {
                         const $row = $(row);
-                        // return {
-                        //     western_style_room: $row.text()
-                        // }
+                        
                         return $row.text()
                     }).toArray();
 
