@@ -1,1 +1,118 @@
-[{"medium_area_id":"020000","detail_area_id":"020900","hotel_id":"334622","hotel_code":"yadNo334622","rates":{"room":[]},"reviews":[{"pager":"2"},{"pager":"3"},{"pager":"4"}]},{"medium_area_id":"030000","detail_area_id":"030100","hotel_id":"354280","hotel_code":"yadNo354280","rates":{"room":[]},"reviews":[{"pager":"2"}]}]
+[
+    {
+        "medium_area_id": "030000",
+        "detail_area_id": "030100",
+        "hotel_id": "310728",
+        "hotel_code": "yadNo310728",
+        "adult_amount": 1,
+        "rates": {
+            "room": "4.0",
+            "bath": "3.9",
+            "breakfast": "3.8",
+            "dinner": "3.9",
+            "customer_service": "4.0",
+            "cleanliness": "3.9"
+        },
+        "reviews": [
+            {
+                "pager": "1"
+            },
+            {
+                "pager": "2"
+            },
+            {
+                "pager": "3"
+            },
+            {
+                "pager": "4"
+            },
+            {
+                "pager": "5"
+            }
+        ]
+    },
+    {
+        "medium_area_id": "020000",
+        "detail_area_id": "020900",
+        "hotel_id": "334622",
+        "hotel_code": "yadNo334622",
+        "adult_amount": 1,
+        "rates": {
+            "room": "4.5",
+            "bath": "4.6",
+            "breakfast": "4.6",
+            "dinner": "-",
+            "customer_service": "4.4",
+            "cleanliness": "4.7"
+        },
+        "reviews": [
+            {
+                "pager": "1"
+            },
+            {
+                "pager": "2"
+            },
+            {
+                "pager": "3"
+            },
+            {
+                "pager": "4"
+            }
+        ]
+    },
+    {
+        "medium_area_id": "030000",
+        "detail_area_id": "030100",
+        "hotel_id": "354280",
+        "hotel_code": "yadNo354280",
+        "adult_amount": 1,
+        "rates": {
+            "room": "4.6",
+            "bath": "4.8",
+            "breakfast": "4.2",
+            "dinner": "4.5",
+            "customer_service": "4.5",
+            "cleanliness": "4.6"
+        },
+        "reviews": [
+            {
+                "pager": "1"
+            },
+            {
+                "pager": "2"
+            }
+        ]
+    },
+    {
+        "medium_area_id": "020000",
+        "detail_area_id": "020900",
+        "hotel_id": "341354",
+        "hotel_code": "yadNo341354",
+        "adult_amount": 1,
+        "rates": {
+            "room": "4.1",
+            "bath": "4.4",
+            "breakfast": "4.5",
+            "dinner": "-",
+            "customer_service": "4.2",
+            "cleanliness": "4.4"
+        },
+        "reviews": [
+            {
+                "pager": "1"
+            },
+            {
+                "pager": "2"
+            },
+            {
+                "pager": "3"
+            },
+            {
+                "pager": "4"
+            },
+            {
+                "pager": "5"
+            }
+        ]
+    }
+]

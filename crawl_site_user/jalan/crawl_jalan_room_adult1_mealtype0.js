@@ -23,8 +23,8 @@ fs.readFile('./result_jalan/result_adult1_mealtype_0.json', (err, data) => {
             const getHotelID = hotelItem.hotel_code.split('No')[0] + hotelItem.hotel_code.split('No')[1]
             const url = "https://www.jalan.net/" + getHotelID +
                 "/?screenId=UWW1402&distCd=01&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum="
-                + hotelItem.adult_amount + "&mealType=" + hotelItem.meal_type + "&roomCrack=100000&pageListNumArea=1_"
-                + hotelItem.rank_number + "&pageListNumYad=28_1_1&yadNo="
+                + hotelItem.adult_amount + "&mealType=" + hotelItem.meal_type + "&roomCrack=100000&pageListNumArea="
+                + hotelItem.pageListNumArea + "&pageListNumYad="+ hotelItem.pageListNumYad +"&yadNo="
                 + hotelItem.hotel_id + "&callbackHistFlg=1";
 
             const getHtmlPlaywright = async url => {

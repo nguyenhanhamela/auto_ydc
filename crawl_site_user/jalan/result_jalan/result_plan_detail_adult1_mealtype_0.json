@@ -1,1 +1,47 @@
-[{"medium_area_id":"020000","detail_area_id":"020900","yesterday_reserved_amount":"昨日この宿を42人が予約しました"},{"medium_area_id":"020000","detail_area_id":"020900","yesterday_reserved_amount":"昨日この宿を42人が予約しました"},{"medium_area_id":"020000","detail_area_id":"020900","yesterday_reserved_amount":"昨日この宿を42人が予約しました"},{"medium_area_id":"020000","detail_area_id":"020900","yesterday_reserved_amount":"昨日この宿を42人が予約しました"},{"medium_area_id":"020000","detail_area_id":"020900","yesterday_reserved_amount":"昨日この宿を42人が予約しました"},{"medium_area_id":"030000","detail_area_id":"030100","yesterday_reserved_amount":"昨日この宿を4人が予約しました"},{"medium_area_id":"020000","detail_area_id":"020900","yesterday_reserved_amount":"昨日この宿を42人が予約しました"},{"medium_area_id":"020000","detail_area_id":"020900","yesterday_reserved_amount":"昨日この宿を42人が予約しました"},{"medium_area_id":"020000","detail_area_id":"020900","yesterday_reserved_amount":"昨日この宿を42人が予約しました"}]
+[
+    {
+        "medium_area_id": "020000",
+        "detail_area_id": "020900",
+        "yesterday_reserved_amount": "昨日この宿を42人が予約しました"
+    },
+    {
+        "medium_area_id": "020000",
+        "detail_area_id": "020900",
+        "yesterday_reserved_amount": "昨日この宿を42人が予約しました"
+    },
+    {
+        "medium_area_id": "020000",
+        "detail_area_id": "020900",
+        "yesterday_reserved_amount": "昨日この宿を42人が予約しました"
+    },
+    {
+        "medium_area_id": "020000",
+        "detail_area_id": "020900",
+        "yesterday_reserved_amount": "昨日この宿を42人が予約しました"
+    },
+    {
+        "medium_area_id": "020000",
+        "detail_area_id": "020900",
+        "yesterday_reserved_amount": "昨日この宿を42人が予約しました"
+    },
+    {
+        "medium_area_id": "030000",
+        "detail_area_id": "030100",
+        "yesterday_reserved_amount": "昨日この宿を4人が予約しました"
+    },
+    {
+        "medium_area_id": "020000",
+        "detail_area_id": "020900",
+        "yesterday_reserved_amount": "昨日この宿を42人が予約しました"
+    },
+    {
+        "medium_area_id": "020000",
+        "detail_area_id": "020900",
+        "yesterday_reserved_amount": "昨日この宿を42人が予約しました"
+    },
+    {
+        "medium_area_id": "020000",
+        "detail_area_id": "020900",
+        "yesterday_reserved_amount": "昨日この宿を42人が予約しました"
+    }
+]

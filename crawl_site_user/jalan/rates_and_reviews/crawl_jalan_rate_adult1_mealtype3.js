@@ -10,20 +10,19 @@ const maxVisits = 1000; // Arbitrary number for the maximum of links visited
 const visited = new Set();
 const allRooms = []
 
-fs.readFile('../result_jalan/result_rank_adult1.json', (err, data) => {
+fs.readFile('../result_jalan/result_adult1_mealtype3.json', (err, data) => {
     if (err) throw err;
     let hotel = JSON.parse(data);
     console.dir(hotel, { depth: null, colors: true })
-    const allHotels = []
+    const allRates = []
     hotel.forEach(async (prefItem) => {
         const medium_area_id = prefItem.medium_area_id;
         const detail_area_id = prefItem.detail_area_id;
 
         prefItem.hotelList.forEach(async (hotelItem) => {
             const getHotelID = hotelItem.hotel_code.split('No')[0] + hotelItem.hotel_code.split('No')[1]
-            const url =
-                "https://www.jalan.net/"+  getHotelID + "/plan/?screenId=UWW3001&contHideFlg=1&rootCd=041&stayCount=1&roomCount=1&dateUndecided=1&adultNum="
-                + hotelItem.adult_amount + "&mealType=" + hotelItem.meal_type + "&roomCrack=200000&childPriceFlg=0,0,0,0,0&yadNo="+ hotelItem.hotel_id + "&callbackHistFlg=1&smlCd=030805&distCd=01&ccnt=yads2"
+            const url = "https://www.jalan.net/"+ getHotelID+ "/kuchikomi/?screenId=UWW3001&contHideFlg=1&rootCd=041&stayCount=1&roomCount=1&dateUndecided=1&adultNum="
+            + hotelItem.adult_amount + "&roomCrack=200000&childPriceFlg=0,0,0,0,0&yadNo="+  hotelItem.hotel_id+ "&callbackHistFlg=1&smlCd="+ prefItem.smlCd + "&distCd=01";
 
             const getHtmlPlaywright = async url => {
                 const browser = await playwright.chromium.launch();
@@ -45,44 +44,51 @@ fs.readFile('../result_jalan/result_rank_adult1.json', (err, data) => {
             const getHtml = async url => {
                 return useHeadless ? await getHtmlPlaywright(url) : await getHtmlAxios(url);
             };
-            
-            const getProductAmount = $ => $('.jlnpc-result-count .volume span').text();
 
+            const columns = [], items = {}
             const extractContent = $ =>
-                $('.p-searchResults').find('ul li.js-searchResultItem')
-                    .map((_, row) => {
-                        const $row = $(row);
-                        
-                        return {
-                            // product_amount: $('.jlnpc-result-count .volume span').text(),
-                            title: $row.find('.p-planCassette__header .p-searchResultItem__catchPhrase').text().replace(/\s/g, ''),
-                            min_price: $row.find('.p-searchResultItem__planTable tbody').last().find('tr td:nth-child(4) span').text().replace(/\s/g, ''),
-                            plan_code: $row.attr('data-plancode'),
-                            plan_index: $row.index(),
-                            plan_detail_link: $row.find('.p-planCassette__picture a').attr('href'),
-                        };
+                $('.pagerLink').find('.page')
+                    .map((_, txt) => {
+                        const $txt = $(txt)
+                        return {                           
+                            "pager": $txt.text()
+                        }
                     }).toArray();
 
+            const extractRates = $ => 
+                $('.jlnpc-kuchikomi__catTable').find('td.jlnpc-kuchikomi__catTable__point')
+                    .map((_, row) => {
+                        const $row = $(row)
+                        return $row.text();
+                    }).toArray();
+            
             const crawl = async url => {
                 visited.add(url);
                 console.log('Crawl: ', url);
                 const html = await getHtml(url);
                 const $ = cheerio.load(html);
                 const content = extractContent($)
-                // console.log(getProductAmount);
-                // console.dir(content, { depth: null, colors: true })
-                allHotels.push({
+                const contentRate = extractRates($)
+                allRates.push({
                     "medium_area_id": medium_area_id,
                     "detail_area_id": detail_area_id,
                     "hotel_id": hotelItem.hotel_id,
                     "hotel_code": hotelItem.hotel_code,
-                    "product_amount": $('.jlnpc-result-count .volume span').text(),
-                    "products": [...content]
-                });
-                
-                console.dir(allHotels, { depth: null, colors: true })
-                let data = JSON.stringify(allHotels);
-                fs.writeFileSync('./result_jalan/result_plan_adult1_mealtype_0.json', data);
+                    "adult_amount": hotelItem.adult_amount,
+                    "rates": {
+                        "room": contentRate[0],
+                        "bath": contentRate[1],
+                        "breakfast": contentRate[2],
+                        "dinner": contentRate[3],
+                        "customer_service": contentRate[4],
+                        "cleanliness": contentRate[5],
+                    },
+                    "reviews": [...content]
+                })
+                console.dir(contentRate, { depth: null, colors: true })
+
+                let data = JSON.stringify(allRates);
+                fs.writeFileSync('../result_jalan/result_rate_adult1_mealtype3.json', data);
             };
 
 
