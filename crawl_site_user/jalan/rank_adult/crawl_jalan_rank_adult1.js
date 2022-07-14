@@ -15,15 +15,15 @@ const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
 
 const jalanUrl = [
     "https://www.jalan.net/020000/LRG_020900/",
-    "https://www.jalan.net/030000/LRG_030100/"
-    // "https://www.jalan.net/020000/LRG_020800/"
+    // "https://www.jalan.net/030000/LRG_030100/",
+    // "https://www.jalan.net/020000/LRG_020800/",
     // "https://www.jalan.net/020000/LRG_021400/",
     // "https://www.jalan.net/060000/LRG_060500/",
     // "https://www.jalan.net/030000/LRG_030300/",
     // "https://www.jalan.net/070000/LRG_071600/",
     // "https://www.jalan.net/090000/LRG_092000/",
-    // "https://www.jalan.net/100000/LRG_100200/",
-    // "https://www.jalan.net/130000/LRG_137100/",
+    "https://www.jalan.net/100000/LRG_100200/"
+    // "https://www.jalan.net/130000/LRG_137100/"
     // "https://www.jalan.net/130000/LRG_138000/",
     // "https://www.jalan.net/020000/LRG_020500/",
     // "https://www.jalan.net/020000/LRG_020200/",
@@ -324,113 +324,115 @@ const jalanUrl = [
     // "https://www.jalan.net/470000/LRG_470800/"
 ];
 
-fs.readFile('./result_jalan/result_rank_adult1.json', (err, data) => {
-    if (err) throw err;
-    let hotel = JSON.parse(data);
-    console.dir(hotel, { depth: null, colors: true })
-    const allHotels = []
-    hotel.forEach(async(prefItem) => {
-        const mealType = 3;
-        const medium_area_id = prefItem.medium_area_id;
-        const detail_area_id = prefItem.detail_area_id;
-        const url =  "https://www.jalan.net/" +  prefItem.medium_area_id + "/LRG_" + prefItem.detail_area_id + "/?stayYear=&stayMonth=&stayDay=&dateUndecided=1&stayCount=1&roomCount=1&adultNum="+ prefItem.adult_amount+ "&minPrice=0&maxPrice=999999&mealType=" + mealType +
-        "&contHideFlg=1&kenCd=" + prefItem.medium_area_id +
-        "&lrgCd=" + prefItem.detail_area_id + "&rootCd=041&distCd=01&roomCrack=200000&reShFlg=1&mvTabFlg=0&listId="+ prefItem.areaListId+ "&childPriceFlg=0,0,0,0,0&screenId=UWW1402";
-        const getHtmlPlaywright = async url => {
-            const browser = await playwright.chromium.launch();
-            const context = await browser.newContext();
-            const page = await context.newPage();
-            await page.goto(url);
-            const html = await page.content();
-            await browser.close();
 
-            return html;
-        };
-
-        const getHtmlAxios = async url => {
-            const { data } = await axios.get(url);
-
-            return data;
-        };
-
-        const getHtml = async url => {
-            return useHeadless ? await getHtmlPlaywright(url) : await getHtmlAxios(url);
-        };
-
-        const extractContent = $ =>
-            // [...new Set(
-            $('#jsiInnList').find('li.p-yadoCassette')
-                .map((_, hotel) => {
-                    const $hotel = $(hotel);
-                    return {
-                        hotel_id: $hotel.attr('id').split('yadNo')[1],
-                        hotel_code: $hotel.attr('id'),
-                        hotel_name: $hotel.find('.p-searchResultItem__facilityName').text(),
-                        adult_amount: prefItem.adult_amount,
-                        meal_type: mealType,
-                        min_price: $hotel.find('.p-searchResultItem__lowestPriceValue').text().replace(/円～/g, ''),
-                        rank_number: $hotel.index(),
-                        pageListNumArea: $hotel.find('a.jlnpc-yadoCassette__link').attr('data-onclick').split(',')[1].replace(/'/g, ''),
-                        pageListNumYad: $hotel.find('a.jlnpc-yadoCassette__link').attr('data-onclick').split(',')[2].split(');')[0].replace(/'/g, ''),
-
-                    };
-                })
-                .toArray()
-        // ),]
-
-        const crawl = async url => {
-            visited.add(url);
-            console.log('Crawl: ', url);
-            const html = await getHtml(url);
-            const $ = cheerio.load(html);
-            const content = extractContent($);
-            allHotels.push({
-                "medium_area_id": medium_area_id,
-                "detail_area_id": detail_area_id,
-                "hotelList": [...content]
-            });
+jalanUrl.forEach(async (urllink) => {
+    const splitUrl = urllink.split('/')
+    const kenCd = splitUrl[3]
+    const lrgCd = splitUrl[4].slice(4, splitUrl[4].length)
+    // console.log(lrgCd)
+    const adultNum = 1
+    const jalanUrlFix = "?stayYear=&stayMonth=&stayDay=&dateUndecided=1&stayCount=1&roomCount=1&adultNum=" + adultNum + "&minPrice=0&maxPrice=999999&mealType=&kenCd=" + kenCd +
+        "&lrgCd=" + lrgCd + "&rootCd=041&distCd=01&roomCrack=100000&reShFlg=1&mvTabFlg=0&childPriceFlg=0,0,0,0,0&screenId=UWW1402";
         
-            console.log(allHotels.length);
-            let data = JSON.stringify(allHotels);
-            fs.writeFileSync('./result_jalan/result_adult1_mealtype3.json', data);
+
+    const url = urllink + jalanUrlFix;
+
+    const getHtmlPlaywright = async url => {
+        const browser = await playwright.chromium.launch();
+        const context = await browser.newContext();
+        const page = await context.newPage();
+        await page.goto(url, {
+            waitUntil: 'load',
+            // Remove the timeout
+            timeout: 0
+        });
+        const html = await page.content();
+        await browser.close();
+
+        return html;
+    };
+
+    const getHtmlAxios = async url => {
+        const { data } = await axios.get(url);
+
+        return data;
+    };
+
+    const getHtml = async url => {
+        return useHeadless ? await getHtmlPlaywright(url) : await getHtmlAxios(url);
+    };
+
+    const extractContent = $ =>
+            $('#jsiInnList').find('li.p-yadoCassette')
+            .map((_, hotel) => {
+                const $hotel = $(hotel);
+                return {
+                    hotel_id: $hotel.attr('id').split('yadNo')[1],
+                    hotel_code: $hotel.attr('id'),
+                    hotel_name: $hotel.find('.p-searchResultItem__facilityName').text(),                   
+                    min_price: $hotel.find('.p-searchResultItem__lowestPriceValue').text().replace(/円～/g, ''),
+                    rank_number: $hotel.index(),                    
+                }
+            })
+            .toArray()
+
+    const crawl = async url => {
+        visited.add(url);
+        console.log('Crawl: ', url);
+        const html = await getHtml(url);
+        const $ = cheerio.load(html);
+        const content = extractContent($);       
+        allHotels.push({
+            "medium_area_id": kenCd,
+            "detail_area_id": lrgCd,
+            // "hotelList": [...content],
+            "adult_amount": adultNum,
+            "areaListId": $('#dyn_area_a_list').find('a#lrgListId_'+lrgCd).attr('onclick').split('(')[1].split(',')[0],
+            "pagination": [...$('.jlnpc-pager__bottom').find('.page').text()].length > 0 ? [...$('.jlnpc-pager__bottom').find('.page').text()]:["1"],
+        });
+       
+        console.log(allHotels.length);
+      
+        let data = JSON.stringify(allHotels);
+        fs.writeFileSync('../result_jalan/result_rank_adult1.json', data);
+    };
+
+    // Change the default concurrency or pass it as param
+    const queue = (concurrency = 4) => {
+        let running = 0;
+        const tasks = [];
+
+        return {
+            enqueue: async (task, ...params) => {
+                tasks.push({ task, params });
+                if (running >= concurrency) {
+                    return;
+                }
+
+                ++running;
+                while (tasks.length) {
+                    const { task, params } = tasks.shift();
+                    await task(...params);
+                }
+                --running;
+            },
         };
+    };
 
-        // Change the default concurrency or pass it as param
-        const queue = (concurrency = 4) => {
-            let running = 0;
-            const tasks = [];
+    const crawlTask = async url => {
+        if (visited.size >= maxVisits) {
+            console.log('Over Max Visits, exiting');
+            return;
+        }
 
-            return {
-                enqueue: async (task, ...params) => {
-                    tasks.push({ task, params });
-                    if (running >= concurrency) {
-                        return;
-                    }
+        if (visited.has(url)) {
+            return;
+        }
 
-                    ++running;
-                    while (tasks.length) {
-                        const { task, params } = tasks.shift();
-                        await task(...params);
-                    }
-                    --running;
-                },
-            };
-        };
+        await crawl(url);
+    };
 
-        const crawlTask = async url => {
-            if (visited.size >= maxVisits) {
-                console.log('Over Max Visits, exiting');
-                return;
-            }
-
-            if (visited.has(url)) {
-                return;
-            }
-
-            await crawl(url);
-        };
-
-        const q = queue();
-        q.enqueue(crawlTask, url);
-    })
+    const q = queue();
+    q.enqueue(crawlTask, url);
 })
+

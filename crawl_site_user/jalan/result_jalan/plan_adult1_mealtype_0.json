@@ -1,0 +1,1241 @@
+[
+    {
+        "medium_area_id": "100000",
+        "detail_area_id": "100200",
+        "product_info": [
+            {
+                "hotel_id": "370140",
+                "hotel_code": "yadNo370140",
+                "product_amount": "3",
+                "products": [
+                    {
+                        "title": "ゆったり♪ツインルーム＊素泊り＊",
+                        "min_price": "9,000円～",
+                        "plan_code": "01858250",
+                        "plan_index": 0,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&childPriceFlg=0,0,0,0,0&roomCrack=200000&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=370140&smlCd=100203&mealType=0&screenId=UWW3101&planCd=01858250&roomTypeCd=0166000&planListNumPlan=3__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "和室10畳（食事なし）",
+                        "min_price": "11,700円～",
+                        "plan_code": "02454730",
+                        "plan_index": 1,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&childPriceFlg=0,0,0,0,0&roomCrack=200000&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=370140&smlCd=100203&mealType=0&screenId=UWW3101&planCd=02454730&roomTypeCd=0071589&planListNumPlan=3__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "カップルプラン食事なし",
+                        "min_price": "7,000円～",
+                        "plan_code": "02583636",
+                        "plan_index": 2,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&childPriceFlg=0,0,0,0,0&roomCrack=200000&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=370140&smlCd=100203&mealType=0&screenId=UWW3101&planCd=02583636&roomTypeCd=0057468&planListNumPlan=3__0&groupBookingFlg="
+                    }
+                ]
+            },
+            {
+                "hotel_id": "326780",
+                "hotel_code": "yadNo326780",
+                "product_amount": "5",
+                "products": [
+                    {
+                        "title": "大人数対応コテージビレッジ【禁煙室】【ペット不可】",
+                        "min_price": "11,000円～",
+                        "plan_code": "00208066",
+                        "plan_index": 0,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=326780&smlCd=100205&mealType=0&roomCrack=200000&childPriceFlg=0,0,0,0,0&screenId=UWW3101&planCd=00208066&roomTypeCd=0450674&planListNumPlan=5__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "半露天風呂付きコテージオリーブ【禁煙室】【ペット不可】",
+                        "min_price": "13,200円～",
+                        "plan_code": "00244304",
+                        "plan_index": 1,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=326780&smlCd=100205&mealType=0&roomCrack=200000&childPriceFlg=0,0,0,0,0&screenId=UWW3101&planCd=00244304&roomTypeCd=0069465&planListNumPlan=5__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "ワンルームコテージプラム【禁煙室】【ペット不可】",
+                        "min_price": "13,200円～",
+                        "plan_code": "02814097",
+                        "plan_index": 2,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=326780&smlCd=100205&mealType=0&roomCrack=200000&childPriceFlg=0,0,0,0,0&screenId=UWW3101&planCd=02814097&roomTypeCd=0402731&planListNumPlan=5__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "ウッドデッキ付きコテージバンブー【禁煙室】【ペット不可】",
+                        "min_price": "13,200円～",
+                        "plan_code": "02814086",
+                        "plan_index": 3,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=326780&smlCd=100205&mealType=0&roomCrack=200000&childPriceFlg=0,0,0,0,0&screenId=UWW3101&planCd=02814086&roomTypeCd=0378869&planListNumPlan=5__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "かわいいペットも家族の1員！愛犬と泊まれるコテージ☆【禁煙室】",
+                        "min_price": "11,000円～",
+                        "plan_code": "00208048",
+                        "plan_index": 4,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=326780&smlCd=100205&mealType=0&roomCrack=200000&childPriceFlg=0,0,0,0,0&screenId=UWW3101&planCd=00208048&roomTypeCd=0063890&planListNumPlan=5__0&groupBookingFlg="
+                    }
+                ]
+            },
+            {
+                "hotel_id": "326780",
+                "hotel_code": "yadNo326780",
+                "product_amount": "5",
+                "products": [
+                    {
+                        "title": "大人数対応コテージビレッジ【禁煙室】【ペット不可】",
+                        "min_price": "11,000円～",
+                        "plan_code": "00208066",
+                        "plan_index": 0,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=326780&smlCd=100205&mealType=0&roomCrack=200000&childPriceFlg=0,0,0,0,0&screenId=UWW3101&planCd=00208066&roomTypeCd=0450674&planListNumPlan=5__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "半露天風呂付きコテージオリーブ【禁煙室】【ペット不可】",
+                        "min_price": "13,200円～",
+                        "plan_code": "00244304",
+                        "plan_index": 1,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=326780&smlCd=100205&mealType=0&roomCrack=200000&childPriceFlg=0,0,0,0,0&screenId=UWW3101&planCd=00244304&roomTypeCd=0069465&planListNumPlan=5__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "ワンルームコテージプラム【禁煙室】【ペット不可】",
+                        "min_price": "13,200円～",
+                        "plan_code": "02814097",
+                        "plan_index": 2,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=326780&smlCd=100205&mealType=0&roomCrack=200000&childPriceFlg=0,0,0,0,0&screenId=UWW3101&planCd=02814097&roomTypeCd=0402731&planListNumPlan=5__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "ウッドデッキ付きコテージバンブー【禁煙室】【ペット不可】",
+                        "min_price": "13,200円～",
+                        "plan_code": "02814086",
+                        "plan_index": 3,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=326780&smlCd=100205&mealType=0&roomCrack=200000&childPriceFlg=0,0,0,0,0&screenId=UWW3101&planCd=02814086&roomTypeCd=0378869&planListNumPlan=5__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "かわいいペットも家族の1員！愛犬と泊まれるコテージ☆【禁煙室】",
+                        "min_price": "11,000円～",
+                        "plan_code": "00208048",
+                        "plan_index": 4,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=326780&smlCd=100205&mealType=0&roomCrack=200000&childPriceFlg=0,0,0,0,0&screenId=UWW3101&planCd=00208048&roomTypeCd=0063890&planListNumPlan=5__0&groupBookingFlg="
+                    }
+                ]
+            },
+            {
+                "hotel_id": "326780",
+                "hotel_code": "yadNo326780",
+                "product_amount": "5",
+                "products": [
+                    {
+                        "title": "大人数対応コテージビレッジ【禁煙室】【ペット不可】",
+                        "min_price": "11,000円～",
+                        "plan_code": "00208066",
+                        "plan_index": 0,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=326780&smlCd=100205&mealType=0&roomCrack=200000&childPriceFlg=0,0,0,0,0&screenId=UWW3101&planCd=00208066&roomTypeCd=0450674&planListNumPlan=5__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "半露天風呂付きコテージオリーブ【禁煙室】【ペット不可】",
+                        "min_price": "13,200円～",
+                        "plan_code": "00244304",
+                        "plan_index": 1,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=326780&smlCd=100205&mealType=0&roomCrack=200000&childPriceFlg=0,0,0,0,0&screenId=UWW3101&planCd=00244304&roomTypeCd=0069465&planListNumPlan=5__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "ワンルームコテージプラム【禁煙室】【ペット不可】",
+                        "min_price": "13,200円～",
+                        "plan_code": "02814097",
+                        "plan_index": 2,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=326780&smlCd=100205&mealType=0&roomCrack=200000&childPriceFlg=0,0,0,0,0&screenId=UWW3101&planCd=02814097&roomTypeCd=0402731&planListNumPlan=5__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "ウッドデッキ付きコテージバンブー【禁煙室】【ペット不可】",
+                        "min_price": "13,200円～",
+                        "plan_code": "02814086",
+                        "plan_index": 3,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=326780&smlCd=100205&mealType=0&roomCrack=200000&childPriceFlg=0,0,0,0,0&screenId=UWW3101&planCd=02814086&roomTypeCd=0378869&planListNumPlan=5__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "かわいいペットも家族の1員！愛犬と泊まれるコテージ☆【禁煙室】",
+                        "min_price": "11,000円～",
+                        "plan_code": "00208048",
+                        "plan_index": 4,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=326780&smlCd=100205&mealType=0&roomCrack=200000&childPriceFlg=0,0,0,0,0&screenId=UWW3101&planCd=00208048&roomTypeCd=0063890&planListNumPlan=5__0&groupBookingFlg="
+                    }
+                ]
+            },
+            {
+                "hotel_id": "326780",
+                "hotel_code": "yadNo326780",
+                "product_amount": "5",
+                "products": [
+                    {
+                        "title": "大人数対応コテージビレッジ【禁煙室】【ペット不可】",
+                        "min_price": "11,000円～",
+                        "plan_code": "00208066",
+                        "plan_index": 0,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=326780&smlCd=100205&mealType=0&roomCrack=200000&childPriceFlg=0,0,0,0,0&screenId=UWW3101&planCd=00208066&roomTypeCd=0450674&planListNumPlan=5__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "半露天風呂付きコテージオリーブ【禁煙室】【ペット不可】",
+                        "min_price": "13,200円～",
+                        "plan_code": "00244304",
+                        "plan_index": 1,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=326780&smlCd=100205&mealType=0&roomCrack=200000&childPriceFlg=0,0,0,0,0&screenId=UWW3101&planCd=00244304&roomTypeCd=0069465&planListNumPlan=5__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "ワンルームコテージプラム【禁煙室】【ペット不可】",
+                        "min_price": "13,200円～",
+                        "plan_code": "02814097",
+                        "plan_index": 2,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=326780&smlCd=100205&mealType=0&roomCrack=200000&childPriceFlg=0,0,0,0,0&screenId=UWW3101&planCd=02814097&roomTypeCd=0402731&planListNumPlan=5__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "ウッドデッキ付きコテージバンブー【禁煙室】【ペット不可】",
+                        "min_price": "13,200円～",
+                        "plan_code": "02814086",
+                        "plan_index": 3,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=326780&smlCd=100205&mealType=0&roomCrack=200000&childPriceFlg=0,0,0,0,0&screenId=UWW3101&planCd=02814086&roomTypeCd=0378869&planListNumPlan=5__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "かわいいペットも家族の1員！愛犬と泊まれるコテージ☆【禁煙室】",
+                        "min_price": "11,000円～",
+                        "plan_code": "00208048",
+                        "plan_index": 4,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=326780&smlCd=100205&mealType=0&roomCrack=200000&childPriceFlg=0,0,0,0,0&screenId=UWW3101&planCd=00208048&roomTypeCd=0063890&planListNumPlan=5__0&groupBookingFlg="
+                    }
+                ]
+            },
+            {
+                "hotel_id": "326780",
+                "hotel_code": "yadNo326780",
+                "product_amount": "5",
+                "products": [
+                    {
+                        "title": "大人数対応コテージビレッジ【禁煙室】【ペット不可】",
+                        "min_price": "11,000円～",
+                        "plan_code": "00208066",
+                        "plan_index": 0,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=326780&smlCd=100205&mealType=0&roomCrack=200000&childPriceFlg=0,0,0,0,0&screenId=UWW3101&planCd=00208066&roomTypeCd=0450674&planListNumPlan=5__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "半露天風呂付きコテージオリーブ【禁煙室】【ペット不可】",
+                        "min_price": "13,200円～",
+                        "plan_code": "00244304",
+                        "plan_index": 1,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=326780&smlCd=100205&mealType=0&roomCrack=200000&childPriceFlg=0,0,0,0,0&screenId=UWW3101&planCd=00244304&roomTypeCd=0069465&planListNumPlan=5__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "ワンルームコテージプラム【禁煙室】【ペット不可】",
+                        "min_price": "13,200円～",
+                        "plan_code": "02814097",
+                        "plan_index": 2,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=326780&smlCd=100205&mealType=0&roomCrack=200000&childPriceFlg=0,0,0,0,0&screenId=UWW3101&planCd=02814097&roomTypeCd=0402731&planListNumPlan=5__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "ウッドデッキ付きコテージバンブー【禁煙室】【ペット不可】",
+                        "min_price": "13,200円～",
+                        "plan_code": "02814086",
+                        "plan_index": 3,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=326780&smlCd=100205&mealType=0&roomCrack=200000&childPriceFlg=0,0,0,0,0&screenId=UWW3101&planCd=02814086&roomTypeCd=0378869&planListNumPlan=5__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "かわいいペットも家族の1員！愛犬と泊まれるコテージ☆【禁煙室】",
+                        "min_price": "11,000円～",
+                        "plan_code": "00208048",
+                        "plan_index": 4,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=326780&smlCd=100205&mealType=0&roomCrack=200000&childPriceFlg=0,0,0,0,0&screenId=UWW3101&planCd=00208048&roomTypeCd=0063890&planListNumPlan=5__0&groupBookingFlg="
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "medium_area_id": "020000",
+        "detail_area_id": "020900",
+        "product_info": [
+            {
+                "hotel_id": "369785",
+                "hotel_code": "yadNo369785",
+                "product_amount": "19",
+                "products": [
+                    {
+                        "title": "【じゃらん夏SALE】素泊まりプラン♪♪",
+                        "min_price": "7,504円～",
+                        "plan_code": "03478677",
+                        "plan_index": 0,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&childPriceFlg=0,0,0,0,0&roomCrack=200000&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=369785&smlCd=020902&mealType=0&screenId=UWW3101&planCd=03478677&roomTypeCd=0159862&planListNumPlan=19__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "≪シンプルステイ≫素泊まりプラン☆全室Wi-Fi完備♪",
+                        "min_price": "7,900円～",
+                        "plan_code": "00708422",
+                        "plan_index": 1,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&childPriceFlg=0,0,0,0,0&roomCrack=200000&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=369785&smlCd=020902&mealType=0&screenId=UWW3101&planCd=00708422&roomTypeCd=0159862&planListNumPlan=19__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "【素泊】カップル・ファミリープラン♪12時チェックアウト【お子様1名添寝無料】",
+                        "min_price": "7,900円～",
+                        "plan_code": "01892924",
+                        "plan_index": 2,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&childPriceFlg=0,0,0,0,0&roomCrack=200000&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=369785&smlCd=020902&mealType=0&screenId=UWW3101&planCd=01892924&roomTypeCd=0159856&planListNumPlan=19__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "【素泊】カップル・ファミリープラン♪12時チェックアウト【お子様2名添寝無料】",
+                        "min_price": "11,200円～",
+                        "plan_code": "01892928",
+                        "plan_index": 3,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&childPriceFlg=0,0,0,0,0&roomCrack=200000&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=369785&smlCd=020902&mealType=0&screenId=UWW3101&planCd=01892928&roomTypeCd=0159862&planListNumPlan=19__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "【直前割】早7プラン♪7日前までの予約で更にお得に〈素泊まり〉",
+                        "min_price": "7,700円～",
+                        "plan_code": "02624160",
+                        "plan_index": 4,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&childPriceFlg=0,0,0,0,0&roomCrack=200000&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=369785&smlCd=020902&mealType=0&screenId=UWW3101&planCd=02624160&roomTypeCd=0159858&planListNumPlan=19__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "【早期割14】14日前までの予約で更にお得に！〈素泊まり〉",
+                        "min_price": "7,500円～",
+                        "plan_code": "02276402",
+                        "plan_index": 5,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&childPriceFlg=0,0,0,0,0&roomCrack=200000&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=369785&smlCd=020902&mealType=0&screenId=UWW3101&planCd=02276402&roomTypeCd=0159858&planListNumPlan=19__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "【早期割21】21日前までの予約で更にお得！〈素泊まり〉",
+                        "min_price": "7,300円～",
+                        "plan_code": "01608279",
+                        "plan_index": 6,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&childPriceFlg=0,0,0,0,0&roomCrack=200000&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=369785&smlCd=020902&mealType=0&screenId=UWW3101&planCd=01608279&roomTypeCd=0159858&planListNumPlan=19__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "【室数限定/2名利用】28日前までの予約でお得に泊まろう！",
+                        "min_price": "7,100円～",
+                        "plan_code": "02508397",
+                        "plan_index": 7,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&childPriceFlg=0,0,0,0,0&roomCrack=200000&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=369785&smlCd=020902&mealType=0&screenId=UWW3101&planCd=02508397&roomTypeCd=0159858&planListNumPlan=19__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "【室数限定】45日前までの予約でお得に泊まろう！",
+                        "min_price": "6,900円～",
+                        "plan_code": "02508398",
+                        "plan_index": 8,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&childPriceFlg=0,0,0,0,0&roomCrack=200000&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=369785&smlCd=020902&mealType=0&screenId=UWW3101&planCd=02508398&roomTypeCd=0159858&planListNumPlan=19__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "【室数限定】56日前までの予約でお得に泊まろう！",
+                        "min_price": "6,700円～",
+                        "plan_code": "02543067",
+                        "plan_index": 9,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&childPriceFlg=0,0,0,0,0&roomCrack=200000&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=369785&smlCd=020902&mealType=0&screenId=UWW3101&planCd=02543067&roomTypeCd=0159858&planListNumPlan=19__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "【室数限定】90日前までの予約でお得に泊まろう！",
+                        "min_price": "6,500円～",
+                        "plan_code": "02508399",
+                        "plan_index": 10,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&childPriceFlg=0,0,0,0,0&roomCrack=200000&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=369785&smlCd=020902&mealType=0&screenId=UWW3101&planCd=02508399&roomTypeCd=0159858&planListNumPlan=19__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "【ポイント10％】チェックアウト1時間延長付(12時チェックアウト可)！【じゃらん限定】",
+                        "min_price": "8,900円～",
+                        "plan_code": "02992947",
+                        "plan_index": 11,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&childPriceFlg=0,0,0,0,0&roomCrack=200000&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=369785&smlCd=020902&mealType=0&screenId=UWW3101&planCd=02992947&roomTypeCd=0159858&planListNumPlan=19__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "ビデオシアター（VOD）見放題プラン♪",
+                        "min_price": "8,900円～",
+                        "plan_code": "00746956",
+                        "plan_index": 12,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&childPriceFlg=0,0,0,0,0&roomCrack=200000&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=369785&smlCd=020902&mealType=0&screenId=UWW3101&planCd=00746956&roomTypeCd=0159858&planListNumPlan=19__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "【素泊まり】小学生1名様まで添寝無料♪～ダブル～",
+                        "min_price": "7,900円～",
+                        "plan_code": "02514784",
+                        "plan_index": 13,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&childPriceFlg=0,0,0,0,0&roomCrack=200000&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=369785&smlCd=020902&mealType=0&screenId=UWW3101&planCd=02514784&roomTypeCd=0407934&planListNumPlan=19__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "【素泊まり】小学生2名様まで添寝無料♪～ツインルーム～",
+                        "min_price": "11,200円～",
+                        "plan_code": "02524268",
+                        "plan_index": 14,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&childPriceFlg=0,0,0,0,0&roomCrack=200000&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=369785&smlCd=020902&mealType=0&screenId=UWW3101&planCd=02524268&roomTypeCd=0409594&planListNumPlan=19__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "【素泊まり】小学生2名様まで添寝無料♪～ハリウッドツインルーム～",
+                        "min_price": "11,200円～",
+                        "plan_code": "03359161",
+                        "plan_index": 15,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&childPriceFlg=0,0,0,0,0&roomCrack=200000&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=369785&smlCd=020902&mealType=0&screenId=UWW3101&planCd=03359161&roomTypeCd=0511264&planListNumPlan=19__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "【QUOカード1，000円付】トラベルサポートプラン♪",
+                        "min_price": "9,500円～",
+                        "plan_code": "02887088",
+                        "plan_index": 16,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&childPriceFlg=0,0,0,0,0&roomCrack=200000&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=369785&smlCd=020902&mealType=0&screenId=UWW3101&planCd=02887088&roomTypeCd=0159858&planListNumPlan=19__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "お部屋タイプはホテルにおまかせプラン【素泊まり】",
+                        "min_price": "7,900円～",
+                        "plan_code": "03317048",
+                        "plan_index": 17,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&childPriceFlg=0,0,0,0,0&roomCrack=200000&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=369785&smlCd=020902&mealType=0&screenId=UWW3101&planCd=03317048&roomTypeCd=0507166&planListNumPlan=19__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "【食事なし】13時チェックアウトプラン♪",
+                        "min_price": "8,900円～",
+                        "plan_code": "02554731",
+                        "plan_index": 18,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&childPriceFlg=0,0,0,0,0&roomCrack=200000&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=369785&smlCd=020902&mealType=0&screenId=UWW3101&planCd=02554731&roomTypeCd=0159858&planListNumPlan=19__0&groupBookingFlg="
+                    }
+                ]
+            },
+            {
+                "hotel_id": "341354",
+                "hotel_code": "yadNo341354",
+                "product_amount": "8",
+                "products": [
+                    {
+                        "title": "【未就学児まで添い寝無料！】お子様アメニティ付きファミリープラン☆大浴場完備♪≪素泊り≫",
+                        "min_price": "5,400円～",
+                        "plan_code": "02936916",
+                        "plan_index": 0,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&mealType=0&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=341354&childPriceFlg=0,0,0,0,0&roomCrack=200000&stayYear=&stayMonth=&stayDay=&smlCd=020902&screenId=UWW3101&planCd=02936916&roomTypeCd=0461931&planListNumPlan=8__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "【素泊り】カップルにおすすめ！【プチダブルプラン】★温泉大浴場完備★",
+                        "min_price": "4,900円～",
+                        "plan_code": "02949950",
+                        "plan_index": 1,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&mealType=0&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=341354&childPriceFlg=0,0,0,0,0&roomCrack=200000&stayYear=&stayMonth=&stayDay=&smlCd=020902&screenId=UWW3101&planCd=02949950&roomTypeCd=0467164&planListNumPlan=8__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "【素泊り】お気軽に宿泊！ホテルグローバルビュー八戸のシンプルステイプラン♪☆温泉大浴場完備☆",
+                        "min_price": "5,400円～",
+                        "plan_code": "02843969",
+                        "plan_index": 2,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&mealType=0&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=341354&childPriceFlg=0,0,0,0,0&roomCrack=200000&stayYear=&stayMonth=&stayDay=&smlCd=020902&screenId=UWW3101&planCd=02843969&roomTypeCd=0461931&planListNumPlan=8__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "【素泊り】ＶＯＤ見放題プラン！映画を見ながらお部屋でのんびり♪☆温泉大浴場完備☆",
+                        "min_price": "6,800円～",
+                        "plan_code": "02844035",
+                        "plan_index": 3,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&mealType=0&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=341354&childPriceFlg=0,0,0,0,0&roomCrack=200000&stayYear=&stayMonth=&stayDay=&smlCd=020902&screenId=UWW3101&planCd=02844035&roomTypeCd=0461931&planListNumPlan=8__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "【素泊り】２８日以上前の予約でお得にご宿泊♪【早期割２８】☆温泉大浴場完備☆",
+                        "min_price": "6,600円～",
+                        "plan_code": "02843988",
+                        "plan_index": 4,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&mealType=0&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=341354&childPriceFlg=0,0,0,0,0&roomCrack=200000&stayYear=&stayMonth=&stayDay=&smlCd=020902&screenId=UWW3101&planCd=02843988&roomTypeCd=0461931&planListNumPlan=8__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "【素泊り】１４日以上前の予約でお得にご宿泊♪【早期割１４】☆温泉大浴場完備☆",
+                        "min_price": "5,400円～",
+                        "plan_code": "02844005",
+                        "plan_index": 5,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&mealType=0&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=341354&childPriceFlg=0,0,0,0,0&roomCrack=200000&stayYear=&stayMonth=&stayDay=&smlCd=020902&screenId=UWW3101&planCd=02844005&roomTypeCd=0461931&planListNumPlan=8__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "【素泊り】７日以上前の予約でお得にご宿泊♪【早期割７】☆温泉大浴場完備☆",
+                        "min_price": "5,600円～",
+                        "plan_code": "02844008",
+                        "plan_index": 6,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&mealType=0&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=341354&childPriceFlg=0,0,0,0,0&roomCrack=200000&stayYear=&stayMonth=&stayDay=&smlCd=020902&screenId=UWW3101&planCd=02844008&roomTypeCd=0461931&planListNumPlan=8__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "【生ビール1杯付♪】疲れた体をリフレッシュ！サウナ付き大浴場完備☆彡【素泊り】",
+                        "min_price": "6,800円～",
+                        "plan_code": "03287807",
+                        "plan_index": 7,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&mealType=0&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=341354&childPriceFlg=0,0,0,0,0&roomCrack=200000&stayYear=&stayMonth=&stayDay=&smlCd=020902&screenId=UWW3101&planCd=03287807&roomTypeCd=0461931&planListNumPlan=8__0&groupBookingFlg="
+                    }
+                ]
+            },
+            {
+                "hotel_id": "341354",
+                "hotel_code": "yadNo341354",
+                "product_amount": "8",
+                "products": [
+                    {
+                        "title": "【未就学児まで添い寝無料！】お子様アメニティ付きファミリープラン☆大浴場完備♪≪素泊り≫",
+                        "min_price": "5,400円～",
+                        "plan_code": "02936916",
+                        "plan_index": 0,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&mealType=0&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=341354&childPriceFlg=0,0,0,0,0&roomCrack=200000&stayYear=&stayMonth=&stayDay=&smlCd=020902&screenId=UWW3101&planCd=02936916&roomTypeCd=0461931&planListNumPlan=8__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "【素泊り】カップルにおすすめ！【プチダブルプラン】★温泉大浴場完備★",
+                        "min_price": "4,900円～",
+                        "plan_code": "02949950",
+                        "plan_index": 1,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&mealType=0&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=341354&childPriceFlg=0,0,0,0,0&roomCrack=200000&stayYear=&stayMonth=&stayDay=&smlCd=020902&screenId=UWW3101&planCd=02949950&roomTypeCd=0467164&planListNumPlan=8__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "【素泊り】お気軽に宿泊！ホテルグローバルビュー八戸のシンプルステイプラン♪☆温泉大浴場完備☆",
+                        "min_price": "5,400円～",
+                        "plan_code": "02843969",
+                        "plan_index": 2,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&mealType=0&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=341354&childPriceFlg=0,0,0,0,0&roomCrack=200000&stayYear=&stayMonth=&stayDay=&smlCd=020902&screenId=UWW3101&planCd=02843969&roomTypeCd=0461931&planListNumPlan=8__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "【素泊り】ＶＯＤ見放題プラン！映画を見ながらお部屋でのんびり♪☆温泉大浴場完備☆",
+                        "min_price": "6,800円～",
+                        "plan_code": "02844035",
+                        "plan_index": 3,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&mealType=0&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=341354&childPriceFlg=0,0,0,0,0&roomCrack=200000&stayYear=&stayMonth=&stayDay=&smlCd=020902&screenId=UWW3101&planCd=02844035&roomTypeCd=0461931&planListNumPlan=8__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "【素泊り】２８日以上前の予約でお得にご宿泊♪【早期割２８】☆温泉大浴場完備☆",
+                        "min_price": "6,600円～",
+                        "plan_code": "02843988",
+                        "plan_index": 4,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&mealType=0&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=341354&childPriceFlg=0,0,0,0,0&roomCrack=200000&stayYear=&stayMonth=&stayDay=&smlCd=020902&screenId=UWW3101&planCd=02843988&roomTypeCd=0461931&planListNumPlan=8__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "【素泊り】１４日以上前の予約でお得にご宿泊♪【早期割１４】☆温泉大浴場完備☆",
+                        "min_price": "5,400円～",
+                        "plan_code": "02844005",
+                        "plan_index": 5,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&mealType=0&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=341354&childPriceFlg=0,0,0,0,0&roomCrack=200000&stayYear=&stayMonth=&stayDay=&smlCd=020902&screenId=UWW3101&planCd=02844005&roomTypeCd=0461931&planListNumPlan=8__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "【素泊り】７日以上前の予約でお得にご宿泊♪【早期割７】☆温泉大浴場完備☆",
+                        "min_price": "5,600円～",
+                        "plan_code": "02844008",
+                        "plan_index": 6,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&mealType=0&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=341354&childPriceFlg=0,0,0,0,0&roomCrack=200000&stayYear=&stayMonth=&stayDay=&smlCd=020902&screenId=UWW3101&planCd=02844008&roomTypeCd=0461931&planListNumPlan=8__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "【生ビール1杯付♪】疲れた体をリフレッシュ！サウナ付き大浴場完備☆彡【素泊り】",
+                        "min_price": "6,800円～",
+                        "plan_code": "03287807",
+                        "plan_index": 7,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&mealType=0&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=341354&childPriceFlg=0,0,0,0,0&roomCrack=200000&stayYear=&stayMonth=&stayDay=&smlCd=020902&screenId=UWW3101&planCd=03287807&roomTypeCd=0461931&planListNumPlan=8__0&groupBookingFlg="
+                    }
+                ]
+            },
+            {
+                "hotel_id": "334622",
+                "hotel_code": "yadNo334622",
+                "product_amount": "8",
+                "products": [
+                    {
+                        "title": "【じゃらん夏SALE】5％OFF！ポイント10％＆12時アウト♪泊まって嬉しい感謝プラン【素泊り】",
+                        "min_price": "8,424円～",
+                        "plan_code": "03483084",
+                        "plan_index": 0,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&roomCrack=200000&yadNo=334622&smlCd=020902&mealType=0&childPriceFlg=0,0,0,0,0&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&screenId=UWW3101&planCd=03483084&roomTypeCd=0498236&planListNumPlan=8__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "【ワクチン証明必須・東北及び北海道在住者限定】青森県おでかけキャンペーン《素泊り》",
+                        "min_price": "10,000円～",
+                        "plan_code": "03462266",
+                        "plan_index": 1,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&roomCrack=200000&yadNo=334622&smlCd=020902&mealType=0&childPriceFlg=0,0,0,0,0&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&screenId=UWW3101&planCd=03462266&roomTypeCd=0393305&planListNumPlan=8__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "【大浴場×サウナでととのう！】ドーミーインスタンダードプラン!!＜素泊まり＞",
+                        "min_price": "7,990円～",
+                        "plan_code": "02422513",
+                        "plan_index": 2,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&roomCrack=200000&yadNo=334622&smlCd=020902&mealType=0&childPriceFlg=0,0,0,0,0&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&screenId=UWW3101&planCd=02422513&roomTypeCd=0498236&planListNumPlan=8__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "【清掃不要のお客様限定】WECO連泊プラン♪≪素泊り≫",
+                        "min_price": "",
+                        "plan_code": "02592108",
+                        "plan_index": 3,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&roomCrack=200000&yadNo=334622&smlCd=020902&mealType=0&childPriceFlg=0,0,0,0,0&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&screenId=UWW3101&planCd=02592108&roomTypeCd=0498236&planListNumPlan=8__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "【じゃらん限定】ポイント10％＆12時アウト♪泊まって嬉しい感謝プラン≪素泊り≫",
+                        "min_price": "8,868円～",
+                        "plan_code": "02422697",
+                        "plan_index": 4,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&roomCrack=200000&yadNo=334622&smlCd=020902&mealType=0&childPriceFlg=0,0,0,0,0&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&screenId=UWW3101&planCd=02422697&roomTypeCd=0498236&planListNumPlan=8__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "【13時イン-11時アウト】22時間ステイプラン≪素泊り≫",
+                        "min_price": "10,990円～",
+                        "plan_code": "02427085",
+                        "plan_index": 5,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&roomCrack=200000&yadNo=334622&smlCd=020902&mealType=0&childPriceFlg=0,0,0,0,0&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&screenId=UWW3101&planCd=02427085&roomTypeCd=0498236&planListNumPlan=8__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "【15時イン-13時アウト】22時間ステイプラン≪素泊り≫",
+                        "min_price": "10,990円～",
+                        "plan_code": "02427112",
+                        "plan_index": 6,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&roomCrack=200000&yadNo=334622&smlCd=020902&mealType=0&childPriceFlg=0,0,0,0,0&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&screenId=UWW3101&planCd=02427112&roomTypeCd=0498236&planListNumPlan=8__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "【天然温泉大浴場×サウナでととのう！】12時チェックアウトプラン!!＜素泊まり＞",
+                        "min_price": "8,490円～",
+                        "plan_code": "02982612",
+                        "plan_index": 7,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&roomCrack=200000&yadNo=334622&smlCd=020902&mealType=0&childPriceFlg=0,0,0,0,0&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&screenId=UWW3101&planCd=02982612&roomTypeCd=0498236&planListNumPlan=8__0&groupBookingFlg="
+                    }
+                ]
+            },
+            {
+                "hotel_id": "341354",
+                "hotel_code": "yadNo341354",
+                "product_amount": "8",
+                "products": [
+                    {
+                        "title": "【未就学児まで添い寝無料！】お子様アメニティ付きファミリープラン☆大浴場完備♪≪素泊り≫",
+                        "min_price": "5,400円～",
+                        "plan_code": "02936916",
+                        "plan_index": 0,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&mealType=0&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=341354&childPriceFlg=0,0,0,0,0&roomCrack=200000&stayYear=&stayMonth=&stayDay=&smlCd=020902&screenId=UWW3101&planCd=02936916&roomTypeCd=0461931&planListNumPlan=8__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "【素泊り】カップルにおすすめ！【プチダブルプラン】★温泉大浴場完備★",
+                        "min_price": "4,900円～",
+                        "plan_code": "02949950",
+                        "plan_index": 1,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&mealType=0&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=341354&childPriceFlg=0,0,0,0,0&roomCrack=200000&stayYear=&stayMonth=&stayDay=&smlCd=020902&screenId=UWW3101&planCd=02949950&roomTypeCd=0467164&planListNumPlan=8__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "【素泊り】お気軽に宿泊！ホテルグローバルビュー八戸のシンプルステイプラン♪☆温泉大浴場完備☆",
+                        "min_price": "5,400円～",
+                        "plan_code": "02843969",
+                        "plan_index": 2,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&mealType=0&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=341354&childPriceFlg=0,0,0,0,0&roomCrack=200000&stayYear=&stayMonth=&stayDay=&smlCd=020902&screenId=UWW3101&planCd=02843969&roomTypeCd=0461931&planListNumPlan=8__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "【素泊り】ＶＯＤ見放題プラン！映画を見ながらお部屋でのんびり♪☆温泉大浴場完備☆",
+                        "min_price": "6,800円～",
+                        "plan_code": "02844035",
+                        "plan_index": 3,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&mealType=0&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=341354&childPriceFlg=0,0,0,0,0&roomCrack=200000&stayYear=&stayMonth=&stayDay=&smlCd=020902&screenId=UWW3101&planCd=02844035&roomTypeCd=0461931&planListNumPlan=8__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "【素泊り】２８日以上前の予約でお得にご宿泊♪【早期割２８】☆温泉大浴場完備☆",
+                        "min_price": "6,600円～",
+                        "plan_code": "02843988",
+                        "plan_index": 4,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&mealType=0&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=341354&childPriceFlg=0,0,0,0,0&roomCrack=200000&stayYear=&stayMonth=&stayDay=&smlCd=020902&screenId=UWW3101&planCd=02843988&roomTypeCd=0461931&planListNumPlan=8__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "【素泊り】１４日以上前の予約でお得にご宿泊♪【早期割１４】☆温泉大浴場完備☆",
+                        "min_price": "5,400円～",
+                        "plan_code": "02844005",
+                        "plan_index": 5,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&mealType=0&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=341354&childPriceFlg=0,0,0,0,0&roomCrack=200000&stayYear=&stayMonth=&stayDay=&smlCd=020902&screenId=UWW3101&planCd=02844005&roomTypeCd=0461931&planListNumPlan=8__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "【素泊り】７日以上前の予約でお得にご宿泊♪【早期割７】☆温泉大浴場完備☆",
+                        "min_price": "5,600円～",
+                        "plan_code": "02844008",
+                        "plan_index": 6,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&mealType=0&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=341354&childPriceFlg=0,0,0,0,0&roomCrack=200000&stayYear=&stayMonth=&stayDay=&smlCd=020902&screenId=UWW3101&planCd=02844008&roomTypeCd=0461931&planListNumPlan=8__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "【生ビール1杯付♪】疲れた体をリフレッシュ！サウナ付き大浴場完備☆彡【素泊り】",
+                        "min_price": "6,800円～",
+                        "plan_code": "03287807",
+                        "plan_index": 7,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&mealType=0&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=341354&childPriceFlg=0,0,0,0,0&roomCrack=200000&stayYear=&stayMonth=&stayDay=&smlCd=020902&screenId=UWW3101&planCd=03287807&roomTypeCd=0461931&planListNumPlan=8__0&groupBookingFlg="
+                    }
+                ]
+            },
+            {
+                "hotel_id": "334622",
+                "hotel_code": "yadNo334622",
+                "product_amount": "8",
+                "products": [
+                    {
+                        "title": "【じゃらん夏SALE】5％OFF！ポイント10％＆12時アウト♪泊まって嬉しい感謝プラン【素泊り】",
+                        "min_price": "8,424円～",
+                        "plan_code": "03483084",
+                        "plan_index": 0,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&roomCrack=200000&yadNo=334622&smlCd=020902&mealType=0&childPriceFlg=0,0,0,0,0&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&screenId=UWW3101&planCd=03483084&roomTypeCd=0498236&planListNumPlan=8__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "【ワクチン証明必須・東北及び北海道在住者限定】青森県おでかけキャンペーン《素泊り》",
+                        "min_price": "10,000円～",
+                        "plan_code": "03462266",
+                        "plan_index": 1,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&roomCrack=200000&yadNo=334622&smlCd=020902&mealType=0&childPriceFlg=0,0,0,0,0&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&screenId=UWW3101&planCd=03462266&roomTypeCd=0393305&planListNumPlan=8__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "【大浴場×サウナでととのう！】ドーミーインスタンダードプラン!!＜素泊まり＞",
+                        "min_price": "7,990円～",
+                        "plan_code": "02422513",
+                        "plan_index": 2,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&roomCrack=200000&yadNo=334622&smlCd=020902&mealType=0&childPriceFlg=0,0,0,0,0&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&screenId=UWW3101&planCd=02422513&roomTypeCd=0498236&planListNumPlan=8__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "【清掃不要のお客様限定】WECO連泊プラン♪≪素泊り≫",
+                        "min_price": "",
+                        "plan_code": "02592108",
+                        "plan_index": 3,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&roomCrack=200000&yadNo=334622&smlCd=020902&mealType=0&childPriceFlg=0,0,0,0,0&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&screenId=UWW3101&planCd=02592108&roomTypeCd=0498236&planListNumPlan=8__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "【じゃらん限定】ポイント10％＆12時アウト♪泊まって嬉しい感謝プラン≪素泊り≫",
+                        "min_price": "8,868円～",
+                        "plan_code": "02422697",
+                        "plan_index": 4,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&roomCrack=200000&yadNo=334622&smlCd=020902&mealType=0&childPriceFlg=0,0,0,0,0&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&screenId=UWW3101&planCd=02422697&roomTypeCd=0498236&planListNumPlan=8__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "【13時イン-11時アウト】22時間ステイプラン≪素泊り≫",
+                        "min_price": "10,990円～",
+                        "plan_code": "02427085",
+                        "plan_index": 5,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&roomCrack=200000&yadNo=334622&smlCd=020902&mealType=0&childPriceFlg=0,0,0,0,0&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&screenId=UWW3101&planCd=02427085&roomTypeCd=0498236&planListNumPlan=8__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "【15時イン-13時アウト】22時間ステイプラン≪素泊り≫",
+                        "min_price": "10,990円～",
+                        "plan_code": "02427112",
+                        "plan_index": 6,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&roomCrack=200000&yadNo=334622&smlCd=020902&mealType=0&childPriceFlg=0,0,0,0,0&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&screenId=UWW3101&planCd=02427112&roomTypeCd=0498236&planListNumPlan=8__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "【天然温泉大浴場×サウナでととのう！】12時チェックアウトプラン!!＜素泊まり＞",
+                        "min_price": "8,490円～",
+                        "plan_code": "02982612",
+                        "plan_index": 7,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&roomCrack=200000&yadNo=334622&smlCd=020902&mealType=0&childPriceFlg=0,0,0,0,0&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&screenId=UWW3101&planCd=02982612&roomTypeCd=0498236&planListNumPlan=8__0&groupBookingFlg="
+                    }
+                ]
+            },
+            {
+                "hotel_id": "305810",
+                "hotel_code": "yadNo305810",
+                "product_amount": "1",
+                "products": [
+                    {
+                        "title": "【じゃらん限定】素泊まりプラン☆天然温泉＆焼きたてパン朝食ビュッフェ付",
+                        "min_price": "6,900円～",
+                        "plan_code": "03373531",
+                        "plan_index": 0,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=305810&smlCd=020902&mealType=0&childPriceFlg=0,0,0,0,0&roomCrack=200000&screenId=UWW3101&planCd=03373531&roomTypeCd=0512855&planListNumPlan=1__0&groupBookingFlg="
+                    }
+                ]
+            },
+            {
+                "hotel_id": "341354",
+                "hotel_code": "yadNo341354",
+                "product_amount": "8",
+                "products": [
+                    {
+                        "title": "【未就学児まで添い寝無料！】お子様アメニティ付きファミリープラン☆大浴場完備♪≪素泊り≫",
+                        "min_price": "5,400円～",
+                        "plan_code": "02936916",
+                        "plan_index": 0,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&mealType=0&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=341354&childPriceFlg=0,0,0,0,0&roomCrack=200000&stayYear=&stayMonth=&stayDay=&smlCd=020902&screenId=UWW3101&planCd=02936916&roomTypeCd=0461931&planListNumPlan=8__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "【素泊り】カップルにおすすめ！【プチダブルプラン】★温泉大浴場完備★",
+                        "min_price": "4,900円～",
+                        "plan_code": "02949950",
+                        "plan_index": 1,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&mealType=0&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=341354&childPriceFlg=0,0,0,0,0&roomCrack=200000&stayYear=&stayMonth=&stayDay=&smlCd=020902&screenId=UWW3101&planCd=02949950&roomTypeCd=0467164&planListNumPlan=8__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "【素泊り】お気軽に宿泊！ホテルグローバルビュー八戸のシンプルステイプラン♪☆温泉大浴場完備☆",
+                        "min_price": "5,400円～",
+                        "plan_code": "02843969",
+                        "plan_index": 2,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&mealType=0&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=341354&childPriceFlg=0,0,0,0,0&roomCrack=200000&stayYear=&stayMonth=&stayDay=&smlCd=020902&screenId=UWW3101&planCd=02843969&roomTypeCd=0461931&planListNumPlan=8__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "【素泊り】ＶＯＤ見放題プラン！映画を見ながらお部屋でのんびり♪☆温泉大浴場完備☆",
+                        "min_price": "6,800円～",
+                        "plan_code": "02844035",
+                        "plan_index": 3,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&mealType=0&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=341354&childPriceFlg=0,0,0,0,0&roomCrack=200000&stayYear=&stayMonth=&stayDay=&smlCd=020902&screenId=UWW3101&planCd=02844035&roomTypeCd=0461931&planListNumPlan=8__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "【素泊り】２８日以上前の予約でお得にご宿泊♪【早期割２８】☆温泉大浴場完備☆",
+                        "min_price": "6,600円～",
+                        "plan_code": "02843988",
+                        "plan_index": 4,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&mealType=0&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=341354&childPriceFlg=0,0,0,0,0&roomCrack=200000&stayYear=&stayMonth=&stayDay=&smlCd=020902&screenId=UWW3101&planCd=02843988&roomTypeCd=0461931&planListNumPlan=8__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "【素泊り】１４日以上前の予約でお得にご宿泊♪【早期割１４】☆温泉大浴場完備☆",
+                        "min_price": "5,400円～",
+                        "plan_code": "02844005",
+                        "plan_index": 5,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&mealType=0&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=341354&childPriceFlg=0,0,0,0,0&roomCrack=200000&stayYear=&stayMonth=&stayDay=&smlCd=020902&screenId=UWW3101&planCd=02844005&roomTypeCd=0461931&planListNumPlan=8__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "【素泊り】７日以上前の予約でお得にご宿泊♪【早期割７】☆温泉大浴場完備☆",
+                        "min_price": "5,600円～",
+                        "plan_code": "02844008",
+                        "plan_index": 6,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&mealType=0&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=341354&childPriceFlg=0,0,0,0,0&roomCrack=200000&stayYear=&stayMonth=&stayDay=&smlCd=020902&screenId=UWW3101&planCd=02844008&roomTypeCd=0461931&planListNumPlan=8__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "【生ビール1杯付♪】疲れた体をリフレッシュ！サウナ付き大浴場完備☆彡【素泊り】",
+                        "min_price": "6,800円～",
+                        "plan_code": "03287807",
+                        "plan_index": 7,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&mealType=0&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=341354&childPriceFlg=0,0,0,0,0&roomCrack=200000&stayYear=&stayMonth=&stayDay=&smlCd=020902&screenId=UWW3101&planCd=03287807&roomTypeCd=0461931&planListNumPlan=8__0&groupBookingFlg="
+                    }
+                ]
+            },
+            {
+                "hotel_id": "334622",
+                "hotel_code": "yadNo334622",
+                "product_amount": "8",
+                "products": [
+                    {
+                        "title": "【じゃらん夏SALE】5％OFF！ポイント10％＆12時アウト♪泊まって嬉しい感謝プラン【素泊り】",
+                        "min_price": "8,424円～",
+                        "plan_code": "03483084",
+                        "plan_index": 0,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&roomCrack=200000&yadNo=334622&smlCd=020902&mealType=0&childPriceFlg=0,0,0,0,0&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&screenId=UWW3101&planCd=03483084&roomTypeCd=0498236&planListNumPlan=8__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "【ワクチン証明必須・東北及び北海道在住者限定】青森県おでかけキャンペーン《素泊り》",
+                        "min_price": "10,000円～",
+                        "plan_code": "03462266",
+                        "plan_index": 1,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&roomCrack=200000&yadNo=334622&smlCd=020902&mealType=0&childPriceFlg=0,0,0,0,0&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&screenId=UWW3101&planCd=03462266&roomTypeCd=0393305&planListNumPlan=8__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "【大浴場×サウナでととのう！】ドーミーインスタンダードプラン!!＜素泊まり＞",
+                        "min_price": "7,990円～",
+                        "plan_code": "02422513",
+                        "plan_index": 2,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&roomCrack=200000&yadNo=334622&smlCd=020902&mealType=0&childPriceFlg=0,0,0,0,0&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&screenId=UWW3101&planCd=02422513&roomTypeCd=0498236&planListNumPlan=8__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "【清掃不要のお客様限定】WECO連泊プラン♪≪素泊り≫",
+                        "min_price": "",
+                        "plan_code": "02592108",
+                        "plan_index": 3,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&roomCrack=200000&yadNo=334622&smlCd=020902&mealType=0&childPriceFlg=0,0,0,0,0&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&screenId=UWW3101&planCd=02592108&roomTypeCd=0498236&planListNumPlan=8__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "【じゃらん限定】ポイント10％＆12時アウト♪泊まって嬉しい感謝プラン≪素泊り≫",
+                        "min_price": "8,868円～",
+                        "plan_code": "02422697",
+                        "plan_index": 4,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&roomCrack=200000&yadNo=334622&smlCd=020902&mealType=0&childPriceFlg=0,0,0,0,0&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&screenId=UWW3101&planCd=02422697&roomTypeCd=0498236&planListNumPlan=8__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "【13時イン-11時アウト】22時間ステイプラン≪素泊り≫",
+                        "min_price": "10,990円～",
+                        "plan_code": "02427085",
+                        "plan_index": 5,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&roomCrack=200000&yadNo=334622&smlCd=020902&mealType=0&childPriceFlg=0,0,0,0,0&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&screenId=UWW3101&planCd=02427085&roomTypeCd=0498236&planListNumPlan=8__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "【15時イン-13時アウト】22時間ステイプラン≪素泊り≫",
+                        "min_price": "10,990円～",
+                        "plan_code": "02427112",
+                        "plan_index": 6,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&roomCrack=200000&yadNo=334622&smlCd=020902&mealType=0&childPriceFlg=0,0,0,0,0&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&screenId=UWW3101&planCd=02427112&roomTypeCd=0498236&planListNumPlan=8__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "【天然温泉大浴場×サウナでととのう！】12時チェックアウトプラン!!＜素泊まり＞",
+                        "min_price": "8,490円～",
+                        "plan_code": "02982612",
+                        "plan_index": 7,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&roomCrack=200000&yadNo=334622&smlCd=020902&mealType=0&childPriceFlg=0,0,0,0,0&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&screenId=UWW3101&planCd=02982612&roomTypeCd=0498236&planListNumPlan=8__0&groupBookingFlg="
+                    }
+                ]
+            },
+            {
+                "hotel_id": "305810",
+                "hotel_code": "yadNo305810",
+                "product_amount": "1",
+                "products": [
+                    {
+                        "title": "【じゃらん限定】素泊まりプラン☆天然温泉＆焼きたてパン朝食ビュッフェ付",
+                        "min_price": "6,900円～",
+                        "plan_code": "03373531",
+                        "plan_index": 0,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=305810&smlCd=020902&mealType=0&childPriceFlg=0,0,0,0,0&roomCrack=200000&screenId=UWW3101&planCd=03373531&roomTypeCd=0512855&planListNumPlan=1__0&groupBookingFlg="
+                    }
+                ]
+            },
+            {
+                "hotel_id": "377736",
+                "hotel_code": "yadNo377736",
+                "product_amount": "11",
+                "products": [
+                    {
+                        "title": "【オンライン決済限定・エコ清掃連泊プラン】素泊まり～清掃不要でお得に宿泊～",
+                        "min_price": "",
+                        "plan_code": "03419040",
+                        "plan_index": 0,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=377736&smlCd=020902&mealType=0&childPriceFlg=0,0,0,0,0&roomCrack=200000&screenId=UWW3101&planCd=03419040&roomTypeCd=0333477&planListNumPlan=11__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "【素泊まり・事前決済限定】非接触1秒チェックイン体験プラン",
+                        "min_price": "5,790円～",
+                        "plan_code": "03354808",
+                        "plan_index": 1,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=377736&smlCd=020902&mealType=0&childPriceFlg=0,0,0,0,0&roomCrack=200000&screenId=UWW3101&planCd=03354808&roomTypeCd=0333477&planListNumPlan=11__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "【じゃらん夏SALE】素泊まりプラン■独立型バスルーム■隣接駐車場無料■VOD無料",
+                        "min_price": "5,700円～",
+                        "plan_code": "02199508",
+                        "plan_index": 2,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=377736&smlCd=020902&mealType=0&childPriceFlg=0,0,0,0,0&roomCrack=200000&screenId=UWW3101&planCd=02199508&roomTypeCd=0333477&planListNumPlan=11__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "【素泊まり】セミダブルプラン～カップルお勧め～■全室独立型バスルーム■隣接駐車場無料",
+                        "min_price": "6,000円～",
+                        "plan_code": "01978770",
+                        "plan_index": 3,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=377736&smlCd=020902&mealType=0&childPriceFlg=0,0,0,0,0&roomCrack=200000&screenId=UWW3101&planCd=01978770&roomTypeCd=0333474&planListNumPlan=11__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "【素泊まり】ダブルプラン～幅154cmのワイドダブルベッド使用・カップルお勧め～■独立型バスルーム",
+                        "min_price": "7,000円～",
+                        "plan_code": "01978837",
+                        "plan_index": 4,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=377736&smlCd=020902&mealType=0&childPriceFlg=0,0,0,0,0&roomCrack=200000&screenId=UWW3101&planCd=01978837&roomTypeCd=0333472&planListNumPlan=11__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "【素泊まり】ツインルーム3名様まで利用可能■全室独立型バスルーム■隣接駐車場無料",
+                        "min_price": "10,000円～",
+                        "plan_code": "01978846",
+                        "plan_index": 5,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=377736&smlCd=020902&mealType=0&childPriceFlg=0,0,0,0,0&roomCrack=200000&screenId=UWW3101&planCd=01978846&roomTypeCd=0333477&planListNumPlan=11__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "【QUOカード＆ミネラルウォーター付】【食事なし】便利なＱUOカード1,000円分付プラン",
+                        "min_price": "8,200円～",
+                        "plan_code": "01978890",
+                        "plan_index": 6,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=377736&smlCd=020902&mealType=0&childPriceFlg=0,0,0,0,0&roomCrack=200000&screenId=UWW3101&planCd=01978890&roomTypeCd=0333472&planListNumPlan=11__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "【オンラインカード決済限定】【じゃらん限定】【素泊まり】ポイント10％プラン！",
+                        "min_price": "7,200円～",
+                        "plan_code": "03209740",
+                        "plan_index": 7,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=377736&smlCd=020902&mealType=0&childPriceFlg=0,0,0,0,0&roomCrack=200000&screenId=UWW3101&planCd=03209740&roomTypeCd=0333472&planListNumPlan=11__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "【じゃらん限定】【素泊まり】ポイント10％プラン！",
+                        "min_price": "8,200円～",
+                        "plan_code": "01998167",
+                        "plan_index": 8,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=377736&smlCd=020902&mealType=0&childPriceFlg=0,0,0,0,0&roomCrack=200000&screenId=UWW3101&planCd=01998167&roomTypeCd=0333477&planListNumPlan=11__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "【ロングステイ】13時チェックイン～翌日13時チェックアウト最大24時間滞在可能",
+                        "min_price": "8,000円～",
+                        "plan_code": "01982453",
+                        "plan_index": 9,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=377736&smlCd=020902&mealType=0&childPriceFlg=0,0,0,0,0&roomCrack=200000&screenId=UWW3101&planCd=01982453&roomTypeCd=0333472&planListNumPlan=11__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "【じゃらん限定】【早期割30】素泊まりプラン～30日前までの予約でお得にポイントUPの特典付～",
+                        "min_price": "5,700円～",
+                        "plan_code": "02143569",
+                        "plan_index": 10,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=377736&smlCd=020902&mealType=0&childPriceFlg=0,0,0,0,0&roomCrack=200000&screenId=UWW3101&planCd=02143569&roomTypeCd=0333477&planListNumPlan=11__0&groupBookingFlg="
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "medium_area_id": "100000",
+        "detail_area_id": "100200",
+        "product_info": [
+            {
+                "hotel_id": "326780",
+                "hotel_code": "yadNo326780",
+                "product_amount": "5",
+                "products": [
+                    {
+                        "title": "大人数対応コテージビレッジ【禁煙室】【ペット不可】",
+                        "min_price": "11,000円～",
+                        "plan_code": "00208066",
+                        "plan_index": 0,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=326780&smlCd=100205&mealType=0&roomCrack=200000&childPriceFlg=0,0,0,0,0&screenId=UWW3101&planCd=00208066&roomTypeCd=0450674&planListNumPlan=5__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "半露天風呂付きコテージオリーブ【禁煙室】【ペット不可】",
+                        "min_price": "13,200円～",
+                        "plan_code": "00244304",
+                        "plan_index": 1,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=326780&smlCd=100205&mealType=0&roomCrack=200000&childPriceFlg=0,0,0,0,0&screenId=UWW3101&planCd=00244304&roomTypeCd=0069465&planListNumPlan=5__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "ワンルームコテージプラム【禁煙室】【ペット不可】",
+                        "min_price": "13,200円～",
+                        "plan_code": "02814097",
+                        "plan_index": 2,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=326780&smlCd=100205&mealType=0&roomCrack=200000&childPriceFlg=0,0,0,0,0&screenId=UWW3101&planCd=02814097&roomTypeCd=0402731&planListNumPlan=5__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "ウッドデッキ付きコテージバンブー【禁煙室】【ペット不可】",
+                        "min_price": "13,200円～",
+                        "plan_code": "02814086",
+                        "plan_index": 3,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=326780&smlCd=100205&mealType=0&roomCrack=200000&childPriceFlg=0,0,0,0,0&screenId=UWW3101&planCd=02814086&roomTypeCd=0378869&planListNumPlan=5__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "かわいいペットも家族の1員！愛犬と泊まれるコテージ☆【禁煙室】",
+                        "min_price": "11,000円～",
+                        "plan_code": "00208048",
+                        "plan_index": 4,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=326780&smlCd=100205&mealType=0&roomCrack=200000&childPriceFlg=0,0,0,0,0&screenId=UWW3101&planCd=00208048&roomTypeCd=0063890&planListNumPlan=5__0&groupBookingFlg="
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "medium_area_id": "020000",
+        "detail_area_id": "020900",
+        "product_info": [
+            {
+                "hotel_id": "341354",
+                "hotel_code": "yadNo341354",
+                "product_amount": "8",
+                "products": [
+                    {
+                        "title": "【未就学児まで添い寝無料！】お子様アメニティ付きファミリープラン☆大浴場完備♪≪素泊り≫",
+                        "min_price": "5,400円～",
+                        "plan_code": "02936916",
+                        "plan_index": 0,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&mealType=0&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=341354&childPriceFlg=0,0,0,0,0&roomCrack=200000&stayYear=&stayMonth=&stayDay=&smlCd=020902&screenId=UWW3101&planCd=02936916&roomTypeCd=0461931&planListNumPlan=8__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "【素泊り】カップルにおすすめ！【プチダブルプラン】★温泉大浴場完備★",
+                        "min_price": "4,900円～",
+                        "plan_code": "02949950",
+                        "plan_index": 1,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&mealType=0&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=341354&childPriceFlg=0,0,0,0,0&roomCrack=200000&stayYear=&stayMonth=&stayDay=&smlCd=020902&screenId=UWW3101&planCd=02949950&roomTypeCd=0467164&planListNumPlan=8__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "【素泊り】お気軽に宿泊！ホテルグローバルビュー八戸のシンプルステイプラン♪☆温泉大浴場完備☆",
+                        "min_price": "5,400円～",
+                        "plan_code": "02843969",
+                        "plan_index": 2,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&mealType=0&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=341354&childPriceFlg=0,0,0,0,0&roomCrack=200000&stayYear=&stayMonth=&stayDay=&smlCd=020902&screenId=UWW3101&planCd=02843969&roomTypeCd=0461931&planListNumPlan=8__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "【素泊り】ＶＯＤ見放題プラン！映画を見ながらお部屋でのんびり♪☆温泉大浴場完備☆",
+                        "min_price": "6,800円～",
+                        "plan_code": "02844035",
+                        "plan_index": 3,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&mealType=0&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=341354&childPriceFlg=0,0,0,0,0&roomCrack=200000&stayYear=&stayMonth=&stayDay=&smlCd=020902&screenId=UWW3101&planCd=02844035&roomTypeCd=0461931&planListNumPlan=8__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "【素泊り】２８日以上前の予約でお得にご宿泊♪【早期割２８】☆温泉大浴場完備☆",
+                        "min_price": "6,600円～",
+                        "plan_code": "02843988",
+                        "plan_index": 4,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&mealType=0&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=341354&childPriceFlg=0,0,0,0,0&roomCrack=200000&stayYear=&stayMonth=&stayDay=&smlCd=020902&screenId=UWW3101&planCd=02843988&roomTypeCd=0461931&planListNumPlan=8__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "【素泊り】１４日以上前の予約でお得にご宿泊♪【早期割１４】☆温泉大浴場完備☆",
+                        "min_price": "5,400円～",
+                        "plan_code": "02844005",
+                        "plan_index": 5,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&mealType=0&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=341354&childPriceFlg=0,0,0,0,0&roomCrack=200000&stayYear=&stayMonth=&stayDay=&smlCd=020902&screenId=UWW3101&planCd=02844005&roomTypeCd=0461931&planListNumPlan=8__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "【素泊り】７日以上前の予約でお得にご宿泊♪【早期割７】☆温泉大浴場完備☆",
+                        "min_price": "5,600円～",
+                        "plan_code": "02844008",
+                        "plan_index": 6,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&mealType=0&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=341354&childPriceFlg=0,0,0,0,0&roomCrack=200000&stayYear=&stayMonth=&stayDay=&smlCd=020902&screenId=UWW3101&planCd=02844008&roomTypeCd=0461931&planListNumPlan=8__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "【生ビール1杯付♪】疲れた体をリフレッシュ！サウナ付き大浴場完備☆彡【素泊り】",
+                        "min_price": "6,800円～",
+                        "plan_code": "03287807",
+                        "plan_index": 7,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&mealType=0&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=341354&childPriceFlg=0,0,0,0,0&roomCrack=200000&stayYear=&stayMonth=&stayDay=&smlCd=020902&screenId=UWW3101&planCd=03287807&roomTypeCd=0461931&planListNumPlan=8__0&groupBookingFlg="
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "medium_area_id": "020000",
+        "detail_area_id": "020900",
+        "product_info": [
+            {
+                "hotel_id": "334622",
+                "hotel_code": "yadNo334622",
+                "product_amount": "8",
+                "products": [
+                    {
+                        "title": "【じゃらん夏SALE】5％OFF！ポイント10％＆12時アウト♪泊まって嬉しい感謝プラン【素泊り】",
+                        "min_price": "8,424円～",
+                        "plan_code": "03483084",
+                        "plan_index": 0,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&roomCrack=200000&yadNo=334622&smlCd=020902&mealType=0&childPriceFlg=0,0,0,0,0&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&screenId=UWW3101&planCd=03483084&roomTypeCd=0498236&planListNumPlan=8__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "【ワクチン証明必須・東北及び北海道在住者限定】青森県おでかけキャンペーン《素泊り》",
+                        "min_price": "10,000円～",
+                        "plan_code": "03462266",
+                        "plan_index": 1,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&roomCrack=200000&yadNo=334622&smlCd=020902&mealType=0&childPriceFlg=0,0,0,0,0&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&screenId=UWW3101&planCd=03462266&roomTypeCd=0393305&planListNumPlan=8__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "【大浴場×サウナでととのう！】ドーミーインスタンダードプラン!!＜素泊まり＞",
+                        "min_price": "7,990円～",
+                        "plan_code": "02422513",
+                        "plan_index": 2,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&roomCrack=200000&yadNo=334622&smlCd=020902&mealType=0&childPriceFlg=0,0,0,0,0&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&screenId=UWW3101&planCd=02422513&roomTypeCd=0498236&planListNumPlan=8__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "【清掃不要のお客様限定】WECO連泊プラン♪≪素泊り≫",
+                        "min_price": "",
+                        "plan_code": "02592108",
+                        "plan_index": 3,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&roomCrack=200000&yadNo=334622&smlCd=020902&mealType=0&childPriceFlg=0,0,0,0,0&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&screenId=UWW3101&planCd=02592108&roomTypeCd=0498236&planListNumPlan=8__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "【じゃらん限定】ポイント10％＆12時アウト♪泊まって嬉しい感謝プラン≪素泊り≫",
+                        "min_price": "8,868円～",
+                        "plan_code": "02422697",
+                        "plan_index": 4,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&roomCrack=200000&yadNo=334622&smlCd=020902&mealType=0&childPriceFlg=0,0,0,0,0&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&screenId=UWW3101&planCd=02422697&roomTypeCd=0498236&planListNumPlan=8__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "【13時イン-11時アウト】22時間ステイプラン≪素泊り≫",
+                        "min_price": "10,990円～",
+                        "plan_code": "02427085",
+                        "plan_index": 5,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&roomCrack=200000&yadNo=334622&smlCd=020902&mealType=0&childPriceFlg=0,0,0,0,0&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&screenId=UWW3101&planCd=02427085&roomTypeCd=0498236&planListNumPlan=8__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "【15時イン-13時アウト】22時間ステイプラン≪素泊り≫",
+                        "min_price": "10,990円～",
+                        "plan_code": "02427112",
+                        "plan_index": 6,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&roomCrack=200000&yadNo=334622&smlCd=020902&mealType=0&childPriceFlg=0,0,0,0,0&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&screenId=UWW3101&planCd=02427112&roomTypeCd=0498236&planListNumPlan=8__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "【天然温泉大浴場×サウナでととのう！】12時チェックアウトプラン!!＜素泊まり＞",
+                        "min_price": "8,490円～",
+                        "plan_code": "02982612",
+                        "plan_index": 7,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&roomCrack=200000&yadNo=334622&smlCd=020902&mealType=0&childPriceFlg=0,0,0,0,0&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&screenId=UWW3101&planCd=02982612&roomTypeCd=0498236&planListNumPlan=8__0&groupBookingFlg="
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "medium_area_id": "020000",
+        "detail_area_id": "020900",
+        "product_info": [
+            {
+                "hotel_id": "305810",
+                "hotel_code": "yadNo305810",
+                "product_amount": "1",
+                "products": [
+                    {
+                        "title": "【じゃらん限定】素泊まりプラン☆天然温泉＆焼きたてパン朝食ビュッフェ付",
+                        "min_price": "6,900円～",
+                        "plan_code": "03373531",
+                        "plan_index": 0,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=305810&smlCd=020902&mealType=0&childPriceFlg=0,0,0,0,0&roomCrack=200000&screenId=UWW3101&planCd=03373531&roomTypeCd=0512855&planListNumPlan=1__0&groupBookingFlg="
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "medium_area_id": "020000",
+        "detail_area_id": "020900",
+        "product_info": [
+            {
+                "hotel_id": "377736",
+                "hotel_code": "yadNo377736",
+                "product_amount": "11",
+                "products": [
+                    {
+                        "title": "【オンライン決済限定・エコ清掃連泊プラン】素泊まり～清掃不要でお得に宿泊～",
+                        "min_price": "",
+                        "plan_code": "03419040",
+                        "plan_index": 0,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=377736&smlCd=020902&mealType=0&childPriceFlg=0,0,0,0,0&roomCrack=200000&screenId=UWW3101&planCd=03419040&roomTypeCd=0333477&planListNumPlan=11__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "【素泊まり・事前決済限定】非接触1秒チェックイン体験プラン",
+                        "min_price": "5,790円～",
+                        "plan_code": "03354808",
+                        "plan_index": 1,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=377736&smlCd=020902&mealType=0&childPriceFlg=0,0,0,0,0&roomCrack=200000&screenId=UWW3101&planCd=03354808&roomTypeCd=0333477&planListNumPlan=11__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "【じゃらん夏SALE】素泊まりプラン■独立型バスルーム■隣接駐車場無料■VOD無料",
+                        "min_price": "5,700円～",
+                        "plan_code": "02199508",
+                        "plan_index": 2,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=377736&smlCd=020902&mealType=0&childPriceFlg=0,0,0,0,0&roomCrack=200000&screenId=UWW3101&planCd=02199508&roomTypeCd=0333477&planListNumPlan=11__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "【素泊まり】セミダブルプラン～カップルお勧め～■全室独立型バスルーム■隣接駐車場無料",
+                        "min_price": "6,000円～",
+                        "plan_code": "01978770",
+                        "plan_index": 3,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=377736&smlCd=020902&mealType=0&childPriceFlg=0,0,0,0,0&roomCrack=200000&screenId=UWW3101&planCd=01978770&roomTypeCd=0333474&planListNumPlan=11__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "【素泊まり】ダブルプラン～幅154cmのワイドダブルベッド使用・カップルお勧め～■独立型バスルーム",
+                        "min_price": "7,000円～",
+                        "plan_code": "01978837",
+                        "plan_index": 4,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=377736&smlCd=020902&mealType=0&childPriceFlg=0,0,0,0,0&roomCrack=200000&screenId=UWW3101&planCd=01978837&roomTypeCd=0333472&planListNumPlan=11__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "【素泊まり】ツインルーム3名様まで利用可能■全室独立型バスルーム■隣接駐車場無料",
+                        "min_price": "10,000円～",
+                        "plan_code": "01978846",
+                        "plan_index": 5,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=377736&smlCd=020902&mealType=0&childPriceFlg=0,0,0,0,0&roomCrack=200000&screenId=UWW3101&planCd=01978846&roomTypeCd=0333477&planListNumPlan=11__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "【QUOカード＆ミネラルウォーター付】【食事なし】便利なＱUOカード1,000円分付プラン",
+                        "min_price": "8,200円～",
+                        "plan_code": "01978890",
+                        "plan_index": 6,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=377736&smlCd=020902&mealType=0&childPriceFlg=0,0,0,0,0&roomCrack=200000&screenId=UWW3101&planCd=01978890&roomTypeCd=0333472&planListNumPlan=11__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "【オンラインカード決済限定】【じゃらん限定】【素泊まり】ポイント10％プラン！",
+                        "min_price": "7,200円～",
+                        "plan_code": "03209740",
+                        "plan_index": 7,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=377736&smlCd=020902&mealType=0&childPriceFlg=0,0,0,0,0&roomCrack=200000&screenId=UWW3101&planCd=03209740&roomTypeCd=0333472&planListNumPlan=11__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "【じゃらん限定】【素泊まり】ポイント10％プラン！",
+                        "min_price": "8,200円～",
+                        "plan_code": "01998167",
+                        "plan_index": 8,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=377736&smlCd=020902&mealType=0&childPriceFlg=0,0,0,0,0&roomCrack=200000&screenId=UWW3101&planCd=01998167&roomTypeCd=0333477&planListNumPlan=11__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "【ロングステイ】13時チェックイン～翌日13時チェックアウト最大24時間滞在可能",
+                        "min_price": "8,000円～",
+                        "plan_code": "01982453",
+                        "plan_index": 9,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=377736&smlCd=020902&mealType=0&childPriceFlg=0,0,0,0,0&roomCrack=200000&screenId=UWW3101&planCd=01982453&roomTypeCd=0333472&planListNumPlan=11__0&groupBookingFlg="
+                    },
+                    {
+                        "title": "【じゃらん限定】【早期割30】素泊まりプラン～30日前までの予約でお得にポイントUPの特典付～",
+                        "min_price": "5,700円～",
+                        "plan_code": "02143569",
+                        "plan_index": 10,
+                        "plan_detail_link": "/uw/uwp3200/uww3201init.do?callbackHistFlg=1&contHideFlg=1&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum=2&rootCd=041&distCd=01&yadNo=377736&smlCd=020902&mealType=0&childPriceFlg=0,0,0,0,0&roomCrack=200000&screenId=UWW3101&planCd=02143569&roomTypeCd=0333477&planListNumPlan=11__0&groupBookingFlg="
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -5,13 +5,13 @@
             "detail_area_id": "100200",
             "room_info": [
                 {
-                    "hotel_id": "326780",
-                    "hotel_code": "yadNo326780",
-                    "western_style_room": "4棟",
-                    "japanese_style_room": "4棟",
-                    "japanese_western_style_room": "",
-                    "other_style_room": "",
-                    "total_style_room": ""
+                    "hotel_id": "351591",
+                    "hotel_code": "yadNo351591",
+                    "western_style_room": "0",
+                    "japanese_style_room": "14",
+                    "japanese_western_style_room": "0",
+                    "other_style_room": "0",
+                    "total_style_room": "  14室   "
                 }
             ]
         },
@@ -20,13 +20,28 @@
             "detail_area_id": "100200",
             "room_info": [
                 {
-                    "hotel_id": "370140",
-                    "hotel_code": "yadNo370140",
-                    "western_style_room": "53",
-                    "japanese_style_room": "4",
+                    "hotel_id": "354989",
+                    "hotel_code": "yadNo354989",
+                    "western_style_room": "0",
+                    "japanese_style_room": "6",
                     "japanese_western_style_room": "0",
                     "other_style_room": "0",
-                    "total_style_room": "  57室   "
+                    "total_style_room": "  6室   "
+                }
+            ]
+        },
+        {
+            "medium_area_id": "100000",
+            "detail_area_id": "100200",
+            "room_info": [
+                {
+                    "hotel_id": "393054",
+                    "hotel_code": "yadNo393054",
+                    "western_style_room": "0",
+                    "japanese_style_room": "6",
+                    "japanese_western_style_room": "1",
+                    "other_style_room": "0",
+                    "total_style_room": "  7室   "
                 }
             ]
         }
@@ -37,13 +52,28 @@
             "detail_area_id": "020900",
             "room_info": [
                 {
-                    "hotel_id": "334622",
-                    "hotel_code": "yadNo334622",
-                    "western_style_room": "175",
+                    "hotel_id": "332431",
+                    "hotel_code": "yadNo332431",
+                    "western_style_room": "162",
                     "japanese_style_room": "0",
                     "japanese_western_style_room": "0",
                     "other_style_room": "0",
-                    "total_style_room": "  175室   "
+                    "total_style_room": "  162室   "
+                }
+            ]
+        },
+        {
+            "medium_area_id": "020000",
+            "detail_area_id": "020900",
+            "room_info": [
+                {
+                    "hotel_id": "309606",
+                    "hotel_code": "yadNo309606",
+                    "western_style_room": "82",
+                    "japanese_style_room": "0",
+                    "japanese_western_style_room": "0",
+                    "other_style_room": "0",
+                    "total_style_room": "  82室   "
                 }
             ]
         },
@@ -67,21 +97,6 @@
             "detail_area_id": "020900",
             "room_info": [
                 {
-                    "hotel_id": "341354",
-                    "hotel_code": "yadNo341354",
-                    "western_style_room": "226",
-                    "japanese_style_room": "0",
-                    "japanese_western_style_room": "0",
-                    "other_style_room": "0",
-                    "total_style_room": "  226室   "
-                }
-            ]
-        },
-        {
-            "medium_area_id": "020000",
-            "detail_area_id": "020900",
-            "room_info": [
-                {
                     "hotel_id": "377736",
                     "hotel_code": "yadNo377736",
                     "western_style_room": "112",
@@ -89,21 +104,6 @@
                     "japanese_western_style_room": "0",
                     "other_style_room": "0",
                     "total_style_room": "  112室   "
-                }
-            ]
-        },
-        {
-            "medium_area_id": "020000",
-            "detail_area_id": "020900",
-            "room_info": [
-                {
-                    "hotel_id": "369785",
-                    "hotel_code": "yadNo369785",
-                    "western_style_room": "227",
-                    "japanese_style_room": "0",
-                    "japanese_western_style_room": "0",
-                    "other_style_room": "0",
-                    "total_style_room": "  227室   "
                 }
             ]
         }

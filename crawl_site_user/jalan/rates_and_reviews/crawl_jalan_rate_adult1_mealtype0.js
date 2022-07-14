@@ -85,7 +85,13 @@ fs.readFile('../result_jalan/result_adult1_mealtype_0.json', (err, data) => {
                     },
                     "reviews": [...content]
                 })
-                console.dir(contentRate, { depth: null, colors: true })
+                // var outObject = allRates.reduce(function(a, e) {
+                //     let estKey = (e['medium_area_id']);
+                    
+                //     (a[estKey] ? a[estKey] : (a[estKey] = null || [])).push(e);
+                //     return a;
+                // }, {});
+                // console.dir(contentRate, { depth: null, colors: true })
 
                 let data = JSON.stringify(allRates);
                 fs.writeFileSync('../result_jalan/result_rate_adult1_mealtype0.json', data);

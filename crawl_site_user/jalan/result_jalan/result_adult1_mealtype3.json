@@ -1,0 +1,93 @@
+[
+    {
+        "medium_area_id": "100000",
+        "detail_area_id": "100200",
+        "smlCd": " 100202",
+        "hotelList": [
+            {
+                "hotel_id": "351591",
+                "hotel_code": "yadNo351591",
+                "hotel_name": "ホテル永野屋",
+                "adult_amount": 1,
+                "meal_type": 3,
+                "min_price": "16,500",
+                "rank_number": 0,
+                "pageListNumArea": "2_1",
+                "pageListNumYad": "43_2_1"
+            },
+            {
+                "hotel_id": "354989",
+                "hotel_code": "yadNo354989",
+                "hotel_name": "浜庄",
+                "adult_amount": 1,
+                "meal_type": 3,
+                "min_price": "27,700",
+                "rank_number": 1,
+                "pageListNumArea": "2_2",
+                "pageListNumYad": "43_2_2"
+            },
+            {
+                "hotel_id": "393054",
+                "hotel_code": "yadNo393054",
+                "hotel_name": "元湯 山田屋旅館",
+                "adult_amount": 1,
+                "meal_type": 3,
+                "min_price": "30,800",
+                "rank_number": 2,
+                "pageListNumArea": "2_3",
+                "pageListNumYad": "43_2_3"
+            }
+        ]
+    },
+    {
+        "medium_area_id": "020000",
+        "detail_area_id": "020900",
+        "smlCd": " 020902",
+        "hotelList": [
+            {
+                "hotel_id": "309606",
+                "hotel_code": "yadNo309606",
+                "hotel_name": "JR東日本ホテルメッツ 八戸",
+                "adult_amount": 1,
+                "meal_type": 3,
+                "min_price": "10,200",
+                "rank_number": 0,
+                "pageListNumArea": "1_1",
+                "pageListNumYad": "17_1_1"
+            },
+            {
+                "hotel_id": "377736",
+                "hotel_code": "yadNo377736",
+                "hotel_name": "アパホテル〈本八戸〉",
+                "adult_amount": 1,
+                "meal_type": 3,
+                "min_price": "8,600",
+                "rank_number": 1,
+                "pageListNumArea": "1_2",
+                "pageListNumYad": "17_1_2"
+            },
+            {
+                "hotel_id": "305810",
+                "hotel_code": "yadNo305810",
+                "hotel_name": "天然温泉　三社の湯　スーパーホテル八戸天然温泉",
+                "adult_amount": 1,
+                "meal_type": 3,
+                "min_price": "8,900",
+                "rank_number": 2,
+                "pageListNumArea": "1_3",
+                "pageListNumYad": "17_1_3"
+            },
+            {
+                "hotel_id": "332431",
+                "hotel_code": "yadNo332431",
+                "hotel_name": "ホテルルートイン本八戸駅前",
+                "adult_amount": 1,
+                "meal_type": 3,
+                "min_price": "13,700",
+                "rank_number": 3,
+                "pageListNumArea": "1_4",
+                "pageListNumYad": "17_1_4"
+            }
+        ]
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "f_chu": "hokkaido",
+        "f_shou": "",
+        "f_sai": "sapporo",
+        "f_cd": "03",
+        "f_hyoji": "30",
+        "list_page": [
+            16,
+            15,
+            14,
+            13,
+            12,
+            11,
+            10,
+            9,
+            8,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            17
+        ]
+    },
+    {
+        "f_chu": "hokkaido",
+        "f_shou": "hidaka",
+        "f_sai": "",
+        "f_cd": "03",
+        "f_hyoji": "30",
+        "list_page": [
+            1,
+            2
+        ]
+    },
+    {
+        "f_chu": "aomori",
+        "f_shou": "aomori",
+        "f_sai": "",
+        "f_cd": "03",
+        "f_hyoji": "30",
+        "list_page": [
+            1,
+            2
+        ]
+    }
+]
