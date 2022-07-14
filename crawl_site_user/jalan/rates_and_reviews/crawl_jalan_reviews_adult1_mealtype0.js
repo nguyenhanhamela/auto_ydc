@@ -98,10 +98,28 @@ fs.readFile('../result_jalan/result_rate_adult1_mealtype0.json', (err, data) => 
                 (a[estKey] ? a[estKey] : (a[estKey] = null || [])).push(e);
                 return a;
                 }, {});
-                
-                // console.log(outObject);
 
-                let data = JSON.stringify(outObject);
+                // for (const [key, value] of Object.entries(outObject)) {                    
+                //     var output = [];
+
+                //     value.forEach(function (item) {
+                //     var existing = output.filter(function (v, i) {
+                //         return v.medium_area_id == item.medium_area_id;
+                //     });
+                //     if (existing.length) {
+                //         var existingIndex = output.indexOf(existing[0]);
+                //         output[existingIndex].hotelList = output[existingIndex].hotelList.concat(item.hotelList);
+                //     } else {
+                //         if (typeof item.hotelList == 'string')
+                //         item.hotelList = [item.hotelList];
+                //         output.push(item);
+                //     }
+                //     });
+                // }
+                
+                // console.log(output);
+
+                // let data = JSON.stringify(output);
                 fs.writeFileSync('../result_jalan/result_reviews_adult1_mealtype0.json', data);
             };
 

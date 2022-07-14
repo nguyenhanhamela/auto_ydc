@@ -8,30 +8,31 @@ const { exit } = require('process');
 const useHeadless = true; // "true" to use playwright
 const maxVisits = 1000; // Arbitrary number for the maximum of links visited
 const visited = new Set();
-const allRooms = []
 
-fs.readFile('./result_jalan/result_adult1_mealtype_0.json', (err, data) => {
+fs.readFile('../result_rakuten/rakuten_paging.json', (err, data) => {
     if (err) throw err;
-    let hotel = JSON.parse(data);
-    console.dir(hotel, { depth: null, colors: true })
+    let hotelPage = JSON.parse(data);
+    // console.dir(hotelPage, { depth: null, colors: true })
     const allHotels = []
-    hotel.forEach(async (prefItem) => {
-        const medium_area_id = prefItem.medium_area_id;
-        const detail_area_id = prefItem.detail_area_id;
-
-        prefItem.hotelList.forEach(async (hotelItem) => {
-            const getHotelID = hotelItem.hotel_code.split('No')[0] + hotelItem.hotel_code.split('No')[1]
-            const url = "https://www.jalan.net/" + getHotelID +
-                "/?screenId=UWW1402&distCd=01&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum="
-                + hotelItem.adult_amount + "&mealType=" + hotelItem.meal_type + "&roomCrack=100000&pageListNumArea="
-                + hotelItem.pageListNumArea + "&pageListNumYad="+ hotelItem.pageListNumYad +"&yadNo="
-                + hotelItem.hotel_id + "&callbackHistFlg=1";
-
+    hotelPage.forEach(async (prefItem) => {
+        const medium_area_id = prefItem.f_chu,
+            small_area_id = prefItem.f_shou,
+            detail_area_id = prefItem.f_sai,
+            f_cd = prefItem.f_cd,
+            f_hyoji = prefItem.f_hyoji;
+        prefItem.list_page.forEach(async (pageItem) => {
+           
+            const url = "https://search.travel.rakuten.co.jp/ds/undated/search?f_longitude=0&f_shou=" + detail_area_id + "&f_image=1&f_sort_cate=hotel&f_chu=" + medium_area_id
+                        +"&f_sort=hotel&f_point_min=0&f_cd="+ f_cd +"&f_latitude=0&f_tab=hotel&f_dai=japan&f_hyoji="+ f_hyoji + "&f_page=" + pageItem;
             const getHtmlPlaywright = async url => {
                 const browser = await playwright.chromium.launch();
                 const context = await browser.newContext();
                 const page = await context.newPage();
-                await page.goto(url);
+                await page.goto(url, {
+                    waitUntil: 'load',
+                    // Remove the timeout
+                    timeout: 0
+                });
                 const html = await page.content();
                 await browser.close();
 
@@ -47,20 +48,28 @@ fs.readFile('./result_jalan/result_adult1_mealtype_0.json', (err, data) => {
             const getHtml = async url => {
                 return useHeadless ? await getHtmlPlaywright(url) : await getHtmlAxios(url);
             };
-
-            const columns = [], items = {}
+            
             const extractContent = $ =>
-                //    $('.shisetsu-roomsetsubi_body_wrap table:nth-child(1) tbody tr')//:nth-child(1) td').find('.jlnpc-table-col-layout table tbody tr:nth-child(2) td')
-                $('.shisetsu-roomsetsubi_body_wrap table:nth-child(1) tbody tr:nth-child(1)').find('td table tr:nth-child(2) td')
-                    .map((_, row) => {
-                        const $row = $(row);
-                        // return {
-                        //     western_style_room: $row.text()
-                        // }
-                        return $row.text()
-                    }).toArray();
-
-
+                $('#htlBox').find('li[data-ratevent="appear"]')
+                .map((_, hotel) => {
+                    const $hotel = $(hotel)
+                    return {
+                        // hotel_id: $hotel.find('h1 a').first().attr('href').split('/')[4],
+                        // hotel_code:  $hotel.find('h1 a').first().attr('href').split('/')[4],
+                        hotel_name: $hotel.find('h1 a').first().text(),
+                        // hotel_url: $hotel.find('h1 a').first().attr('href'),
+                        // rank_number: $hotel.find('.cstmrEvl strong').text(),
+                        // rank: $hotel.index(),
+                        // adult_amount: $('select[data-locate="searchbox-dh-adult-num"]').find('option[selected="selected"]').text(),
+                        // // hotel_type: ,
+                        // // crawl_type:,
+                        // min_price: $hotel.find('p.htlPrice')?$hotel.find('p.htlPrice').find('span').first().text().replace(/円〜/g, ''):'',
+                        // crawl_date: Date.now(),
+                        // meal_type: "-",                        
+                        // price: $hotel.find('p.htlPrice')?$hotel.find('p.htlPrice').find('span.incldTax').text().replace(/円〜/g, '').replace(/消費税込/g, ''):'',
+                    }
+                }).toArray();
+           
 
             const crawl = async url => {
                 visited.add(url);
@@ -68,24 +77,14 @@ fs.readFile('./result_jalan/result_adult1_mealtype_0.json', (err, data) => {
                 const html = await getHtml(url);
                 const $ = cheerio.load(html);
                 const content = extractContent($)
-                // console.dir(content, { depth: null, colors: true })
+                // console.log(content);
                 allHotels.push({
                     "medium_area_id": medium_area_id,
-                    "detail_area_id": detail_area_id,
-                    "hotel_id": hotelItem.hotel_id,
-                    "hotel_code": hotelItem.hotel_code,
-                    "western_style_room": content[0].replace(/室/g, ''),
-                    "japanese_style_room": content[1].replace(/室/g, ''),
-                    "japanese_western_style_room": content[2].replace(/室/g, ''),
-                    "other_style_room": content[3].replace(/室/g, ''),
-                    "total_style_room": content[4].replace(/\n/g, '').replace(/室, '  '/g, ''),
-                });
-                
-                console.dir(allHotels, { depth: null, colors: true })
-                let data = JSON.stringify(allHotels);
-                fs.writeFileSync('./result_jalan/result_room_adult1_mealtype_0.json', data);
+                    "rank_type": content.length
+                })              
+                let data = JSON.stringify(allHotels); 
+                fs.writeFileSync('../result_rakuten/result_rakuten_ranking.json', data);
             };
-
 
             // Change the default concurrency or pass it as param
             const queue = (concurrency = 4) => {

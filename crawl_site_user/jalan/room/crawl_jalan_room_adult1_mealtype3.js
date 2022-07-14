@@ -10,10 +10,10 @@ const maxVisits = 1000; // Arbitrary number for the maximum of links visited
 const visited = new Set();
 const allRooms = []
 
-fs.readFile('./result_jalan/result_adult1_mealtype3.json', (err, data) => {
+fs.readFile('../result_jalan/result_adult1_mealtype3.json', (err, data) => {
     if (err) throw err;
     let hotel = JSON.parse(data);
-    console.dir(hotel, { depth: null, colors: true })
+    // console.dir(hotel, { depth: null, colors: true })
     const allHotels = []
     hotel.forEach(async (prefItem) => {
         const medium_area_id = prefItem.medium_area_id;
@@ -31,7 +31,11 @@ fs.readFile('./result_jalan/result_adult1_mealtype3.json', (err, data) => {
                 const browser = await playwright.chromium.launch();
                 const context = await browser.newContext();
                 const page = await context.newPage();
-                await page.goto(url);
+                await page.goto(url, {
+                    waitUntil: 'load',
+                    // Remove the timeout
+                    timeout: 0
+                });
                 const html = await page.content();
                 await browser.close();
 
@@ -50,13 +54,9 @@ fs.readFile('./result_jalan/result_adult1_mealtype3.json', (err, data) => {
 
             const columns = [], items = {}
             const extractContent = $ =>
-                //    $('.shisetsu-roomsetsubi_body_wrap table:nth-child(1) tbody tr')//:nth-child(1) td').find('.jlnpc-table-col-layout table tbody tr:nth-child(2) td')
                 $('.shisetsu-roomsetsubi_body_wrap table:nth-child(1) tbody tr:nth-child(1)').find('td table tr:nth-child(2) td')
                     .map((_, row) => {
                         const $row = $(row);
-                        // return {
-                        //     western_style_room: $row.text()
-                        // }
                         return $row.text()
                     }).toArray();
 
@@ -72,18 +72,27 @@ fs.readFile('./result_jalan/result_adult1_mealtype3.json', (err, data) => {
                 allHotels.push({
                     "medium_area_id": medium_area_id,
                     "detail_area_id": detail_area_id,
-                    "hotel_id": hotelItem.hotel_id,
-                    "hotel_code": hotelItem.hotel_code,
-                    "western_style_room": content[0].replace(/室/g, ''),
-                    "japanese_style_room": content[1].replace(/室/g, ''),
-                    "japanese_western_style_room": content[2].replace(/室/g, ''),
-                    "other_style_room": content[3].replace(/室/g, ''),
-                    "total_style_room": content[4].replace(/\n/g, '').replace(/室, '  '/g, ''),
+                    "room_info": [{
+                        "hotel_id": hotelItem.hotel_id,
+                        "hotel_code": hotelItem.hotel_code,
+                        "western_style_room": content[0]?content[0].replace(/室/g, ''):'',
+                        "japanese_style_room": content[1]?content[1].replace(/室/g, ''):'',
+                        "japanese_western_style_room": content[2] ? content[2].replace(/室/g, ''): '',
+                        "other_style_room": content[3] ? content[3].replace(/室/g, '') : '',
+                        "total_style_room": content[4] ? content[4].replace(/\n/g, '').replace(/室, '  '/g, ''): '',
+                    }]
                 });
+                // console.dir(allHotels, { depth: null, colors: true })
+
+                var outObject = allHotels.reduce(function(a, e) {
+                    let estKey = (e['medium_area_id']); 
+                    
+                    (a[estKey] ? a[estKey] : (a[estKey] = null || [])).push(e);
+                    return a;
+                    }, {});                                
                 
-                console.dir(allHotels, { depth: null, colors: true })
-                let data = JSON.stringify(allHotels);
-                fs.writeFileSync('./result_jalan/result_room_adult1_mealtype_0.json', data);
+                let data = JSON.stringify(outObject);
+                fs.writeFileSync('../result_jalan/result_room_adult1_mealtype3.json', data);
             };
 
 

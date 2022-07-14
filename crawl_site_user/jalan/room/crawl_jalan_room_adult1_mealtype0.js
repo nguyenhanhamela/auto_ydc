@@ -10,25 +10,32 @@ const maxVisits = 1000; // Arbitrary number for the maximum of links visited
 const visited = new Set();
 const allRooms = []
 
-fs.readFile('../result_jalan/result_adult1_mealtype1.json', (err, data) => {
+fs.readFile('../result_jalan/result_adult1_mealtype_0.json', (err, data) => {
     if (err) throw err;
     let hotel = JSON.parse(data);
     console.dir(hotel, { depth: null, colors: true })
-    const allRates = []
+    const allHotels = []
     hotel.forEach(async (prefItem) => {
         const medium_area_id = prefItem.medium_area_id;
         const detail_area_id = prefItem.detail_area_id;
 
         prefItem.hotelList.forEach(async (hotelItem) => {
             const getHotelID = hotelItem.hotel_code.split('No')[0] + hotelItem.hotel_code.split('No')[1]
-            const url = "https://www.jalan.net/"+ getHotelID+ "/kuchikomi/?screenId=UWW3001&contHideFlg=1&rootCd=041&stayCount=1&roomCount=1&dateUndecided=1&adultNum="
-            + hotelItem.adult_amount + "&roomCrack=200000&childPriceFlg=0,0,0,0,0&yadNo="+  hotelItem.hotel_id+ "&callbackHistFlg=1&smlCd="+ prefItem.smlCd + "&distCd=01";
+            const url = "https://www.jalan.net/" + getHotelID +
+                "/?screenId=UWW1402&distCd=01&stayYear=&stayMonth=&stayDay=&stayCount=1&roomCount=1&dateUndecided=1&adultNum="
+                + hotelItem.adult_amount + "&mealType=" + hotelItem.meal_type + "&roomCrack=100000&pageListNumArea="
+                + hotelItem.pageListNumArea + "&pageListNumYad="+ hotelItem.pageListNumYad +"&yadNo="
+                + hotelItem.hotel_id + "&callbackHistFlg=1";
 
             const getHtmlPlaywright = async url => {
                 const browser = await playwright.chromium.launch();
                 const context = await browser.newContext();
                 const page = await context.newPage();
-                await page.goto(url);
+                await page.goto(url, {
+                    waitUntil: 'load',
+                    // Remove the timeout
+                    timeout: 0
+                });
                 const html = await page.content();
                 await browser.close();
 
@@ -47,55 +54,64 @@ fs.readFile('../result_jalan/result_adult1_mealtype1.json', (err, data) => {
 
             const columns = [], items = {}
             const extractContent = $ =>
-                $('.pagerLink').find('.page')
-                    .map((_, txt) => {
-                        const $txt = $(txt)
-                        return {                           
-                            "pager": $txt.text()
-                        }
+                $('.shisetsu-roomsetsubi_body_wrap table:nth-child(1) tbody tr:nth-child(1)').find('td table tr:nth-child(2) td')
+                    .map((_, row) => {
+                        const $row = $(row);
+                        return $row.text()
                     }).toArray();
 
-            const extractRates = $ => 
-                $('.jlnpc-kuchikomi__catTable').find('td.jlnpc-kuchikomi__catTable__point')
-                    .map((_, row) => {
-                        const $row = $(row)
-                        return $row.text();
-                    }).toArray();
-            
+
+
             const crawl = async url => {
                 visited.add(url);
                 console.log('Crawl: ', url);
                 const html = await getHtml(url);
                 const $ = cheerio.load(html);
                 const content = extractContent($)
-                const contentRate = extractRates($)
-                allRates.push({
+                // console.dir(content, { depth: null, colors: true })
+                allHotels.push({
                     "medium_area_id": medium_area_id,
                     "detail_area_id": detail_area_id,
-                    "hotel_id": hotelItem.hotel_id,
-                    "hotel_code": hotelItem.hotel_code,
-                    "adult_amount": hotelItem.adult_amount,
-                    "rates": {
-                        "room": contentRate[0],
-                        "bath": contentRate[1],
-                        "breakfast": contentRate[2],
-                        "dinner": contentRate[3],
-                        "customer_service": contentRate[4],
-                        "cleanliness": contentRate[5],
-                    },
-                    "reviews": [...content]
-                })
-                // console.dir(contentRate, { depth: null, colors: true })
-                var outObject = allRates.reduce(function(a, e) {
-                    let estKey = (e['medium_area_id']);
+                    "room_info": [{
+                        "hotel_id": hotelItem.hotel_id,
+                        "hotel_code": hotelItem.hotel_code,
+                        "western_style_room": content[0]?content[0].replace(/室/g, ''):'',
+                        "japanese_style_room": content[1]?content[1].replace(/室/g, ''):'',
+                        "japanese_western_style_room": content[2] ? content[2].replace(/室/g, ''): '',
+                        "other_style_room": content[3] ? content[3].replace(/室/g, '') : '',
+                        "total_style_room": content[4] ? content[4].replace(/\n/g, '').replace(/室, '  '/g, ''): '',
+                    }]
+                });
+                // console.dir(allHotels, { depth: null, colors: true })
+
+                var outObject = allHotels.reduce(function(a, e) {
+                    let estKey = (e['medium_area_id']); 
                     
                     (a[estKey] ? a[estKey] : (a[estKey] = null || [])).push(e);
                     return a;
-                }, {});
-                // console.dir(contentRate, { depth: null, colors: true })
+                    }, {});
+                
+                // var output = [];
+                // for (const [key, value] of Object.entries(outObject)) {
+                //     value.forEach(function (item) {
+                //     var existing = output.filter(function (v, i) {
+                //         return v.medium_area_id == item.medium_area_id;
+                //     });
 
+                //     if (existing.length) {
+
+                //         var existingIndex = output.indexOf(existing[0]);
+                //         output[existingIndex].room_info = output[existingIndex].room_info.concat(item.room_info);                        
+                //     } else {
+                //         if (typeof item.room_info == 'string')
+                //         item.room_info = [item.room_info];
+                //         output.push(item);
+                //     }                   
+                //     });
+                // }
+                
                 let data = JSON.stringify(outObject);
-                fs.writeFileSync('../result_jalan/result_rate_adult1_mealtype1.json', data);
+                fs.writeFileSync('../result_jalan/result_room_adult1_mealtype_0.json', data);
             };
 
 
