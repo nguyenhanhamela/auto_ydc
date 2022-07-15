@@ -9,26 +9,14 @@ const useHeadless = true; // "true" to use playwright
 const maxVisits = 1000; // Arbitrary number for the maximum of links visited
 const visited = new Set();
 
-fs.readFile('../result_rakuten/rakuten_paging.json', (err, data) => {
+fs.readFile('../result_rakuten/result_rakuten_ranking_mealtype.json', (err, data) => {
     if (err) throw err;
     let hotelPage = JSON.parse(data);
     // console.dir(hotelPage, { depth: null, colors: true })
     const allHotels = []
     hotelPage.forEach(async (prefItem) => {
-        const medium_area_id = prefItem.f_chu,
-            small_area_id = prefItem.f_shou,
-            detail_area_id = prefItem.f_sai,
-            f_cd = prefItem.f_cd,
-            f_hyoji = prefItem.f_hyoji;
-        prefItem.list_page.forEach(async (pageItem) => {
-            if (detail_area_id != '') {
-                var url = "https://search.travel.rakuten.co.jp/ds/undated/search?f_longitude=0&f_shou=" + detail_area_id + "&f_image=1&f_sort_cate=hotel&f_chu=" + medium_area_id
-                    + "&f_sort=hotel&f_point_min=0&f_cd=" + f_cd + "&f_latitude=0&f_tab=hotel&f_dai=japan&f_hyoji=" + f_hyoji + "&f_page=" + pageItem;
-            }
-            else if (small_area_id != '') {
-                var url = "https://search.travel.rakuten.co.jp/ds/undated/search?f_longitude=0&f_shou=" + small_area_id + "&f_image=1&f_sort_cate=hotel&f_chu=" + medium_area_id
-                    + "&f_sort=hotel&f_point_min=0&f_cd=" + f_cd + "&f_latitude=0&f_tab=hotel&f_dai=japan&f_hyoji=" + f_hyoji + "&f_page=" + pageItem;
-            }
+        prefItem.rank_type.forEach(async (hotelItem) => {
+            const url = "https://travel.rakuten.co.jp/HOTEL/"+ hotelItem.hotel_id + "/" + hotelItem.hotel_id + ".html"
             const getHtmlPlaywright = async url => {
                 const browser = await playwright.chromium.launch();
                 const context = await browser.newContext();
@@ -55,41 +43,20 @@ fs.readFile('../result_rakuten/rakuten_paging.json', (err, data) => {
             };
 
             const extractContent = $ =>
-                $('#htlBox').find('li[data-ratevent="appear"]')
-                    .map((_, hotel) => {
-                        const $hotel = $(hotel)
-                        return {
-                            hotel_id: $hotel.find('h1 a').first().attr('href').split('/')[4],
-                            hotel_code:  $hotel.find('h1 a').first().attr('href').split('/')[4],
-                            hotel_name: $hotel.find('h1 a').first().text(),
-                            lhotel_id: $hotel.attr('data-ratid'),
-                            hotel_url: $hotel.find('h1 a').first().attr('href'),
-                            rank_number: $hotel.find('.cstmrEvl strong').text(),
-                            rank: $hotel.index(),
-                            adult_amount: $('select[data-locate="searchbox-dh-adult-num"]').find('option[selected="selected"]').text(),
-                            // hotel_type: ,
-                            // crawl_type:,
-                            min_price: $hotel.find('p.htlPrice')?$hotel.find('p.htlPrice').find('span').first().text().replace(/円〜/g, ''):'',
-                            crawl_date: Date.now(),
-                            meal_type: "-",                        
-                            price: $hotel.find('p.htlPrice')?$hotel.find('p.htlPrice').find('span.incldTax').text().replace(/円〜/g, '').replace(/消費税込/g, ''):'',
-                        }
-                    }).toArray();
-            const mergedArray = [];
+                $('p.txt').text().split('の宿の予約が')[1] ? $('p.txt').text().split('の宿の予約が')[1].split('件ありました')[0]: ''
             const crawl = async url => {
                 visited.add(url);
                 console.log('Crawl: ', url);
                 const html = await getHtml(url);
                 const $ = cheerio.load(html);
                 const content = extractContent($)
-
+                // console.log(content);
                 allHotels.push({
-                    "medium_area_id": medium_area_id,
-                    "rank_type": [...content]
+                    "hotel_id": hotelItem.hotel_id,
+                    "yesterday_reserved_amount": content
                 })
-                                
                 let data = JSON.stringify(allHotels);
-                fs.writeFileSync('../result_rakuten/result_rakuten_ranking.json', data);
+                fs.writeFileSync('../result_rakuten/result_yesterday_reserved.json', data);
             };
 
             // Change the default concurrency or pass it as param

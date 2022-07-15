@@ -9,7 +9,7 @@ const useHeadless = true; // "true" to use playwright
 const maxVisits = 1000; // Arbitrary number for the maximum of links visited
 const visited = new Set();
 
-fs.readFile('../result_rakuten/rakuten_paging.json', (err, data) => {
+fs.readFile('../result_rakuten/result_paging_mealtype.json', (err, data) => {
     if (err) throw err;
     let hotelPage = JSON.parse(data);
     // console.dir(hotelPage, { depth: null, colors: true })
@@ -23,11 +23,11 @@ fs.readFile('../result_rakuten/rakuten_paging.json', (err, data) => {
         prefItem.list_page.forEach(async (pageItem) => {
             if (detail_area_id != '') {
                 var url = "https://search.travel.rakuten.co.jp/ds/undated/search?f_longitude=0&f_shou=" + detail_area_id + "&f_image=1&f_sort_cate=hotel&f_chu=" + medium_area_id
-                    + "&f_sort=hotel&f_point_min=0&f_cd=" + f_cd + "&f_latitude=0&f_tab=hotel&f_dai=japan&f_hyoji=" + f_hyoji + "&f_page=" + pageItem;
+                    + "&f_sort=hotel&f_point_min=0&f_cd=" + f_cd + "&f_latitude=0&f_tab=hotel&f_dai=japan&f_hyoji=" + f_hyoji + "&f_page=" + pageItem + "&f_squeezes=breakfast,dinner";
             }
             else if (small_area_id != '') {
                 var url = "https://search.travel.rakuten.co.jp/ds/undated/search?f_longitude=0&f_shou=" + small_area_id + "&f_image=1&f_sort_cate=hotel&f_chu=" + medium_area_id
-                    + "&f_sort=hotel&f_point_min=0&f_cd=" + f_cd + "&f_latitude=0&f_tab=hotel&f_dai=japan&f_hyoji=" + f_hyoji + "&f_page=" + pageItem;
+                    + "&f_sort=hotel&f_point_min=0&f_cd=" + f_cd + "&f_latitude=0&f_tab=hotel&f_dai=japan&f_hyoji=" + f_hyoji + "&f_page=" + pageItem + "&f_squeezes=breakfast,dinner";
             }
             const getHtmlPlaywright = async url => {
                 const browser = await playwright.chromium.launch();
@@ -89,7 +89,7 @@ fs.readFile('../result_rakuten/rakuten_paging.json', (err, data) => {
                 })
                                 
                 let data = JSON.stringify(allHotels);
-                fs.writeFileSync('../result_rakuten/result_rakuten_ranking.json', data);
+                fs.writeFileSync('../result_rakuten/result_rakuten_ranking_mealtype.json', data);
             };
 
             // Change the default concurrency or pass it as param

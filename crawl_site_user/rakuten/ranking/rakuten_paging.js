@@ -16,7 +16,7 @@ const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
 const rakutenUrl = [
     "https://travel.rakuten.co.jp/yado/hokkaido/hidaka.html/",
     "https://travel.rakuten.co.jp/yado/aomori/aomori.html/",
-    "https://travel.rakuten.co.jp/yado/hokkaido/sapporo.html?lid=jparea_undated_arealink"
+    "https://travel.rakuten.co.jp/yado/hokkaido/sapporo.html"
     // "https://travel.rakuten.co.jp/yado/hokkaido/jozankei.html/",
     // "https://travel.rakuten.co.jp/yado/hokkaido/noboribetsu.html/",
     // "https://travel.rakuten.co.jp/yado/hokkaido/abashiri.html/",
@@ -420,28 +420,6 @@ rakutenUrl.forEach(async (url) => {
             "list_page": totalPage
               
         })
-        // var outObject = allListPage.reduce(function(a, e) {
-        //     let estKey = (e['f_chu']); 
-            
-        //     (a[estKey] ? a[estKey] : (a[estKey] = null || [])).push(e);
-        //     return a;
-        //     }, {});
-        // var output = [];
-        // for (const [key, value] of Object.entries(outObject)) {
-        //     value.forEach(function (item) {
-        //     var existing = output.filter(function (v, i) {
-        //         return v.f_chu == item.f_chu;
-        //     });
-        //     if (existing.length) {
-        //         var existingIndex = output.indexOf(existing[0]);
-        //         output[existingIndex].medium_area_data = output[existingIndex].medium_area_data.concat(item.medium_area_data);
-        //     } else {
-        //         if (typeof item.medium_area_data == 'string')
-        //         item.medium_area_data = [item.medium_area_data];
-        //         output.push(item);
-        //     }
-        //     });
-        // }
 
         let data = JSON.stringify(allListPage);
         fs.writeFileSync('../result_rakuten/rakuten_paging.json', data);

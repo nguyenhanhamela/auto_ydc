@@ -5,9 +5,10 @@
         "f_sai": "sapporo",
         "f_cd": "03",
         "f_hyoji": "30",
-        "list_page": [            
+        "list_page": [
+            2,
             1,
-            17
+            3
         ]
     },
     {
@@ -17,8 +18,7 @@
         "f_cd": "03",
         "f_hyoji": "30",
         "list_page": [
-            1,
-            2
+            1
         ]
     }
 ]
