@@ -14,9 +14,9 @@ const allData = {}
 const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
 
 const rakutenUrl = [
-    "https://travel.rakuten.co.jp/yado/hokkaido/hidaka.html/",
-    "https://travel.rakuten.co.jp/yado/aomori/aomori.html/",
-    "https://travel.rakuten.co.jp/yado/hokkaido/sapporo.html"
+    "https://travel.rakuten.co.jp/yado/hokkaido/hidaka.html/"
+    // "https://travel.rakuten.co.jp/yado/aomori/aomori.html/",
+    // "https://travel.rakuten.co.jp/yado/hokkaido/sapporo.html"
     // "https://travel.rakuten.co.jp/yado/hokkaido/jozankei.html/",
     // "https://travel.rakuten.co.jp/yado/hokkaido/noboribetsu.html/",
     // "https://travel.rakuten.co.jp/yado/hokkaido/abashiri.html/",
@@ -377,6 +377,7 @@ rakutenUrl.forEach(async (url) => {
             timeout: 0
         });
         const html = await page.content();
+        console.log(html);
         await browser.close();
         return html;
     };

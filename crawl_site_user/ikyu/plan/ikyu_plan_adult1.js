@@ -9,18 +9,20 @@ const useHeadless = true; // "true" to use playwright
 const maxVisits = 1000; // Arbitrary number for the maximum of links visited
 const visited = new Set();
 
-fs.readFile('../result_rakuten/result_rakuten_ranking_mealtype.json', (err, data) => {
+fs.readFile('../result_ikyu/result_ikyu_ranking_meal_type_adult1.json', (err, data) => {
     if (err) throw err;
     let hotelPage = JSON.parse(data);
     // console.dir(hotelPage, { depth: null, colors: true })
     const allHotels = []
     hotelPage.forEach(async (prefItem) => {
-
-        prefItem.rank_type.forEach(async (hotelItem) => {
-            const url = "https://hotel.travel.rakuten.co.jp/hotelinfo/plan/" + hotelItem.hotel_code + "?f_teikei=&f_heya_su=1&f_otona_su=1&f_s1=0&f_s2=0&f_y1=0&f_y2=0&f_y3=0&f_y4=0&f_kin=&f_kin2=&f_squeezes=breakfast&f_squeezes=dinner&f_tscm_flg=&f_tel=&f_static=1"
+        prefItem.rank_type.forEach(async(hotelItem) => {
+            const url = "https://www.ikyu.com" + hotelItem.plan_link
             const getHtmlPlaywright = async url => {
                 const browser = await playwright.chromium.launch();
                 const context = await browser.newContext();
+                context.setExtraHTTPHeaders({
+                    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36'
+                })
                 const page = await context.newPage();
                 await page.goto(url, {
                     waitUntil: 'load',
@@ -28,6 +30,7 @@ fs.readFile('../result_rakuten/result_rakuten_ranking_mealtype.json', (err, data
                     timeout: 0
                 });
                 const html = await page.content();
+                // console.log(html);
                 await browser.close();
 
                 return html;
@@ -43,22 +46,21 @@ fs.readFile('../result_rakuten/result_rakuten_ranking_mealtype.json', (err, data
                 return useHeadless ? await getHtmlPlaywright(url) : await getHtmlAxios(url);
             };
 
-            const extractContent = $ => $('ul.htlPlnCsst').find('li.planThumb').map((_, item) => {
+            const extractContent = $ => $('div.overflow-hidden.my-8').map((_, item) => {
                 const $item = $(item)
-                const productList = []
-                $item.find('li.rm-type-wrapper').map((_, i) => {
-                    const $i = $(i)
-                    productList.push({
-                        price_1people: $i.find('li[data-locate="roomType-chargeByPerson-1"]').find('dt span').first().find('strong').text(),
-                        price_2people: $i.find('li[data-locate="roomType-chargeByPerson-2"]').find('dt span').first().find('strong').text(),
-                        price_3people: $i.find('li[data-locate="roomType-chargeByPerson-3"]').find('dt span').first().find('strong').text(),
-                        price_4people: $i.find('li[data-locate="roomType-chargeByPerson-4"]').find('dt span').first().find('strong').text(),
-                        price_5people: $i.find('li[data-locate="roomType-chargeByPerson-5"]').find('dt span').first().find('strong').text(),
-                    })                    
-                })
+                // const productList = [{
+                //     title: $item.find('section.flex').first().find('.w-1/2').first().find('a span.inline-block').text(),
+                //     min_price: $item.find('section.flex').first().find('.w-1/2').last().find('strong.text-3xl').text(),
+                // }]
+                if ($('button:contains("プランをすべてみる")')){
+                    $('button:contains("プランをすべてみる")').load();
+                }
                 return {
-                    title: $item.find('h4').text(),
-                    products: [...productList]
+                    title: $item.find('div.m-4').find('h3').text(),
+                    // products: [{
+                    //     title: $item.find('section.flex').first().find('.w-1/2').first().find('a span.inline-block').text(),
+                    //     min_price: $item.find('section.flex').first().find('.w-1/2').last().find('strong.text-3xl').text(),
+                    // }]
                 }
             }).toArray();
 
@@ -74,7 +76,7 @@ fs.readFile('../result_rakuten/result_rakuten_ranking_mealtype.json', (err, data
                     "data": [...content]
                 })
                 let data = JSON.stringify(allHotels);
-                fs.writeFileSync('../result_rakuten/result_rakuten_plan.json', data);
+                fs.writeFileSync('../result_ikyu/result_ikyu_plan_adult1.json', data);
 
             };
 

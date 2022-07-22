@@ -72,7 +72,6 @@ fs.readFile('../result_rakuten/rakuten_paging.json', (err, data) => {
             const html = await getHtml(url);
             const $ = cheerio.load(html);
             const content = getPaging($)
-            // allPage.push(content)
             let lstPage = []
             let getPage = Math.ceil(content / 30)
             let i = getPage
