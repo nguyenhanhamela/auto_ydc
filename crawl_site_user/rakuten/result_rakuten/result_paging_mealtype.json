@@ -1,0 +1,24 @@
+[
+    {
+        "f_chu": "hokkaido",
+        "f_shou": "",
+        "f_sai": "sapporo",
+        "f_cd": "03",
+        "f_hyoji": "30",
+        "list_page": [
+            2,
+            1,
+            3
+        ]
+    },
+    {
+        "f_chu": "hokkaido",
+        "f_shou": "hidaka",
+        "f_sai": "",
+        "f_cd": "03",
+        "f_hyoji": "30",
+        "list_page": [
+            1
+        ]
+    }
+]

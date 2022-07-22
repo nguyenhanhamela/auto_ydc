@@ -1,0 +1,16 @@
+[
+    {
+        "medium_area_id": "osaka",
+        "small_area_id": "311031",
+        "list_page": [
+            1
+        ]
+    },
+    {
+        "medium_area_id": "hakone",
+        "small_area_id": "160614",
+        "list_page": [
+            10           
+        ]
+    }
+]

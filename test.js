@@ -57,7 +57,7 @@ function loadSelenium() {
     let driver = await browser.forBrowser("chrome").setChromeOptions(option).build();
     await (async function test() {
       try {
-        await driver.get("https://travel.rakuten.co.jp/yado/ishikawa/nanao.html?lid=jparea_undated_map");
+        await driver.get("https://www.ikyu.com/hakone/160614/");
         console.log(" run process " + i + time.toUTCString())
       } catch (e) {
         console.log(err);

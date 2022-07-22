@@ -1,0 +1,40 @@
+[
+    {
+        "medium_area_id": "hokkaido",
+        "rank_type": [
+            {
+                "hotel_id": "55432",
+                "hotel_code": "55432",
+                "hotel_name": "夕陽と音楽を堪能する眺望リゾート　新冠温泉　ホテルヒルズ",
+                "lhotel_id": "hotelList_1_55432",
+                "hotel_url": "https://travel.rakuten.co.jp/HOTEL/55432/55432.html?l-id=hotelList_1_55432",
+                "rank_number": "4.21",
+                "rank": 0,
+                "adult_amount": "1",
+                "min_price": "5,000",
+                "crawl_date": 1657873700914,
+                "meal_type": "-",
+                "price": "（5,500）"
+            }
+        ]
+    },
+    {
+        "medium_area_id": "hokkaido",
+        "rank_type": [
+            {
+                "hotel_id": "14327",
+                "hotel_code": "14327",
+                "hotel_name": "中村屋旅館＜北海道＞",
+                "lhotel_id": "hotelList_1_14327",
+                "hotel_url": "https://travel.rakuten.co.jp/HOTEL/14327/14327.html?l-id=hotelList_1_14327",
+                "rank_number": "",
+                "rank": 0,
+                "adult_amount": "1",
+                "min_price": "6,364",
+                "crawl_date": 1657873701492,
+                "meal_type": "-",
+                "price": "（7,000）"
+            }
+        ]
+    }
+]

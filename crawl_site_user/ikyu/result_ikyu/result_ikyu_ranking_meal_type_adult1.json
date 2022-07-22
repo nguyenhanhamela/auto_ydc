@@ -1,0 +1,42 @@
+[
+    {
+        "medium_area_id": "osaka",
+        "rank_type": [
+            {
+                "hotel_id": "/00000432/?lc=1&mtc=001&ppc=1&rc=1&st=1",
+                "hotel_code": "/00000432/?lc=1&mtc=001&ppc=1&rc=1&st=1",
+                "hotel_url": "https://www.ikyu.com/00000432/?lc=1&mtc=001&ppc=1&rc=1&st=1",
+                "rank_number": "\n      4.33\n    ",
+                "rank": 0,
+                "hotel_name": "ホテルニューオータニ大阪",
+                "hotel_type": "ホテル",
+                "crawl_type": "-",
+                "min_price": "11,704円",
+                "crawl_date": 1658312496837,
+                "meal_type": "-",
+                "price": "税込 15,200円～",
+                "plan_link": "/00000432/?lc=1&mtc=001&ppc=1&rc=1&st=1&top=plans"
+            }
+        ]
+    },
+    {
+        "medium_area_id": "hakone",
+        "rank_type": [
+            {
+                "hotel_id": "/00002797/?lc=1&mtc=001&ppc=1&rc=1&st=1",
+                "hotel_code": "/00002797/?lc=1&mtc=001&ppc=1&rc=1&st=1",
+                "hotel_url": "https://www.ikyu.com/00002797/?lc=1&mtc=001&ppc=1&rc=1&st=1",
+                "rank_number": "\n      4.41\n    ",
+                "rank": 0,
+                "hotel_name": "富士山三島東急ホテル",
+                "hotel_type": "ホテル",
+                "crawl_type": "-",
+                "min_price": "13,250円",
+                "crawl_date": 1658312497217,
+                "meal_type": "-",
+                "price": "税込 14,720円～",
+                "plan_link": "/00002797/?lc=1&mtc=001&ppc=1&rc=1&st=1&top=plans"
+            }
+        ]
+    }
+]
